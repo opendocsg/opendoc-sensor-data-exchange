@@ -1,7 +1,7 @@
-title: OpenDoc Template #----> Required
-remote_theme: opendocsg/opendoc-theme@v2
+title: Sensor Data Exchange
+remote_theme: opendocsg/opendoc-theme@master
 timezone: Asia/Singapore
-repository: opendocsg/opendoc-template #----> Required
+repository: opendocsg/opendoc-sensor-data-exchange
 plugins:
   - jekyll-include-cache
 baseurl: ''
@@ -13,13 +13,6 @@ fast_build: false
 offline: false
 preload_pages: true
 
-order: #----> Optional, order of pages in root
-  - README.md
-  - sample.md
-document_order: #----> Optional, order of documents
-  - Document 1
-  - # --> leave blank to show root pages
-  - AA Document 2
 styling_options:
   primary_brand_color: '#444'  #----> Optional, theme color
   logo_path: /assets/logo.png  #----> Optional, path to logo
