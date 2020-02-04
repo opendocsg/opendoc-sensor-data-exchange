@@ -2,12 +2,20 @@
 
 This area is the main page or the Home page. 
 
+![home_page](https://user-images.githubusercontent.com/60455409/73731400-62a4cc80-4773-11ea-8e53-8d65a17c2dc1.png)
+
+
+
+
+
+
+
+
+
+This is an example video of save in gif.
+
 (![create_project_two](https://user-images.githubusercontent.com/60455409/73730966-a1865280-4772-11ea-9885-e815c0d8def7.gif)
 
-
-! [Alternative text if image doesn't load] (/images/Sample Create Project.gif)
-
-[Insert screenshot - Home Page]
 
 ## Sign Up
 
