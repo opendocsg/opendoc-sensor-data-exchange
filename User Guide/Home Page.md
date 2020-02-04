@@ -2,7 +2,8 @@
 
 This area is the main page or the Home page. 
 
-! [Alternative text if image doesn't load] (/User Guide/Home_Page_04022020.png)
+(![create_project_two](https://user-images.githubusercontent.com/60455409/73730966-a1865280-4772-11ea-9885-e815c0d8def7.gif)
+
 
 ! [Alternative text if image doesn't load] (/images/Sample Create Project.gif)
 
