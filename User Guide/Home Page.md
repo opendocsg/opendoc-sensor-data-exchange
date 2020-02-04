@@ -2,6 +2,8 @@
 
 This area is the main page or the Home page. 
 
+
+
 [Insert screenshot - Home Page]
 
 ## Sign Up
