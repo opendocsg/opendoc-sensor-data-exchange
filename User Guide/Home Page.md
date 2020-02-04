@@ -4,6 +4,8 @@ This area is the main page or the Home page.
 
 ! [Alternative text if image doesn't load] (/User Guide/Home_Page_04022020.png)
 
+! [Alternative text if image doesn't load] (/images/Sample Create Project.gif)
+
 [Insert screenshot - Home Page]
 
 ## Sign Up
