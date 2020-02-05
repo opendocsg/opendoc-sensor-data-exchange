@@ -8,9 +8,11 @@ To get started in using the application:
 1. Click this [link](https://sdx.sensors.gov.sg/sdx/home) and sign up using a valid agency email address (e.g. @tech.gov.sg). 
 
 2. System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
-For more related information about sign up, see [Insert x-ref - Sign Up].
+   For more related information about sign up, see [Insert x-ref - Sign Up].
 
-   [Insert video]
+
+   ![signup](https://user-images.githubusercontent.com/60455409/73825941-dc9e8980-4837-11ea-8eab-e52c438075d0.gif)
+   
 
 3. On first sign up within organization, your role will be a **PUBLISHER**. 
 
