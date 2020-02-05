@@ -5,9 +5,7 @@
 
 To get started in using the application:
 
-1. Access https://sdx.sensors.gov.sg/sdx/home link and create your user account using a valid agency email address (e.g. @tech.gov.sg). 
-
-   [Inseert video]
+1. Click this [link](https://sdx.sensors.gov.sg/sdx/home) and sign up using a valid agency email address (e.g. @tech.gov.sg). 
 
 2. System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
 For more related information about sign up, see [Insert x-ref - Sign Up].
