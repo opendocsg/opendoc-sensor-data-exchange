@@ -1,7 +1,7 @@
 
 # Getting Started
 
-**SENSE/SDX 2.0** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal, on-premise and commercial cloud.
+**Sensors Data Exchange 2.0 (SDX 2.0)** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal, on-premise and commercial cloud.
 
 To get started in using the application:
 
@@ -9,11 +9,9 @@ To get started in using the application:
 
 2. System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
    For more related information about sign up, see [Insert x-ref - Sign Up].
-
-
-   ![signup](https://user-images.githubusercontent.com/60455409/73825941-dc9e8980-4837-11ea-8eab-e52c438075d0.gif)
    
-
+   ![howtosignup](https://user-images.githubusercontent.com/60455409/73901492-eb378000-48cd-11ea-9b00-344c1c27df2d.gif)
+   
 3. On first sign up within organization, your role will be a **PUBLISHER**. 
 
    On second sign up with the same organization, your role will be a **SUBSCRIBER**.
