@@ -4,9 +4,9 @@ The **Browse Topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
-- **Official Open** [Insert image] - Refers to unclassified information disclosed to the public in the normal course of duty
+- **Official-Open** [Insert image] - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- **Official Closed** [Insert image] - Refers to unclassified information not disclosed to the public in the normal course of duty
+- **Official-Closed** [Insert image] - Refers to unclassified information not disclosed to the public in the normal course of duty
 
 - **Restricted** [Insert image] - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
 
@@ -17,7 +17,7 @@ Hover to the icons shown for each topic in the card and a tooltip appears:
 - [Insert icon] icon – This icon displays “Approval is needed from publisher before you subscribe” 
 - [Insert icon] Visibility icon – This icon displays who can view the topic 
   - [Insert icon] All government agencies – This means all government agencies can view the topics
-  - [Insert icon] Only my agency – This means only the members of my agency can view the topic 
+  - [Insert icon] Only my agency – This means only the members of my agency can view the topics 
   
 [Insert screenshot - Browse Topics Page]   
 
