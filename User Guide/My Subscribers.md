@@ -1,7 +1,7 @@
 
 # My Subscribers #
 
-This area allows you to view all subscribers to the projects that successfully subscribed to all the topics. This page is available only for publisher and displays the following information:
+This area allows you to view all subscribers who subscribed successfully to all the topics within the projects. This page is available only for Publisher and displays the following information:
 
 - Project Name
 - Agency
@@ -12,7 +12,7 @@ This area allows you to view all subscribers to the projects that successfully s
 
 The following status includes:
 
-- **Respond to Request** – The status where the publisher respond to subscribers request for access to the private topics. The publisher can Approve to allow subscription or Reject to deny the subscription. 
+- **Respond to Request** – The status where the publisher respond to subscribers request for access to the private topics. The publisher can "Approve" to allow subscription or "Reject" to deny the subscription. 
 - **Subscribed** – The status where the publisher approved the subscriber requests.
 - **Rejected** – The status where the publisher rejected the subscriber requests.
 
@@ -27,7 +27,7 @@ To respond to subscriber request:
 [Insert screenshot - Responde to Request Page]
 
 4.	Click **Approve** and the status changed to Subscribed. 
-5.	Otherwise, click **Reject**. A new window appears to provide the reason to the subscribers for rejecting the subscription request.
+5.	Otherwise, click **Reject**. A new window appears showing the reason to subscribers for rejecting the subscription request.
 
 [Insert screenshot - Add Reason for Rejection]
 
