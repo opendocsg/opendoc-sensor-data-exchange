@@ -23,9 +23,9 @@ For first time users, you must register to get started to use the system.
 
 To sign up:
 
-1.	Navigate to Home page and click **Sign up**.
+1. Navigate to Home page and click **Sign up**.
 
-Fill in the following information.
+   Fill in the following information.
 
 - Name
 - Organisation
@@ -40,53 +40,53 @@ Fill in the following information.
   
 - Confirm Password
 
-[Insert Screenshot - Sign Up
+  [Insert Screenshot - Sign Up
 
-2.	Verify your email address.
+2. Verify your email address.
 
-[Insert screenshot - Verify Email Address]
+  [Insert screenshot - Verify Email Address]
 
-3.	From the verification email, click the verify email address link.
+3. From the verification email, click the verify email address link.
 
-[Insert screenshot - Use Link from the Email]
+  [Insert screenshot - Use Link from the Email]
 
-4.	Enter the access code provided and click **Submit**. 
+4. Enter the access code provided and click **Submit**. 
 
-[Insert screenshot - Enter Access Code]
+  [Insert screenshot - Enter Access Code]
 
-5.	Once the account is successfully verified, log in using your username and password.
+5. Once the account is successfully verified, log in using your username and password.
 
-[Insert screenshot - Log in using Verified Account]
+  [Insert screenshot - Log in using Verified Account]
 
-6.	Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
+6. Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
 
-    You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
+   You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
 
     The MFA set up screen appears and prompt you to start setting up with the option of Authenticator App. Only the Authenticator App is available for now and SMS Authentication will be available in future.
 
-[Insert screenshot - Setup MFA]
+   [Insert screenshot - Setup MFA]
 
 7.	Follow the steps as displayed on the screen. 
 
     Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
-[Insert screenshot - Steps to Setup Authenticator App]
+   [Insert screenshot - Steps to Setup Authenticator App]
 
 8.	Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
 
-[Insert screenshot - Google Authentocator]
+   [Insert screenshot - Google Authentocator]
 
    Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
-[Insert screenshot - Enter authenthication Code]
+   [Insert screenshot - Enter authenthication Code]
 
 9.	Once the account is successfully setup, log in again. 
 
-[Insert screenshot - Log in to Account]
+   [Insert screenshot - Log in to Account]
 
 10.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-[Insert screenshot - Enter authentication code to Complere Sign Up]
+   [Insert screenshot - Enter authentication code to Complere Sign Up]
 
 Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
 
@@ -98,11 +98,11 @@ To log in:
 2.	Enter your registered email address and password.
 3.	Click **Login**.
 
-[Insert screenshot - Login Page]
+   [Insert screenshot - Login Page]
 
 4.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-[Insert screenshot - Authentication Code]
+   [Insert screenshot - Authentication Code]
 
 Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
 
@@ -113,12 +113,11 @@ To reset password:
 1.	Click **Forgot Password** and enter your registered email address. 
 2.	Click **Send recovery link**.
 
-[Insert Screenshot - Forgot password?]
+   [Insert Screenshot - Forgot password?]
 
 You will receive an email to the registered email address with the password reset link. Click the reset password link.
 
-
-[Insert screenshot - Reset Password Link]
+   [Insert screenshot - Reset Password Link]
 
 3.	Enter the following information:
 
@@ -129,11 +128,11 @@ You will receive an email to the registered email address with the password rese
 
 4.	Click **Reset Password**.
 
-[Insert screenshot - Reset Password]
+  [Insert screenshot - Reset Password]
 
-Once reset password is successful, you will now be able to login to your account with your new password.
+  Once reset password is successful, you will now be able to login to your account with your new password.
 
-[Inseert screenshot - Reset Password Successful]
+  [Inseert screenshot - Reset Password Successful]
 
 
 ## Profile Icon
@@ -177,16 +176,17 @@ To change password:
 
 3.	Click **Change password**.
 
-[Insert screenshot - Change Password]
+   [Insert screenshot - Change Password]
 
-Once change password is successful, you will be asked to logged out and log in again with your new password.
+   Once change password is successful, you will be asked to logged out and log in again with your new password.
 
-[Insert screenshot - Change Password Succesful]
+   [Insert screenshot - Change Password Succesful]
 
 
 ### Feedback
 
 To provide feedback:
+
 1.	Navigate to Profile icon and click **Feedback**.
 2.	Write feedback in the input box and select the type of feedback.
 
@@ -196,7 +196,7 @@ To provide feedback:
 
 3.	Click **Send Feedback**.
 
-[Insert screenshot - Send Feedback]
+   [Insert screenshot - Send Feedback]
 
 ### Manage Users
 
@@ -215,7 +215,7 @@ In this page, you can view the following:
   
 - Action – Displays the action you can perform based on user status
 
-[Insert screenshot - Manage and Add Users]
+  [Insert screenshot - Manage and Add Users]
 
 You can add more user on the list by clicking **Add User**. 
 
