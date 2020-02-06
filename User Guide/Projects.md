@@ -48,9 +48,11 @@ In the Projects page, displays the project name, date created, number of publica
   
 - Subscribed topics – Displays the topic that you have subscribed by this project and the total number of topics subscribed by this project.
 
-## Connections ##
+[Insert How to create projects]
 
-After creating a new project, this tab shows the connection strings and SSL certificates to setup MQTT client. 
+## Set up MQTT connections ##
+
+After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
 MQTT Client ID is auto-generated in MQTT client. 
 
@@ -87,9 +89,11 @@ To set up MQTT Client connection:
 
 [Insert Screenshot - MQTT Client Connected]
 
+[Insert How to set up MQTT connection]
+
 ## My Topics ##
 
-After creating a project, you may create a first topic. The **My Topics** tab is only available for a Publisher. This tab shows the topic that have been published on this project.
+After creating a project, create your first topic. The **My Topics** tab is only available for a Publisher. This tab shows the topic that have been published on this project.
 
 
 To create a topic:
@@ -134,7 +138,9 @@ You can see the newly created topic being added in **Projects** page > **My topi
 
 [Insert screenshot - Projects - My topics tab]
 
-### Publish Topic on SDX On Premises ###
+[Insert How to create topic]
+
+### Publish Topic on SDX On-Premises ###
 
 To publish topic on SDX on-premises:
 
@@ -143,6 +149,8 @@ To publish topic on SDX on-premises:
 3.	Click [Insert icon].
 
 [Insert screenshot - Publish Topic on SDX On Premises]
+
+[Insert how to publish topic topic to SDX on-prem]
 
 You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the   icon.
 
