@@ -142,7 +142,7 @@ Navigate to Profile Icon to perform the following:
 - Account Settings – Click to update user information
 - Feedback – Click to provide feedback such as future enhancements and improvements
 - Manage Users – Only Administrator role can view and manage users, see [Insert x-ref - Manage Users]
-- Report vulnerabilities – Click to report vulnerability using this https://www.tech.gov.sg/report_vulnerability link
+- Report vulnerabilities – Click to report vulnerability using this [link] (https://www.tech.gov.sg/report_vulnerability)
 - Logout – Click to log out to the application
 
 ### Account Settings
