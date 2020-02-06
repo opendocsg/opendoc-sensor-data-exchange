@@ -55,7 +55,7 @@ As a Publisher you can:
 - Edit own topic only
 - Subscribe to the topic
 
-As a subscriber you can:
+As a Subscriber you can:
 
 - See the topic overview
 - See folders and its subfolders within the topic
