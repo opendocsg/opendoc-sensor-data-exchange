@@ -3,6 +3,7 @@
 
 This area is the main page or the Home page. 
 
+![Image not Available](assets/mainpage.png)
 
 ## Sign Up
 
@@ -74,6 +75,8 @@ To sign up:
 10.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
    [Insert screenshot - Enter authentication code to Complere Sign Up]
+
+![Video not Available](assets/howtosignup.gif)
 
 Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
 
