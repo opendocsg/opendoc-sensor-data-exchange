@@ -10,9 +10,7 @@ To get started in using the application:
 2. System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
    For more related information about sign up, see [Insert x-ref - Sign Up].
    
-   ![howtosignup](https://user-images.githubusercontent.com/60455409/73901492-eb378000-48cd-11ea-9b00-344c1c27df2d.gif)
-   
-   
+   ![Image is not available](assets/howtosignup.gif)
    
 3. On first sign up within organization, your role will be a **PUBLISHER**. 
 
