@@ -2,7 +2,7 @@
 
 This area is the main page or the Home page. 
 
-![Image is not available](assets/homepage.png)
+![Image is not available](assets/mainpage.png)
 
 ## Sign Up
 
