@@ -28,26 +28,39 @@ You can send a request through email to <sense@tech.gov.sg> to change the role a
    
    Both Publisher and Subscriber can create a project, but only the Publisher can create topic. 
    
-   How to create a Project
+   Here is an example use case scenario:
+   
+   The National Environment Agency (NEA) would like to publish and share environment-related information about Rainfall.
+   
+   In SDX portal, NEA creates a Project about Rainfall and creates a Topic about total rainfall for the month and publish it. A subscription approval is needed for agencies to subscribes to the topic.
+   
+  
+   How to create a project:
 
    ![Image is not available](createproject.gif)
 
-   How to publish the created Topic
+   How to publish the created topic:
    
    ![Image is not available](publishtopic.gif)
    
+   Another agency the Land Transportation Authority (LTA) creates a project and will subscribes to NEA topics.
+   
    How to create a project to subscribe to a topic
    
-   
+   ![Image is not available](createprojectforsubscribe.gif)
    
    How to subcribe to a topic
    
    ![Image is not available](subscribetotopic.gif)
    
-   How to Approve Sibscription to a Topic
+  Before LTA can subscribes to a topic, LTA needs to request for subscription approval to NEA topic. NEA will approve the subscription request. 
+  
+  How to Approve Subscription to a Topic
    
    ![Image is not available](approvedsubscribetopic.gif)
    
+5.   
+  
   How to connect to MQTT
   
   ![Image is not available](publishercreatedMQTTconnectionwithcerts.gif)
