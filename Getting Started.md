@@ -21,3 +21,18 @@ To get started in using the application:
    ![Image is not available](assets/browsetopicpage.png)
 
 You can send a request through email to <sense@tech.gov.sg> to change the role as Administrator to access Administrative features such as manage users.
+
+4. As a Publisher to publish your relevant information, you must first create your Project to create a topic. You can   also subscribe to your own topic. 
+
+   A topic cannot be duplicated and cannot published and subscribed to the same project again. 
+   
+   Both Publisher and Subscriber can create a project, but only the Publisher can create topic. 
+   
+   How to create a Project
+
+   ![Image is not available](createprojectforsubscribe.gif)
+
+   How to publish the created Topic
+   
+   
+   
