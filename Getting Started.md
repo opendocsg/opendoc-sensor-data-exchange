@@ -30,9 +30,27 @@ You can send a request through email to <sense@tech.gov.sg> to change the role a
    
    How to create a Project
 
-   ![Image is not available](createprojectforsubscribe.gif)
+   ![Image is not available](createproject.gif)
 
    How to publish the created Topic
    
+   ![Image is not available](publishtopic.gif)
    
+   How to create a project to subscribe to a topic
+   
+   
+   
+   How to subcribe to a topic
+   
+   ![Image is not available](subscribetotopic.gif)
+   
+   How to Approve Sibscription to a Topic
+   
+   ![Image is not available](approvedsubscribetopic.gif)
+   
+  How to connect to MQTT
+  
+  ![Image is not available](publishercreatedMQTTconnectionwithcerts.gif)
+  
+  
    
