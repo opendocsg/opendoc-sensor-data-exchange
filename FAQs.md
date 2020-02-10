@@ -38,3 +38,10 @@
 
 This is an example from FormSG:
 Our user guide is hosted by OpenDoc and is written in Markdown, which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our Github repository, and send us a Pull Request if you have corrections or suggestions to the guide.
+
+What is MQTT and how it works?
+
+Can MQTT work without internet?
+
+Does MQTT required internet?
+
