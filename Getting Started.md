@@ -1,7 +1,7 @@
 
 # Getting Started
 
-**Sensors Data Exchange (SDX)** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal, on-premise and commercial cloud.
+**Sensors Data Exchange 2.0 (SDX 2.0)** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal, on-premise and commercial cloud.
 
 To get started in using the application:
 
