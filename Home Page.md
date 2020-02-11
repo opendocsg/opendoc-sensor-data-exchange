@@ -76,8 +76,6 @@ To sign up:
 
    [Insert screenshot - Enter authentication code to Complere Sign Up]
 
-![Video not Available](assets/howtosignup.gif)
-
 Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
 
 ## Log in 
