@@ -55,18 +55,16 @@ In the Projects page, displays the project name, date created, number of publica
 
 After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
-MQTT Client ID is auto-generated in MQTT client. 
-
 [Insert screenshot - Projects - Connections Tab]
-
-Below certificates is automatically generated:
 
 - Certificate chain
 - Client certificate
 - Private key 
 
   **Note:** *The Private key only appears once. You must copy and save the certificates in a text editor file.*
-  
+ 
+ Alternatively, click **Generate certificate** button.
+ 
   [Insert screenshot - SSL Certificates Information]
   
   You will receive a password through email and use that password in the Client key passphrase field.
@@ -74,23 +72,40 @@ Below certificates is automatically generated:
 To set up MQTT Client connection:
 
 1.	Copy the certificates in a Text Editor and save each file separately.
-2.	Now, go to MQTT Client Setting and enter the following:
+2.	Now, open MQTT Client.
 
+[Insert screenshot - MQTT Client]
+
+3. Click Create MQTT Client.
+
+A Publisher can create MQTT connection using the certificates generated and with the password from the email inbox.
+
+4. Set up MQTT connections with the following:
+
+- MQTT Client Name – Name is not specific and can give random name
+- Protocol - Select protocol. For example, mqtt/tls
 - Host - Enter host name. For example, sdx.sensors.gov.sg
-- Protocol – Select protocol. For example, mqtts/tls
 - Upload each file you copied in a Text Editor in the following fields: 
   - CA file
   - Client certificate file
   - Client key file
-- Use the password you received from the email and enter the password in the Client key passphrase field
+- Enter the password received from the email inbox in the Client key passphrase field
 
 [Insert Screenshot - MQTT Client Setting]
 
-3.	Click [Insert icon] and the MQTT Client is connected.
+- Click [Insert icon] and connected successfully.
 
 [Insert Screenshot - MQTT Client Connected]
 
-[Insert How to set up MQTT connection]
+5. Using MQTT client, a publisher published a topic.
+
+- Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: govtech-ndmrcHUWg/Topic-temperature
+- Click **Subscribe** button
+- Subscriber is ready to receive data for this topic
+
+[Insert screenshot - Subscriber received published data]
+
+[Insert How to Set up Conncetions to MQTT video]
 
 ## My Topics ##
 
