@@ -40,7 +40,7 @@ To sign up:
 
 4. Enter the access code provided and click **Submit**. 
 
-  [Insert screenshot - Enter Access Code]
+  ![Image not Available](enterverifiedemail.png)
 
 5. Once the account is successfully verified, log in using your username and password.
 
