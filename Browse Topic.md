@@ -5,27 +5,27 @@ The **Browse Topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
-- **Official-Open** [Insert image] - Refers to unclassified information disclosed to the public in the normal course of duty
+- **Official-Open** ![Image not Availabler](oo@2x.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- **Official-Closed** [Insert image] - Refers to unclassified information not disclosed to the public in the normal course of duty
+- **Official-Closed** ![Image not Available](oc@2x.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
 
-- **Restricted** [Insert image] - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
+- **Restricted** ![Image not Available](Restricted@2x.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
 
 Published date for each topic in the card is displayed. 
 
 Hover to the icons shown for each topic in the card and a tooltip appears: 
 
-- [Insert icon] icon – This icon displays “Approval is needed from publisher before you subscribe” 
-- [Insert icon] Visibility icon – This icon displays who can view the topic 
-  - [Insert icon] All government agencies – This means all government agencies can view the topics
-  - [Insert icon] Only my agency – This means only the members of my agency can view the topics 
+- ![Image not Available](padlock@2x.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
+- Visibility icon – This icon displays who can view the topic 
+  - ![Image not Available](allgovt@2x.png) All government agencies – This means all government agencies can view the topics
+  - ![Image not Available](myagency@2x.png) Only my agency – This means only the members of my agency can view the topics 
   
 [Insert screenshot - Browse Topics Page]   
 ![Image not Available](assets/browsetopicpage.png)
 
-You can search for topic by entering the topic name in the [Insert image] input box. 
+You can search for topic by entering the topic name in the ![Image not Available](searchtopic.png) input box. 
 
-Click [Insert image] to filter the following:
+Click ![Image not Available](filters.png) to filter the following:
 
 - **Data Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
 - **Approval** – Filter the topic whether approval is needed from the publisher as Free access or Request needed
