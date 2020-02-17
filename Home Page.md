@@ -3,7 +3,7 @@
 
 This area is the main page or the Home page. 
 
-![Image not Available](assets/mainpage.png)
+![Image not Available](homepage.png)
 
 ## Sign Up
 
@@ -28,11 +28,11 @@ To sign up:
   
 - Confirm Password
 
-  [Insert Screenshot - Sign Up
+  ![Image not Available](createaccnt.png)
 
 2. Verify your email address.
 
-  [Insert screenshot - Verify Email Address]
+  ![Image not Available](verifyemail.png)
 
 3. From the verification email, click the verify email address link.
 
@@ -86,7 +86,7 @@ To log in:
 2.	Enter your registered email address and password.
 3.	Click **Login**.
 
-   [Insert screenshot - Login Page]
+   ![Image not Available](logiin.png)
 
 4.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
