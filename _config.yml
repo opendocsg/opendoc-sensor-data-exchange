@@ -5,8 +5,8 @@ repository: opendocsg/opendoc-sensor-data-exchange
 plugins:
   - jekyll-include-cache
 baseurl: ''
-server_PROD: https://search.opendoc.sg
-server_DEV: https://search-staging.opendoc.sg
+server_PROD: https://sdx.sensors.gov.sg
+server_DEV: https://staging.dbm8xnuhpkaq9.amplifyapp.com
 google_analytics:  #----> Optional, Google analytics ID
 
 fast_build: false
@@ -15,6 +15,6 @@ preload_pages: true
 
 styling_options:
   primary_brand_color: '#444'  #----> Optional, theme color
-  logo_path: /assets/logo.png  #----> Optional, path to logo
+  logo_path: /assets/default/images/sdx-logo.svg  #----> Optional, path to logo
   opendoc_logo_path: /assets/images/logo-full.png
-  feedback_url: https://form.gov.sg/5cee3d46138e3200109244df #----> Optional, feedback url
+  feedback_url: https://form.gov.sg/5e4e552386290e0013ae5685 #----> Optional, feedback url
