@@ -9,7 +9,7 @@ To get started in using the application:
 
 2. System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
    
-   ![Image is not available](assets/vid0howtosignup.gif)
+   ![Image is not available](vid0howtosignup.gif)
    
 3. On first sign up within organization, your role will be a **PUBLISHER**. 
 
@@ -17,7 +17,7 @@ To get started in using the application:
 
    You can now share information, browse to latest topics, and create your own projects and topics.
 
-   ![Image is not available](assets/Fig1.png)
+   ![Image is not available](Fig1.png)
 
 You can send a request through email to <sense@tech.gov.sg> to change the role as Administrator to access Administrative features such as manage users.
 
