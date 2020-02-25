@@ -44,7 +44,7 @@ To sign up:
 
 5. Once the account is successfully verified, log in using your username and password.
 
-  !Image not Available](Fig7.png)
+  ![Image not Available](Fig7.png)
 
 6. Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
 
