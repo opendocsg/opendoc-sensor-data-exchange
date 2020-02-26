@@ -1,8 +1,9 @@
+
 # Home Page
 
 This area is the main page or the Home page. 
 
-![Image is not available](assets/mainpage.png)
+![Image not Available](Fig2.png)
 
 ## Sign Up
 
@@ -27,23 +28,23 @@ To sign up:
   
 - Confirm Password
 
-  [Insert Screenshot - Sign Up
+  ![Image not Available](Fig3.png)
 
 2. Verify your email address.
 
-  [Insert screenshot - Verify Email Address]
+  ![Image not Available](Fig4.png)
 
 3. From the verification email, click the verify email address link.
 
-  [Insert screenshot - Use Link from the Email]
+  ![Image not Available](Fig5.png)
 
 4. Enter the access code provided and click **Submit**. 
 
-  [Insert screenshot - Enter Access Code]
+  ![Image not Available](Fig6.png)
 
 5. Once the account is successfully verified, log in using your username and password.
 
-  [Insert screenshot - Log in using Verified Account]
+  ![Image not Available](Fig7.png)
 
 6. Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
 
@@ -51,29 +52,29 @@ To sign up:
 
     The MFA set up screen appears and prompt you to start setting up with the option of Authenticator App. Only the Authenticator App is available for now and SMS Authentication will be available in future.
 
-   [Insert screenshot - Setup MFA]
+   ![Image not Available](Fig8.png)
 
 7.	Follow the steps as displayed on the screen. 
 
     Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
-   [Insert screenshot - Steps to Setup Authenticator App]
+   ![Image not Available](Fig9.png)
 
 8.	Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
 
-   [Insert screenshot - Google Authentocator]
+   ![Image not Available](Fig10.png)
 
    Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
-   [Insert screenshot - Enter authenthication Code]
+   ![Image not Available](Fig11.png)
 
 9.	Once the account is successfully setup, log in again. 
 
-   [Insert screenshot - Log in to Account]
+   ![Image not Available](Fig12.png)
 
 10.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-   [Insert screenshot - Enter authentication code to Complere Sign Up]
+   ![Image not Available](Fig13.png)
 
 Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
 
@@ -85,11 +86,11 @@ To log in:
 2.	Enter your registered email address and password.
 3.	Click **Login**.
 
-   [Insert screenshot - Login Page]
+   ![Image not Available](Fig14.png)
 
 4.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-   [Insert screenshot - Authentication Code]
+   ![Image not Available](Fig15.png)
 
 Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
 
@@ -100,11 +101,11 @@ To reset password:
 1.	Click **Forgot Password** and enter your registered email address. 
 2.	Click **Send recovery link**.
 
-   [Insert Screenshot - Forgot password?]
+   ![Image not Available](Fig16.png)
 
 You will receive an email to the registered email address with the password reset link. Click the reset password link.
 
-   [Insert screenshot - Reset Password Link]
+   ![Image not Available](Fig17.png)
 
 3.	Enter the following information:
 
@@ -115,11 +116,11 @@ You will receive an email to the registered email address with the password rese
 
 4.	Click **Reset Password**.
 
-  [Insert screenshot - Reset Password]
+  ![Image not Available](Fig18.png)
 
   Once reset password is successful, you will now be able to login to your account with your new password.
 
-  [Inseert screenshot - Reset Password Successful]
+  ![Image not Available](Fig19.png)
 
 
 ## Profile Icon
@@ -150,7 +151,7 @@ To update account:
   - *At least 1 number*
   - *At least 1 special character (space is not allowed)*
   
-  [Insert screenshot - Update Personal Information]
+  ![Image not Available](Fig20.png)
   
 To change password:
 
@@ -163,7 +164,7 @@ To change password:
 
 3.	Click **Change password**.
 
-   [Insert screenshot - Change Password]
+   ![Image not Available](Fig21.png)
 
    Once change password is successful, you will be asked to logged out and log in again with your new password.
 
@@ -183,7 +184,7 @@ To provide feedback:
 
 3.	Click **Send Feedback**.
 
-   [Insert screenshot - Send Feedback]
+   ![Image not Available](Fig23.png)
 
 ### Manage Users
 
@@ -202,7 +203,7 @@ In this page, you can view the following:
   
 - Action – Displays the action you can perform based on user status
 
-  [Insert screenshot - Manage and Add Users]
+  ![Image not Available](Fig24.png)
 
 You can add more user on the list by clicking **Add User**. 
 
@@ -214,7 +215,7 @@ To add user:
 4.	Select from the dropdown the role to assign to new user.
 5.	Click **Done**. The new user is added successfully to the list of users and the status is Active.
 
-[Insert screenshot - Add User]
+![Image not Available](Fig25.png)
 
 By clicking **Action**, you can perform certain action based on the following status.
 
@@ -241,7 +242,7 @@ To report vulnerability:
 
 1.	Navigate to Profile Icon and click **Report Vulnerability**. You will be redirected to a new link portal. 
 
-[Insert screenshot - Report Vulnerability Link Portal]
+![Image not Available](Fig26.png)
 
 ### Logout
 
@@ -249,7 +250,7 @@ To log out:
 
 1.	Navigate to Profile Icon and click **Logout**.
 
-[Insert screenshot - Logout]
+![Image not Available](Fig27.png)
 
 
 

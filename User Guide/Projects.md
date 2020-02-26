@@ -1,3 +1,4 @@
+
 # Projects
 
 A project is a piece of planned work or activity where you can organize and arrange topics that you intend to publish and wish to subscribe to.
@@ -10,11 +11,11 @@ Both publisher and subscriber can create a project. Both publisher and subscribe
 
 You can create new project by clicking [Insert icon] button on the top right of the Browse Topics page and select **New Project**.
 
-[Insert Screenshot - Create New Project]
+![Image not Available](Fig31.png)
 
 Or, click [Insert icon] from the left side navigation bar.
 
-[Insert screenshot - Select Projects on the Navigation Bar]
+![Image not Available](Fig32.png)
 
 ## Create New Project ##
 
@@ -31,12 +32,12 @@ To create new project:
   - Project Duration
   - Description
 
-[Insert screenshot - Project Details]
+![Image not Available](Fig34.png)
 
 
 The newly created project appears in the **Projects** page > **Overview** tab. Click [Insert icon].
 
-[Insert screenshot - Projects - Overview Tab]
+![Image not Available](Fig35.png)
 
 
 In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs:
@@ -54,18 +55,16 @@ In the Projects page, displays the project name, date created, number of publica
 
 After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
-MQTT Client ID is auto-generated in MQTT client. 
-
-[Insert screenshot - Projects - Connections Tab]
-
-Below certificates is automatically generated:
+![Image not Available](Fig36.png)
 
 - Certificate chain
 - Client certificate
 - Private key 
 
   **Note:** *The Private key only appears once. You must copy and save the certificates in a text editor file.*
-  
+ 
+ Alternatively, click **Generate certificate** button.
+ 
   [Insert screenshot - SSL Certificates Information]
   
   You will receive a password through email and use that password in the Client key passphrase field.
@@ -73,23 +72,40 @@ Below certificates is automatically generated:
 To set up MQTT Client connection:
 
 1.	Copy the certificates in a Text Editor and save each file separately.
-2.	Now, go to MQTT Client Setting and enter the following:
+2.	Now, open MQTT Client.
 
+[Insert screenshot - MQTT Client]
+
+3. Click Create MQTT Client.
+
+A Publisher can create MQTT connection using the certificates generated and with the password from the email inbox.
+
+4. Set up MQTT connections with the following:
+
+- MQTT Client Name – Name is not specific and can give random name
+- Protocol - Select protocol. For example, mqtt/tls
 - Host - Enter host name. For example, sdx.sensors.gov.sg
-- Protocol – Select protocol. For example, mqtts/tls
 - Upload each file you copied in a Text Editor in the following fields: 
   - CA file
   - Client certificate file
   - Client key file
-- Use the password you received from the email and enter the password in the Client key passphrase field
+- Enter the password received from the email inbox in the Client key passphrase field
 
 [Insert Screenshot - MQTT Client Setting]
 
-3.	Click [Insert icon] and the MQTT Client is connected.
+- Click [Insert icon] and connected successfully.
 
 [Insert Screenshot - MQTT Client Connected]
 
-[Insert How to set up MQTT connection]
+5. Using MQTT client, a publisher published a topic.
+
+- Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: govtech-ndmrcHUWg/Topic-temperature
+- Click **Subscribe** button
+- Subscriber is ready to receive data for this topic
+
+[Insert screenshot - Subscriber received published data]
+
+[Insert How to Set up Conncetions to MQTT video]
 
 ## My Topics ##
 
@@ -100,22 +116,22 @@ To create a topic:
 
 1. Navigate to **Projects** page > **My topics** tab. Click [Insert icon].
 
-[Insert screentshot - My topics tab]
+![Image not Available](Fig43.png)
 
 2. Select from the option who can see the topic. Click [Insert icon].
 
 - All government agencies
 - Only my agency
 
-[Insert screenshot - Select Topic Visibility]
+![Image not Available](Fig44.png)
 
 3.	Select data classification. Click [Insert icon].
 
-[Insert screenshot - Classify the topic]
+![Image not Available](Fig45.png)
 
 4.	Select the project and enter topic name. Click [Insert icon].
 
-[Insert screenshot - Set up Topic Name]
+![Image not Available](Fig46.png)
 
 5.	Fill in the following details of the topic.
 
@@ -128,11 +144,11 @@ To create a topic:
   - Yes – Refer to the steps in [Insert x-ref- Publish Topic on SDX On-Premises] and continue 
   - No
 
-[Insert screenshot - Topic Details]
+![Image not Available](Fig47.png)
 
 6. Click [Insert icon]. The new topic is created successfully.
 
-[Insert screenshot - Noew Topic Created]
+![Image not Available](Fig48.png)
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
@@ -148,7 +164,7 @@ To publish topic on SDX on-premises:
 2.	Select the project code and name. 
 3.	Click [Insert icon].
 
-[Insert screenshot - Publish Topic on SDX On Premises]
+![Image not Available](Fig50.png)
 
 [Insert how to publish topic topic to SDX on-prem]
 
@@ -161,13 +177,15 @@ To add new topic:
 1.	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
 2.	Click [Insert icon] and click **New Topic**. A new window appears to create new topic.
 
-[Insert screenshot - Publisher View - Overview tab]
+![Image not Available](Fig51.png)
 
 3.	Enter topic name and click [Insert icon].
 
-[Insert screenshot - Enter Topic Name]
+![Image not Available](Fig52.png)
 
 The newly created topic is added successfully in the Topic Details page.
+
+![Image not Available](Fig53.png)
 
 ### Edit Topic ###
 
@@ -177,7 +195,7 @@ To edit topic:
 2.	Select a topic to edit and the Topic Details page displayed. 
 3.	Click [Insert icon]. A new window appears to edit the details of the topic.
 
-[Insert screenshot - Edit Topic Details]
+![Image not Available](Fig54.png)
 
 4. Click [Insert icon].
 
@@ -189,22 +207,22 @@ To subscribe to a topic:
 
 1.	Navigate to **Projects** page > **Subscribed topics** tab. Click [Insert icon].
 
-[Insert Screenshot - Subscribed Topics]
+![Image not Available](Fig55.png)
 
 2.	Select the topic card that you want to subscribe.
 
-[Insert screenshot - Select Topic to Subscribe]
+![Image not Available](Fig56.png)
 
 3.	Once the topic card is selected, the Topic Details page is displayed. Click [Insert icon].
 
-[Insert screenshot - Topic Details Page]
+![Image not Available](Fig57.png)
 
 4.	Select a project to subscribe to the topic. Click [Insert icon].
 
-[Insert screenshot - Subscribe to a Topic]
+![Image not Available](Fig58.png)
 
 5.	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
 
-[Insert screenshot - Added New Subscribed Topics]
+![Image not Available](Fig59.png)
 
 
