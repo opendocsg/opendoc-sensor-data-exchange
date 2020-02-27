@@ -11,11 +11,13 @@ Both publisher and subscriber can create a project. Both publisher and subscribe
 
 You can create new project by clicking [Insert icon] button on the top right of the Browse Topics page and select **New Project**.
 
+
 ![Image not Available](Fig31.png)
 
 Or, click [Insert icon] from the left side navigation bar.
 
 ![Image not Available](Fig32.png)
+
 
 ## Create New Project ##
 
@@ -32,12 +34,16 @@ To create new project:
   - Project Duration
   - Description
 
+
 ![Image not Available](Fig34.png)
+
 
 
 The newly created project appears in the **Projects** page > **Overview** tab. Click [Insert icon].
 
+
 ![Image not Available](Fig35.png)
+
 
 
 In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs:
@@ -55,16 +61,20 @@ In the Projects page, displays the project name, date created, number of publica
 
 After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
+
 ![Image not Available](Fig36.png)
+
 
 - Certificate chain
 - Client certificate
 - Private key 
 
   **Note:** *The Private key only appears once. You must copy and save the certificates in a text editor file.*
+
  
  Alternatively, click **Generate certificate** button.
  
+
   [Insert screenshot - SSL Certificates Information]
   
   You will receive a password through email and use that password in the Client key passphrase field.
@@ -72,6 +82,7 @@ After creating a new project, this tab shows the connection strings and SSL cert
 To set up MQTT Client connection:
 
 1.	Copy the certificates in a Text Editor and save each file separately.
+
 2.	Now, open MQTT Client.
 
 [Insert screenshot - MQTT Client]
@@ -85,10 +96,12 @@ A Publisher can create MQTT connection using the certificates generated and with
 - MQTT Client Name – Name is not specific and can give random name
 - Protocol - Select protocol. For example, mqtt/tls
 - Host - Enter host name. For example, sdx.sensors.gov.sg
+
 - Upload each file you copied in a Text Editor in the following fields: 
   - CA file
   - Client certificate file
   - Client key file
+
 - Enter the password received from the email inbox in the Client key passphrase field
 
 [Insert Screenshot - MQTT Client Setting]
@@ -107,6 +120,7 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 [Insert How to Set up Conncetions to MQTT video]
 
+
 ## My Topics ##
 
 After creating a project, create your first topic. The **My Topics** tab is only available for a Publisher. This tab shows the topic that have been published on this project.
@@ -116,12 +130,15 @@ To create a topic:
 
 1. Navigate to **Projects** page > **My topics** tab. Click [Insert icon].
 
+
 ![Image not Available](Fig43.png)
+
 
 2. Select from the option who can see the topic. Click [Insert icon].
 
 - All government agencies
 - Only my agency
+
 
 ![Image not Available](Fig44.png)
 
@@ -133,6 +150,7 @@ To create a topic:
 
 ![Image not Available](Fig46.png)
 
+
 5.	Fill in the following details of the topic.
 
 - Description – Enter description to the topic
@@ -143,6 +161,7 @@ To create a topic:
 - Also publish on SDX on-prem?
   - Yes – Refer to the steps in [Insert x-ref- Publish Topic on SDX On-Premises] and continue 
   - No
+
 
 ![Image not Available](Fig47.png)
 
@@ -164,7 +183,9 @@ To publish topic on SDX on-premises:
 2.	Select the project code and name. 
 3.	Click [Insert icon].
 
+
 ![Image not Available](Fig50.png)
+
 
 [Insert how to publish topic topic to SDX on-prem]
 
@@ -177,6 +198,7 @@ To add new topic:
 1.	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
 2.	Click [Insert icon] and click **New Topic**. A new window appears to create new topic.
 
+
 ![Image not Available](Fig51.png)
 
 3.	Enter topic name and click [Insert icon].
@@ -187,6 +209,7 @@ The newly created topic is added successfully in the Topic Details page.
 
 ![Image not Available](Fig53.png)
 
+
 ### Edit Topic ###
 
 To edit topic:
@@ -195,7 +218,9 @@ To edit topic:
 2.	Select a topic to edit and the Topic Details page displayed. 
 3.	Click [Insert icon]. A new window appears to edit the details of the topic.
 
+
 ![Image not Available](Fig54.png)
+
 
 4. Click [Insert icon].
 
@@ -206,6 +231,7 @@ Both publisher and subscriber can subscribe to a topic. Both publisher and subsc
 To subscribe to a topic:
 
 1.	Navigate to **Projects** page > **Subscribed topics** tab. Click [Insert icon].
+
 
 ![Image not Available](Fig55.png)
 
@@ -224,5 +250,6 @@ To subscribe to a topic:
 5.	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
 
 ![Image not Available](Fig59.png)
+
 
 
