@@ -5,7 +5,7 @@ The **Browse Topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
-- **Official-Open** ![Image not Availabler](icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
+- **Official-Open** ![Image not Availabler](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
 - **Official-Closed** ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
 
@@ -20,7 +20,7 @@ Hover to the icons shown for each topic in the card and a tooltip appears:
   - ![Image not Available](/assets/icon5.png) All government agencies – This means all government agencies can view the topics
   - ![Image not Available](/assets/icon6.png) Only my agency – This means only the members of my agency can view the topics 
   
-![Image not Available](/assets/F28.png)   
+![Image not Available](/assets/Fig28.png)   
 
 You can search for topic by entering the topic name in the ![Image not Available](/assets/icon7.png) input box. 
 
