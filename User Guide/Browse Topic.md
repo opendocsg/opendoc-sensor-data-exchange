@@ -61,7 +61,8 @@ As a Subscriber you can:
 - See folders and its subfolders within the topic
 - Subscribe to the topic
 
-![Image not Available](/assets/F30.png)
+![Image not Available](/assets/Fig30.png)
+
 
 
 
