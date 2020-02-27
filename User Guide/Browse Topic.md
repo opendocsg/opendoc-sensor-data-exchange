@@ -20,7 +20,7 @@ Hover to the icons shown for each topic in the card and a tooltip appears:
   - ![Image not Available](icon5.png) All government agencies – This means all government agencies can view the topics
   - ![Image not Available](icon6.png) Only my agency – This means only the members of my agency can view the topics 
   
-![Image not Available](Fig28.png)   
+![Image not Available](/assets/F28.png)   
 
 You can search for topic by entering the topic name in the ![Image not Available](icon7.png) input box. 
 
@@ -34,7 +34,7 @@ Click ![Image not Available](icon8.png) to filter the following:
 
 Click **Clear all filters** to clear all filters selected.
 
-![Image not Available](Fig29.png)
+![Image not Available](/assets/F29.png)
 
 
 In the Browse Topics, you can start to create your own topic and project by clicking **Create** button. 
@@ -61,7 +61,7 @@ As a Subscriber you can:
 - See folders and its subfolders within the topic
 - Subscribe to the topic
 
-![Image not Available](Fig30.png)
+![Image not Available](/assets/F30.png)
 
 
 
