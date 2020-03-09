@@ -40,6 +40,7 @@ Click **Clear all filters** to clear all filters selected.
 In the Browse Topics, you can start to create your own topic and project by clicking **Create** button. 
 
 For related information about how to add more topics, see **My Topics**. 
+
 For related information about how to create project, see **Projects**.
 
 ## Topic Details
