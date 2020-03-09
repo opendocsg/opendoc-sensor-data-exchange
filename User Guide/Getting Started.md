@@ -29,12 +29,14 @@ You can send a request through email to <sense@tech.gov.sg> to change the role a
    
 **Here is an example use case scenario:**
 
-where:
+Where:
 
 Agency A - For example, National Environment Agency (NEA)
 
 Agency B - For example, Land Transportation Authority (LTA)
    
+
+Scenario:
 
 Agency A will publish and share environment-related information about "Rainfall". 
 
