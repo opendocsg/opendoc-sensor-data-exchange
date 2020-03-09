@@ -17,7 +17,7 @@ To sign up:
 
 **Step 1:** Navigate to Home page and click **Sign up**.
 
-   Fill in the following information.
+  Fill in the following information.
 
 - Name
 - Organisation
@@ -55,8 +55,8 @@ To sign up:
 **Step 6:** Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
 
    You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
-
-    The MFA set up screen appears and prompt you to start setting up with the option of Authenticator App. Only the Authenticator App is available for now and SMS Authentication will be available in future.
+   
+   The MFA set up screen appears and prompt you to start setting up with the option of Authenticator App. Only the Authenticator App is available for now and SMS Authentication will be available in future.
 
 
    ![Image not Available](Fig8.png)
@@ -64,7 +64,7 @@ To sign up:
 
 **Step 7:**	Follow the steps as displayed on the screen. 
 
-    Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
+   Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
 
    ![Image not Available](Fig9.png)
@@ -93,7 +93,9 @@ Upon successful log in, the Browse Topics page displays. For more related inform
 To log in:
 
 **Step 1:**	Navigate to Home page and click **Login**.
+
 **Step 2:**	Enter your registered email address and password.
+
 **Step 3:**	Click **Login**.
 
 
@@ -111,6 +113,7 @@ Upon successful log in, the Browse Topics page displays, see **Browse Topics**.
 To reset password:
 
 **Step 1:**	Click **Forgot Password** and enter your registered email address. 
+
 **Step 2:**	Click **Send recovery link**.
 
 
@@ -174,11 +177,12 @@ Navigate to Profile Icon and click **Account Settings**.
 To change password:
 
 **Step 1:**	Navigate to Password and click **Change**.
+
 **Step 2:**	Enter the following information to change password:
 
-    - Confirm password
-    - New password
-    - Confirm new password
+   - Confirm password
+   - New password
+   - Confirm new password
 
 **Step 3:**	Click **Change password**.
 
@@ -196,6 +200,7 @@ To change password:
 To provide feedback:
 
 **Step 1:**	Navigate to Profile icon and click **Feedback**.
+
 **Step 2:**	Write feedback in the input box and select the type of feedback.
 
    - Bugs
@@ -234,9 +239,13 @@ You can add more user on the list by clicking **Add User**.
 To add user:
 
 **Step 1:**	Navigate to Profile Icon and click **Manage Users**. The Manager Users page displays.
+
 **Step 2:**	Click **Add User**.
+
 **Step 3:**	Enter email address.
+
 **Step 4:**	Select from the dropdown the role to assign to new user.
+
 **Step 5:**	Click **Done**. The new user is added successfully to the list of users and the status is Active.
 
 
