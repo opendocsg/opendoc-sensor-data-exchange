@@ -1,7 +1,7 @@
 
 # Getting Started
 
-**Sensors Data Exchange 2.0 (SDX 2.0)** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal, on-premise and commercial cloud.
+**Sensors Data Exchange (SDX)** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both government intranet and in the government commercial cloud.
 
 To get started in using the application:
 
@@ -28,12 +28,19 @@ You can send a request through email to <sense@tech.gov.sg> to change the role a
    Both Publisher and Subscriber can create a project, but only the Publisher can create topic. 
    
 **Here is an example use case scenario:**
+
+where:
+
+Agency A - For example, National Environment Agency (NEA)
+
+Agency B - For example, Land Transportation Authority (LTA)
    
-Agency A - National Environment Agency (NEA) will publish and share environment-related information about "Rainfall". 
 
-In SDX portal, NEA will create a Project "Rainfall" and create topic about total rainfall for the month and publish it. 
+Agency A will publish and share environment-related information about "Rainfall". 
 
-A subscription approval is needed for other agency (Agency B - Land Transportation Authority (LTA)) to subscribes to this topic.
+In SDX portal, Agency A will create a Project "Rainfall" and create topic about total rainfall for the month and publish it. 
+
+A subscription approval is needed for other agency (Agency B) to subscribes to this topic.
    
 *How to create a project:*
 
@@ -43,7 +50,7 @@ A subscription approval is needed for other agency (Agency B - Land Transportati
    
 ![Image is not available](vid2publishtopic.gif)
    
-LTA creates a project and will subscribes to NEA topics.
+Agency B creates a project and will subscribes to Agency A topics.
    
 *How to create a project to subscribe to a topic*
    
@@ -53,9 +60,9 @@ LTA creates a project and will subscribes to NEA topics.
    
 ![Image is not available](vid4subscribetotopic.gif)
    
-Before LTA can subscribes to NEA topics, LTA needs to request for topic subscription approval. 
+Before Agency B can subscribes to Agency A topics, Agency B needs to request for topic subscription approval. 
 
-NEA will approve the subscription request. 
+Agency A will approve the subscription request. 
   
 *How to approve subscription request to a topic*
    
