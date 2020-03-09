@@ -86,7 +86,7 @@ To sign up:
    ![Image not Available](Fig13.png)
 
 
-Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
+Upon successful log in, the Browse Topics page displays. For more related information about browse topics, see **Browse Topics**.
 
 ## Log in 
 
@@ -104,7 +104,7 @@ To log in:
    ![Image not Available](Fig15.png)
 
 
-Upon successful log in, the Browse Topics page displays, see [Insert x-ref - Browse Topics]
+Upon successful log in, the Browse Topics page displays, see **Browse Topics**.
 
 ## Forgot Password
 
@@ -145,7 +145,7 @@ Navigate to Profile Icon to perform the following:
 
 - Account Settings – Click to update user information
 - Feedback – Click to provide feedback such as future enhancements and improvements
-- Manage Users – Only Administrator role can view and manage users, see [Insert x-ref - Manage Users]
+- Manage Users – Only Administrator role can view and manage users, see **Manage Users**
 - Report vulnerabilities – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
 - Logout – Click to log out to the application
 
