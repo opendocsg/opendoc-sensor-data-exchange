@@ -23,13 +23,13 @@ Or, click **Projects** from the left side navigation bar.
 
 To create new project:
 
-1.	Click **Create**. The Projects page is displayed. 
+**Step 1:**	Click **Create**. The Projects page is displayed. 
 
-    **Note:** *For your first project, you will see this page, see Figure 32.*
+   **Note:** *For your first project, you will see this page, see Figure 32.*
 
-    [Insert screenshot - Create Project]
+   [Insert screenshot - Create Project]
 
-2.	Enter the following information.
+**Step 2:**	Enter the following information.
   - Project Name
   - Project Duration
   - Description
@@ -81,17 +81,17 @@ After creating a new project, this tab shows the connection strings and SSL cert
 
 To set up MQTT Client connection:
 
-1.	Copy the certificates in a Text Editor and save each file separately.
+**Step 1:**	Copy the certificates in a Text Editor and save each file separately.
 
-2.	Now, open MQTT Client.
+**Step 2:**	Now, open MQTT Client.
 
    [Insert screenshot - MQTT Client]
 
-3. Click Create MQTT Client.
+**Step 3:** Click Create MQTT Client.
 
 A Publisher can create MQTT connection using the certificates generated and with the password from the email inbox.
 
-4. Set up MQTT connections with the following:
+**Step 4:** Set up MQTT connections with the following:
 
 - MQTT Client Name – Name is not specific and can give random name
 - Protocol - Select protocol. For example, mqtt/tls
@@ -110,7 +110,7 @@ A Publisher can create MQTT connection using the certificates generated and with
 
   [Insert Screenshot - MQTT Client Connected]
 
-5. Using MQTT client, a publisher published a topic.
+**Step 5:** Using MQTT client, a publisher published a topic.
 
 - Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: govtech-ndmrcHUWg/Topic-temperature
 - Click **Subscribe** button
@@ -128,13 +128,13 @@ After creating a project, create your first topic. The **My Topics** tab is only
 
 To create a topic:
 
-1. Navigate to **Projects** page > **My topics** tab. Click **Create**.
+**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create**.
 
 
    ![Image not Available](Fig43.png)
 
 
-2. Select from the option who can see the topic. Click **Create Topic**.
+**Step 2:** Select from the option who can see the topic. Click **Create Topic**.
 
 - All government agencies
 - Only my agency
@@ -142,16 +142,16 @@ To create a topic:
 
    ![Image not Available](Fig44.png)
 
-3.	Select data classification. Click **Next**.
+**Step 3:**	Select data classification. Click **Next**.
 
    ![Image not Available](Fig45.png)
 
-4.	Select the project and enter topic name. Click **Next**.
+**Step 4:**	Select the project and enter topic name. Click **Next**.
 
    ![Image not Available](Fig46.png)
 
 
-5.	Fill in the following details of the topic.
+**Step 5:**	Fill in the following details of the topic.
 
 - Description – Enter description to the topic
 - Tags – Add tags to the topic maximum of 5 tags
@@ -163,11 +163,11 @@ To create a topic:
   - No
 
 
-     ![Image not Available](Fig47.png)
+   ![Image not Available](Fig47.png)
 
-6. Click **Create**. The new topic is created successfully.
+**Step 6:** Click **Create**. The new topic is created successfully.
 
-     ![Image not Available](Fig48.png)
+   ![Image not Available](Fig48.png)
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
@@ -179,9 +179,11 @@ You can see the newly created topic being added in **Projects** page > **My topi
 
 To publish topic on SDX on-premises:
 
-1.	Click **Yes** in Also publish on SDX on-prem? field.
-2.	Select the project code and name. 
-3.	Click [Insert icon].
+**Step 1:**	Click **Yes** in Also publish on SDX on-prem? field.
+
+**Step 2:**	Select the project code and name. 
+
+**Step 3:**	Click [Insert icon].
 
 
 ![Image not Available](Fig50.png)
@@ -195,13 +197,14 @@ You can add more topics within the topic on your own project by selecting from t
 
 To add new topic:
 
-1.	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
-2.	Click **Create** and click **New Topic**. A new window appears to create new topic.
+**Step 1:**	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
+
+**Step 2:**	Click **Create** and click **New Topic**. A new window appears to create new topic.
 
 
 ![Image not Available](Fig51.png)
 
-3.	Enter topic name and click **Create Topic**.
+**Step 3:**	Enter topic name and click **Create Topic**.
 
 ![Image not Available](Fig52.png)
 
@@ -214,15 +217,17 @@ The newly created topic is added successfully in the Topic Details page.
 
 To edit topic:
 
-1.	Navigate **Projects** > **My topics**. 
-2.	Select a topic to edit and the Topic Details page displayed. 
-3.	Click **New Topic**. A new window appears to edit the details of the topic.
+**Step 1:**	Navigate **Projects** > **My topics**. 
+
+**Step 2:**	Select a topic to edit and the Topic Details page displayed. 
+
+**Step 3:**	Click **New Topic**. A new window appears to edit the details of the topic.
 
 
 ![Image not Available](Fig54.png)
 
 
-4. Click **Update**.
+**Step 4:** Click **Update**.
 
 ## Subscribed Topics ##
 
@@ -230,26 +235,26 @@ Both publisher and subscriber can subscribe to a topic. Both publisher and subsc
 
 To subscribe to a topic:
 
-1.	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
+**Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
 
 
    ![Image not Available](Fig55.png)
 
-2.	Select the topic card that you want to subscribe.
+**Step 2:**	Select the topic card that you want to subscribe.
 
    ![Image not Available](Fig56.png)
 
-3.	Once the topic card is selected, the Topic Details page is displayed. Click **Create**.
+**Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Create**.
 
    ![Image not Available](Fig57.png)
 
-4.	Select a project to subscribe to the topic. Click **Subscribe**.
+**Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.
 
-    ![Image not Available](Fig58.png)
+   ![Image not Available](Fig58.png)
 
-5.	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
+**Step 5:**	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
 
-    ![Image not Available](Fig59.png)
+   ![Image not Available](Fig59.png)
 
 
 
