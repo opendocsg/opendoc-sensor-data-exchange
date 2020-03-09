@@ -13,12 +13,12 @@ Each topic in the card is classified as:
 
 Published date for each topic in the card is displayed. 
 
-Hover to the icons shown for each topic in the card and a tooltip appears: 
+Mouse hover over icons and a tooltip appears for each topic in the card: 
 
 - ![Image not Available](icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
-- Visibility icon – This icon displays who can view the topic 
-  - ![Image not Available](icon5.png) – This means all government agencies can view the topics
-  - ![Image not Available](icon6.png) – This means only the members of my agency can view the topics 
+- Visibility icon – Displays who can view the topic: 
+  - ![Image not Available](icon5.png) – This icon displays "All government agencies can view topic"
+  - ![Image not Available](icon6.png) – This icon displays "Only members of my agency can view topic" 
   
 ![Image not Available](Fig28.png)   
 
