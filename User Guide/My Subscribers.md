@@ -20,15 +20,19 @@ The following status includes:
 
 To respond to subscriber request:
 
-1.	Navigate to My Subscribers page on the left side navigation bar and select the project with Respond to Request status.
-2.	Click **…** icon under the **Action** column.
-3.	Click **Respond to Request**. A new window appears showing the details of the project. 
+**Step 1:**	Navigate to My Subscribers page on the left side navigation bar and select the project with Respond to Request status.
+
+**Step 2:**	Click **…** icon under the **Action** column.
+
+**Step 3:**	Click **Respond to Request**. A new window appears showing the details of the project. 
+
 
 [Insert screenshot - Responde to Request Page]
 
-4.	Click **Approve** and the status changed to Subscribed. 
-5.	Otherwise, click **Reject**. A new window appears showing the reason to subscribers for rejecting the subscription request.
+**Step 4:**	Click **Approve** and the status changed to Subscribed. 
+
+**Step 5:**	Otherwise, click **Reject**. A new window appears showing the reason to subscribers for rejecting the subscription request.
 
 [Insert screenshot - Add Reason for Rejection]
 
-6.	Click **Confirm** and the status changed to Rejected.
+**Step 6:**	Click **Confirm** and the status changed to Rejected.
