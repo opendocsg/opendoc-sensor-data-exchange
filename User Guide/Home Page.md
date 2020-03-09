@@ -15,7 +15,7 @@ For first time users, you must register to get started to use the system.
 
 To sign up:
 
-1. Navigate to Home page and click **Sign up**.
+**Step 1:** Navigate to Home page and click **Sign up**.
 
    Fill in the following information.
 
@@ -35,24 +35,24 @@ To sign up:
 
   ![Image not Available](Fig3.png)
 
-2. Verify your email address.
+**Step 2:** Verify your email address.
 
   ![Image not Available](Fig4.png)
 
-3. From the verification email, click the verify email address link.
+**Step 3:** From the verification email, click the verify email address link.
 
   ![Image not Available](Fig5.png)
 
-4. Enter the access code provided and click **Submit**. 
+**Step 4:** Enter the access code provided and click **Submit**. 
 
   ![Image not Available](Fig6.png)
 
-5. Once the account is successfully verified, log in using your username and password.
+**Step 5:** Once the account is successfully verified, log in using your username and password.
 
   ![Image not Available](Fig7.png)
 
 
-6. Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
+**Step 6:** Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
 
    You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
 
@@ -62,14 +62,14 @@ To sign up:
    ![Image not Available](Fig8.png)
 
 
-7.	Follow the steps as displayed on the screen. 
+**Step 7:**	Follow the steps as displayed on the screen. 
 
     Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
 
    ![Image not Available](Fig9.png)
 
-8.	Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
+**Step 8:**	Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
 
    ![Image not Available](Fig10.png)
 
@@ -77,11 +77,11 @@ To sign up:
 
    ![Image not Available](Fig11.png)
 
-9.	Once the account is successfully setup, log in again. 
+**Step 9:**	Once the account is successfully setup, log in again. 
 
    ![Image not Available](Fig12.png)
 
-10.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
+**Step 10:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
    ![Image not Available](Fig13.png)
 
@@ -92,14 +92,14 @@ Upon successful log in, the Browse Topics page displays. For more related inform
 
 To log in:
 
-1.	Navigate to Home page and click **Login**.
-2.	Enter your registered email address and password.
-3.	Click **Login**.
+**Step 1:**	Navigate to Home page and click **Login**.
+**Step 2:**	Enter your registered email address and password.
+**Step 3:**	Click **Login**.
 
 
    ![Image not Available](Fig14.png)
 
-4.	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
+**Step 4:**	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
    ![Image not Available](Fig15.png)
 
@@ -110,8 +110,8 @@ Upon successful log in, the Browse Topics page displays, see **Browse Topics**.
 
 To reset password:
 
-1.	Click **Forgot Password** and enter your registered email address. 
-2.	Click **Send recovery link**.
+**Step 1:**	Click **Forgot Password** and enter your registered email address. 
+**Step 2:**	Click **Send recovery link**.
 
 
    ![Image not Available](Fig16.png)
@@ -121,14 +121,14 @@ You will receive an email to the registered email address with the password rese
    ![Image not Available](Fig17.png)
 
 
-3.	Enter the following information:
+**Step 3:**	Enter the following information:
 
 - Confirmation Code
 - Email
 - Password
 - Confirm Password
 
-4.	Click **Reset Password**.
+**Step 4:**	Click **Reset Password**.
 
 
   ![Image not Available](Fig18.png)
@@ -155,7 +155,7 @@ You can update information in the Account Settings.
 
 To update account:
 
-1.	Navigate to Profile Icon and click **Account Settings**.
+Navigate to Profile Icon and click **Account Settings**.
  
 **Note:** *You can update name, mobile number, and password.*
 
@@ -173,14 +173,14 @@ To update account:
   
 To change password:
 
-1.	Navigate to Password and click **Change**.
-2.	Enter the following information to change password:
+**Step 1:**	Navigate to Password and click **Change**.
+**Step 2:**	Enter the following information to change password:
 
     - Confirm password
     - New password
     - Confirm new password
 
-3.	Click **Change password**.
+**Step 3:**	Click **Change password**.
 
 
    ![Image not Available](Fig21.png)
@@ -195,14 +195,14 @@ To change password:
 
 To provide feedback:
 
-1.	Navigate to Profile icon and click **Feedback**.
-2.	Write feedback in the input box and select the type of feedback.
+**Step 1:**	Navigate to Profile icon and click **Feedback**.
+**Step 2:**	Write feedback in the input box and select the type of feedback.
 
    - Bugs
    - Suggestions
    - Others
 
-3.	Click **Send Feedback**.
+**Step 3:**	Click **Send Feedback**.
 
 
    ![Image not Available](Fig23.png)
@@ -233,11 +233,11 @@ You can add more user on the list by clicking **Add User**.
 
 To add user:
 
-1.	Navigate to Profile Icon and click **Manage Users**. The Manager Users page displays.
-2.	Click **Add User**.
-3.	Enter email address.
-4.	Select from the dropdown the role to assign to new user.
-5.	Click **Done**. The new user is added successfully to the list of users and the status is Active.
+**Step 1:**	Navigate to Profile Icon and click **Manage Users**. The Manager Users page displays.
+**Step 2:**	Click **Add User**.
+**Step 3:**	Enter email address.
+**Step 4:**	Select from the dropdown the role to assign to new user.
+**Step 5:**	Click **Done**. The new user is added successfully to the list of users and the status is Active.
 
 
 ![Image not Available](Fig25.png)
@@ -266,7 +266,7 @@ By clicking **Action**, you can perform certain action based on the following st
 
 To report vulnerability:
 
-1.	Navigate to Profile Icon and click **Report Vulnerability**. You will be redirected to a new link portal. 
+Navigate to Profile Icon and click **Report Vulnerability**. You will be redirected to a new link portal. 
 
 
 ![Image not Available](Fig26.png)
@@ -275,7 +275,7 @@ To report vulnerability:
 
 To log out:
 
-1.	Navigate to Profile Icon and click **Logout**.
+Navigate to Profile Icon and click **Logout**.
 
 
 ![Image not Available](Fig27.png)
