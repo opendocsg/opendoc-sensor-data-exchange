@@ -1,17 +1,17 @@
 
 # Getting Started
 
-**Sensors Data Exchange (SDX)** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both government intranet and in the government commercial cloud.
+**SDX** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both government intranet and government commercial cloud.
 
 To get started in using the application:
 
-1. Click this [link](https://sdx.sensors.gov.sg/sdx/home) and sign up using a valid agency email address (e.g. @tech.gov.sg). 
+**Step 1:** Click this [link](https://sdx.sensors.gov.sg/sdx/home) and sign up using a valid agency email address (e.g. @tech.gov.sg). 
 
-2. System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
+**Step 2:** System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
    
    ![Image is not available](vid0howtosignup.gif)
    
-3. On first sign up within organization, your role will be a **PUBLISHER**. 
+**Step 3:** On first sign up within organization, your role will be a **PUBLISHER**. 
 
    On second sign up with the same organization, your role will be a **SUBSCRIBER**.
 
@@ -21,7 +21,7 @@ To get started in using the application:
 
 You can send a request through email to <sense@tech.gov.sg> to change the role as Administrator to access Administrative features such as manage users.
 
-4. As a Publisher to publish your relevant information, you must first create your Project to create a topic. You can   also subscribe to your own topic. 
+**Step 4:** As a Publisher to publish your relevant information, you must first create your Project to create a topic. You can   also subscribe to your own topic. 
 
    A topic cannot be duplicated and cannot published and subscribed to the same project again. 
    
@@ -29,14 +29,16 @@ You can send a request through email to <sense@tech.gov.sg> to change the role a
    
 **Here is an example use case scenario:**
 
-Where:
+*Where:*
+
+
 
 Agency A - For example, National Environment Agency (NEA)
 
 Agency B - For example, Land Transportation Authority (LTA)
    
 
-Scenario:
+*Scenario:*
 
 Agency A will publish and share environment-related information about "Rainfall". 
 
