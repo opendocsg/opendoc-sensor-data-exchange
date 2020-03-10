@@ -15,17 +15,17 @@ preload_pages: true
 
 styling_options:
   primary_brand_color: '#00B4B4'  #----> Optional, theme color
-  logo_path: /assets/logo.png  #----> Optional, path to logo
+  logo_path: /assets/sdx-logo.png  #----> Optional, path to logo
   opendoc_logo_path: /assets/sdx-logo.png
   feedback_url: https://form.gov.sg/5e4e552386290e0013ae5685 #----> Optional, feedback url
 
 hide_toolbar:
   sidebar: false
   pdf: false
-  github: false
+  github: true
 
 folders:
-  - name: '/User Guide'
+  - name: '/User%20Guide'
     title: 'Sensor Data Exchange User Guide'
     subtitle: ''
     order:
