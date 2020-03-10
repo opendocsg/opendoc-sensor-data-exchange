@@ -57,7 +57,7 @@ In the Projects page, displays the project name, date created, number of publica
 
 [Insert How to create projects]
 
-## Set up MQTT connections ##
+## Set up MQTT Connections ##
 
 After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
