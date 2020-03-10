@@ -44,7 +44,7 @@ Agency A will publish and share environment-related information about "Rainfall"
 
 In SDX portal, Agency A will create a Project "Rainfall" and create topic about total rainfall for the month and publish it. 
 
-A subscription approval is needed for other agency (Agency B) to subscribes to this topic.
+A subscription approval is needed for another agency (Agency B) to subscribes to this topic.
    
 *How to create a project:*
 
