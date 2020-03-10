@@ -180,7 +180,7 @@ To change password:
 
 **Step 2:**	Enter the following information to change password:
 
-   - Confirm password
+   - Current password
    - New password
    - Confirm new password
 
