@@ -21,7 +21,7 @@ To sign up:
 
 - Name
 - Organisation
-- Email address – Must be a valid gov.sg email id
+- Email address – Must be a valid *gov.sg* email id
 - Mobile number – Must be 8-digit in number
 - Password – For the password strength, these are the criteria to fulfill:
 
@@ -142,7 +142,7 @@ You will receive an email to the registered email address with the password rese
 
 
 
-## Profile Icon
+## Profile
 
 Navigate to Profile Icon to perform the following:
 
