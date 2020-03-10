@@ -6,7 +6,7 @@
 
 This system enables government agencies to:
 
-- Publish and subscribe (near) real-time sensor data using a self-service portal both government intranet and in the government commercial cloud.
+- Publish and subscribe (near) real-time sensor data using a self-service portal both government intranet and government commercial cloud.
 - Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
 
 In SDX, a government agency can act as a publisher to publish information. For example, the National Environment Agency (NEA) may publish and share environment-related information about the weather and air quality. 
