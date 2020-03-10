@@ -23,9 +23,9 @@ Or, click **Projects** from the left side navigation bar.
 
 To create new project:
 
-**Step 1:**	Click **Create**. The Projects page is displayed. 
+**Step 1:**	Click **Create Project**. The Projects page is displayed. 
 
-   **Note:** *For your first project, you will see this page, see Figure 32.*
+   **Note:** *For your first project, you will see this page as shown below.*
 
    [Insert screenshot - Create Project]
 
@@ -48,7 +48,7 @@ The newly created project appears in the **Projects** page > **Overview** tab. C
 
 In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs:
 
-- Overview – Displays the details of the project, see Figure 34.
+- Overview – Displays the details of the project.
 - Connections – Displays the details to set up and connect to MQTT Client.
 - My topics – Displays the topic that you have published to this project and the total number of topics published by this project. 
   **Note:** *This tab is only available for a Publisher only.*
@@ -106,7 +106,7 @@ A Publisher can create MQTT connection using the certificates generated and with
 
   [Insert Screenshot - MQTT Client Setting]
 
-- Click [Insert icon] and connected successfully.
+- Click **Save** and connected successfully.
 
   [Insert Screenshot - MQTT Client Connected]
 
@@ -128,13 +128,13 @@ After creating a project, create your first topic. The **My Topics** tab is only
 
 To create a topic:
 
-**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create**.
+**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create Topic**.
 
 
    ![Image not Available](Fig43.png)
 
 
-**Step 2:** Select from the option who can see the topic. Click **Create Topic**.
+**Step 2:** Select from the option who can see the topic. Click **Next**.
 
 - All government agencies
 - Only my agency
@@ -183,7 +183,7 @@ To publish topic on SDX on-premises:
 
 **Step 2:**	Select the project code and name. 
 
-**Step 3:**	Click [Insert icon].
+**Step 3:**	Click **Create**.
 
 
 ![Image not Available](Fig50.png)
@@ -191,7 +191,7 @@ To publish topic on SDX on-premises:
 
 [Insert how to publish topic topic to SDX on-prem]
 
-You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the   icon.
+You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the [Insert icon] icon.
 
 ### Add Topic ###
 
@@ -199,7 +199,7 @@ To add new topic:
 
 **Step 1:**	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
 
-**Step 2:**	Click **Create** and click **New Topic**. A new window appears to create new topic.
+**Step 2:**	Click [Insert icon] and click **New Topic**. A new window appears to create new topic.
 
 
 ![Image not Available](Fig51.png)
@@ -221,7 +221,7 @@ To edit topic:
 
 **Step 2:**	Select a topic to edit and the Topic Details page displayed. 
 
-**Step 3:**	Click **New Topic**. A new window appears to edit the details of the topic.
+**Step 3:**	Click **Edit**. A new window appears to edit the details of the topic.
 
 
 ![Image not Available](Fig54.png)
@@ -244,7 +244,7 @@ To subscribe to a topic:
 
    ![Image not Available](Fig56.png)
 
-**Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Create**.
+**Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
 
    ![Image not Available](Fig57.png)
 
