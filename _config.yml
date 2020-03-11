@@ -4,36 +4,45 @@ timezone: Asia/Singapore
 repository: opendocsg/opendoc-sensor-data-exchange
 plugins:
   - jekyll-include-cache
-baseurl: ''
+baseurl: ""
 server_PROD: https://sdx.sensors.gov.sg/sdx/home
-#server_DEV: https://search-staging.opendoc.sg
-google_analytics:  #----> Optional, Google analytics ID
+google_analytics: null
 
 fast_build: false
 offline: false
 preload_pages: true
 
 styling_options:
-  primary_brand_color: '#00B4B4'  #----> Optional, theme color
-  logo_path: /assets/sdx-logo.png  #----> Optional, path to logo
+  primary_brand_color: "#00B4B4"
+  logo_path: /assets/sdx-logo.png
   opendoc_logo_path: /assets/sdx-logo.png
-  feedback_url: https://form.gov.sg/5e4e552386290e0013ae5685 #----> Optional, feedback url
+  feedback_url: https://form.gov.sg/5e4e552386290e0013ae5685
+  logo_url: https://sdx.sensors.gov.sg/sdx/home
 
 hide_toolbar:
   sidebar: false
   pdf: false
   github: true
 
+order: #----> Optional, order of pages in root
+  - FAQs.md
+
+document_order: #----> Optional, order of documents
+  - User Guide
+  - Terms of Use
+  - Privacy Statement
+  - # --> leave blank to show root pages
+
 folders:
-  - name: '/User%20Guide'
-    title: 'Sensor Data Exchange User Guide'
-    subtitle: ''
+  - name: /User%20Guide
+    title: Sensor Data Exchange - User Guide
+    subtitle: ""
     order:
-      - "Introduction.md"
-      - "Getting Started.md"
-      - "Home Page.md"
-      - "Browse Topic.md"
-      - "Projects.md"
-      - "My Subscribers.md"
-      - "My Subscriptions.md"
-      - "Glossary.md"
+      - Introduction.md
+      - Getting Started.md
+      - Home Page.md
+      - Browse Topic.md
+      - Projects.md
+      - My Subscribers.md
+      - My Subscriptions.md
+      - Glossary.md
