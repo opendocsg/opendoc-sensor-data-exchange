@@ -1,7 +1,4 @@
 ---
-title: null
-subtitle: null
-tags: []
-order: []
+title: FAQ
+redirect: /FAQs/FAQs
 ---
-
