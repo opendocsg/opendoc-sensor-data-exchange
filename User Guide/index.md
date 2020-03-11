@@ -1,4 +1,14 @@
 ---
 title: User Guide
-redirect: /User%20Guide/Introduction
+subtitle: ""
+tags: []
+order: [
+Getting Started
+Introduction
+Home Page
+Browse Topic
+My Subscribers
+My Subscriptions
+Glossary
+]
 ---
