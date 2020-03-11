@@ -24,18 +24,9 @@ hide_toolbar:
   pdf: false
   github: true
 
-order: #----> Optional, order of pages in root
-  - FAQs.md
-
-document_order: #----> Optional, order of documents
-  - User Guide
-  - Terms of Use
-  - Privacy Statement
-  - # --> leave blank to show root pages
-
 folders:
-  - name: /User%20Guide
-    title: Sensor Data Exchange - User Guide
+  - name: /
+    title: Sensor Data Exchange
     subtitle: ""
     order:
       - Introduction.md
