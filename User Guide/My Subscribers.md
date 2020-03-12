@@ -16,7 +16,7 @@ The following status includes:
 - **Subscribed** – The status where the publisher approved the subscriber requests.
 - **Rejected** – The status where the publisher rejected the subscriber requests.
 
-[Insert screenshot - My Subscribers Page]
+![Image not Available](Fig60.png)
 
 To respond to subscriber request:
 
@@ -26,13 +26,12 @@ To respond to subscriber request:
 
 **Step 3:**	Click **Respond to Request**. A new window appears showing the details of the project. 
 
-
-[Insert screenshot - Responde to Request Page]
+![Image not Available](Fig61.png)
 
 **Step 4:**	Click **Approve** and the status changed to Subscribed. 
 
 **Step 5:**	Otherwise, click **Reject**. A new window appears showing the reason to subscribers for rejecting the subscription request.
 
-[Insert screenshot - Add Reason for Rejection]
+![Image not Available](Fig62.png)
 
 **Step 6:**	Click **Confirm** and the status changed to Rejected.
