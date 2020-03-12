@@ -192,7 +192,7 @@ To publish topic on SDX on-premises:
 ![Image not Available](Fig50.png)
 
 
-You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](icon9.png).
+You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](icon9.png) icon.
 
 ### Add Topic ###
 
@@ -200,7 +200,7 @@ To add new topic:
 
 **Step 1:**	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
 
-**Step 2:**	Click ![Image not Available](icon9.png) and click **New Topic**. A new window appears to create new topic.
+**Step 2:**	Click ![Image not Available](icon9.png) icon and click **New Topic**. A new window appears to create new topic.
 
 
 ![Image not Available](Fig51.png)
