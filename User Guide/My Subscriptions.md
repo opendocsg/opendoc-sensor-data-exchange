@@ -16,7 +16,8 @@ The following status includes:
 - Rejected – The status of the topic that is being rejected.
 - Pending – The status of the topic that is pending. 
 
-[Insert screenshot - My Subscriptions Page]
+![Image not Available](Fig63.png)
+
 
 To unsubscribe to the topic:
 
@@ -28,7 +29,8 @@ To unsubscribe to the topic:
 
 **Step 4:**	Click **Unsubscribe**. Once unsubscribed, the topic will be removed from My Subscriptions page.
 
-[Insert screenshot - Unsubscribe to a Topic]
+![Image not Available](Fig64.png)
+
 
 To View Reason of the Rejected Topic
 
@@ -40,7 +42,8 @@ To View Reason of the Rejected Topic
 
 **Step 4:**	Click **Ok**.
 
-[Insert screenshot - View Reason of Rejection]
+![Image not Available](Fig65.png)
+
 
 To Withdraw Pending Topic Subscription
 
@@ -52,7 +55,7 @@ To Withdraw Pending Topic Subscription
 
 **Step 4:**	Click **Withdraw**. Once withdrawn, the topic is removed from My Subscriptions page.
 
-[Insert screenshot - Withdraw Subscription]
+![Image not Available](Fig66.png)
 
 
 
