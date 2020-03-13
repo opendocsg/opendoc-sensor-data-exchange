@@ -59,6 +59,9 @@ To sign up:
 
    You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
 
+   ![Image not Available](Fig9.png)
+
+
    Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
 
    ![Image not Available](Fig10.png)
@@ -66,7 +69,7 @@ To sign up:
 
    Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
-   ![Image not Available](Fig11.png)
+   ![Image not Available](Fig13.png)
 
 
 **Step 8:**	Once the account is successfully setup, log in again. 
@@ -76,7 +79,7 @@ To sign up:
 
 **Step 9:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-   ![Image not Available](Fig13.png)
+   ![Image not Available](Fig11.png)
 
 
 Upon successful log in, the Browse Topics page displays. For more related information about browse topics, see **Browse Topics**.
