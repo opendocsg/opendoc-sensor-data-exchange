@@ -39,49 +39,42 @@ To sign up:
 
   ![Image not Available](Fig4.png)
 
+
 **Step 3:** From the verification email, click the verify email address link.
 
   ![Image not Available](Fig5.png)
 
+
 **Step 4:** Enter the access code provided and click **Submit**. 
 
   ![Image not Available](Fig6.png)
+
 
 **Step 5:** Once the account is successfully verified, log in using your username and password.
 
   ![Image not Available](Fig7.png)
 
 
-**Step 6:** Now, set up multifactor authentication (MFA) by clicking **Authenticator App**.
+**Step 6:**	Follow the steps as displayed on the screen. 
 
    You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
-   
-   The MFA set up screen appears and prompt you to start setting up with the option of Authenticator App. Only the Authenticator App is available for now and SMS Authentication will be available in future.
 
-
-   ![Image not Available](Fig8.png)
-
-
-**Step 7:**	Follow the steps as displayed on the screen. 
-
-   Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
-
-
-   ![Image not Available](Fig9.png)
-
-**Step 8:**	Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
+   Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
 
    ![Image not Available](Fig10.png)
+
 
    Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
    ![Image not Available](Fig11.png)
 
-**Step 9:**	Once the account is successfully setup, log in again. 
+
+**Step 8:**	Once the account is successfully setup, log in again. 
 
    ![Image not Available](Fig12.png)
 
-**Step 10:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
+
+**Step 9:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
    ![Image not Available](Fig13.png)
 
@@ -98,8 +91,8 @@ To log in:
 
 **Step 3:**	Click **Login**.
 
-
    ![Image not Available](Fig14.png)
+
 
 **Step 4:**	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
@@ -116,8 +109,8 @@ To reset password:
 
 **Step 2:**	Click **Send recovery link**.
 
-
    ![Image not Available](Fig16.png)
+
 
 You will receive an email to the registered email address with the password reset link. Click the reset password link.
 
@@ -192,7 +185,7 @@ To change password:
 
    Once change password is successful, you will be asked to logged out and log in again with your new password.
 
-   [Insert screenshot - Change Password Succesful]
+   ![Image not Available](Fig22.png)
 
 
 ### Feedback
