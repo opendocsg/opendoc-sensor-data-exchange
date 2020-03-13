@@ -24,22 +24,21 @@ hide_toolbar:
   pdf: false
   github: true
 
-document_order:
- - User Guide
- - FAQs
- - Terms of Use
- - Privacy Statement
-
 folders:
-  - name: /User%20Guide
-    title: Sensor Data Exchange
-    subtitle: User Guide
+  - name: 'User Guide'
+    title: 'User Guide'
+    subtitle: this is a subtitle
     order:
-      - Introduction
-      - Getting Started
-      - Home Page
-      - Browse Topic
-      - Projects
-      - My Subscribers
-      - My Subscriptions
-      - Glossary
+      - Getting Started.md
+      - Introduction.md
+      - Home Page.md
+      - Browse Topic.md
+      - My Subscribers.md
+      - My Subscriptions.md
+      - Glossary.md
+  - name: 'FAQs'
+    title: 'FAQs'
+  - name: 'Terms of Use'
+    title: 'Terms of Use'
+  - name: 'Privacy Statement'
+    title: 'Privacy Statement'

@@ -7,24 +7,24 @@ Each topic in the card is classified as:
 
 - **Official-Open** ![Image not Availabler](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- **Official-Closed** ![Image not Available](icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
+- **Official-Closed** ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
 
-- **Restricted** ![Image not Available](icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
+- **Restricted** ![Image not Available](/assets/icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
 
 Published date for each topic in the card is displayed. 
 
 Hover to the icons shown for each topic in the card and a tooltip appears: 
 
-- ![Image not Available](icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
+- ![Image not Available](/assets/icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
 - Visibility icon – This icon displays who can view the topic 
-  - ![Image not Available](icon5.png) All government agencies – This means all government agencies can view the topics
-  - ![Image not Available](icon6.png) Only my agency – This means only the members of my agency can view the topics 
+  - ![Image not Available](/assets/icon5.png) All government agencies – This means all government agencies can view the topics
+  - ![Image not Available](/assets/icon6.png) Only my agency – This means only the members of my agency can view the topics 
   
 ![Image not Available](/assets/Fig28.png)   
 
-You can search for topic by entering the topic name in the ![Image not Available](icon7.png) input box. 
+You can search for topic by entering the topic name in the ![Image not Available](/assets/icon7.png) input box. 
 
-Click ![Image not Available](icon8.png) to filter the following:
+Click ![Image not Available](/assets/icon8.png) to filter the following:
 
 - **Data Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
 - **Approval** – Filter the topic whether approval is needed from the publisher as Free access or Request needed
