@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD:FAQs/FAQs.md
-=======
->>>>>>> 32be824c913a170a8818630fc4ee0bfa6996fbb8
-# FAQ
-What should I use for the MQTT message payload?
-- JSON is highly recommended.
-
-Update
-<<<<<<< HEAD
-=======
-# FAQs
-
-
->>>>>>> 32be824c913a170a8818630fc4ee0bfa6996fbb8:FAQs.md
-
 ## What is SDX? 
 
 **SDX** stands for **Sensors Data Exchange**, a centralized sensor data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Solutions Platform (SNSP).
@@ -55,5 +39,3 @@ Our user guide is hosted by OpenDoc and is written in Markdown, which is a layme
 ## Can MQTT work without internet?
 
 ## Does MQTT required internet?
-=======
->>>>>>> 32be824c913a170a8818630fc4ee0bfa6996fbb8
