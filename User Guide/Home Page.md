@@ -201,6 +201,7 @@ To provide feedback:
 
    - Bugs
    - Suggestions
+   - Request
    - Others
 
 **Step 3:**	Click **Send Feedback**.
