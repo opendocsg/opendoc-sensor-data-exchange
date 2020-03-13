@@ -4,7 +4,7 @@ timezone: Asia/Singapore
 repository: opendocsg/opendoc-sensor-data-exchange
 plugins:
   - jekyll-include-cache
-baseurl: ""
+baseurl: ''
 server_PROD: https://sdx.sensors.gov.sg/sdx/home
 google_analytics: null
 
@@ -24,16 +24,22 @@ hide_toolbar:
   pdf: false
   github: true
 
+document_order:
+ - User Guide
+ - FAQs
+ - Terms of Use
+ - Privacy Statement
+
 folders:
-  - name: /
+  - name: /User%20Guide
     title: Sensor Data Exchange
-    subtitle: ""
+    subtitle: User Guide
     order:
-      - Introduction.md
-      - Getting Started.md
-      - Home Page.md
-      - Browse Topic.md
-      - Projects.md
-      - My Subscribers.md
-      - My Subscriptions.md
-      - Glossary.md
+      - Introduction
+      - Getting Started
+      - Home Page
+      - Browse Topic
+      - Projects
+      - My Subscribers
+      - My Subscriptions
+      - Glossary
