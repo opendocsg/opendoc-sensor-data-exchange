@@ -5,26 +5,26 @@ The **Browse Topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
-- ![Image not Availabler](icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
+- ![Image not Available](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- ![Image not Available](icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
+- ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
 
-- ![Image not Available](icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
+- ![Image not Available](/assets/icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
 
 Published date for each topic in the card is displayed. 
 
 Mouse hover over icons and a tooltip appears for each topic in the card: 
 
-- ![Image not Available](icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
+- ![Image not Available](/assets/icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
 - Visibility icon – Displays who can view the topic: 
-  - ![Image not Available](icon5.png) – This icon displays "All government agencies can view topic"
-  - ![Image not Available](icon6.png) – This icon displays "Only members of my agency can view topic" 
+  - ![Image not Available](/assets/icon5.png) – This icon displays "All government agencies can view topic"
+  - ![Image not Available](/assets/icon6.png) – This icon displays "Only members of my agency can view topic" 
   
-![Image not Available](Fig28.png)   
+![Image not Available](/assets/Fig28.png)   
 
-You can search for topic by entering the topic name in the ![Image not Available](icon7.png) input box. 
+You can search for topic by entering the topic name in the ![Image not Available](/assets/icon7.png) input box. 
 
-Click ![Image not Available](icon8.png) to filter the following:
+Click ![Image not Available](/assets/icon8.png) to filter the following:
 
 - **Data Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
 - **Approval** – Filter the topic whether approval is needed from the publisher as Free access or Request needed
@@ -34,7 +34,7 @@ Click ![Image not Available](icon8.png) to filter the following:
 
 Click **Clear all filters** to clear all filters selected.
 
-![Image not Available](Fig29.png)
+![Image not Available](/assets/Fig29.png)
 
 
 In the Browse Topics, you can start to create your own topic and project by clicking **Create** button. 
@@ -62,7 +62,7 @@ As a Subscriber you can:
 - See folders and its subfolders within the topic
 - Subscribe to the topic
 
-![Image not Available](Fig30.png)
+![Image not Available](/assets/Fig30.png)
 
 
 
