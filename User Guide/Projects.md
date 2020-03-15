@@ -95,8 +95,8 @@ A Publisher can create MQTT connection using the certificates generated and with
 **Step 4:** Set up MQTT connections with the following:
 
 - MQTT Client Name – Name is not specific and can give random name
-- Protocol - Select protocol. For example, mqtt/tls
-- Host - Enter host name. For example, sdx.sensors.gov.sg
+- Protocol - Select protocol. For example, *mqtt/tls*
+- Host - Enter host name. For example, *sdx.sensors.gov.sg*
 
 - Upload each file you copied in a Text Editor in the following fields: 
   - CA file
