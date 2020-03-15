@@ -12,11 +12,11 @@ Both publisher and subscriber can create a project. Both publisher and subscribe
 You can create new project by clicking **Create** button on the top right of the Browse Topics page and select **New Project**.
 
 
-![Image not Available](Fig31.png)
+![Image not Available](/assets/Fig31.png)
 
 Or, click **Projects** from the left side navigation bar.
 
-![Image not Available](Fig32.png)
+![Image not Available](/assets/Fig32.png)
 
 
 ## Create New Project ##
@@ -27,7 +27,7 @@ To create new project:
 
    **Note:** *For your first project, you will see this page as shown below.*
 
-![Image not Available](Fig33.png)
+![Image not Available](/assets/Fig33.png)
 
 
 **Step 2:**	Enter the following information.
@@ -35,12 +35,12 @@ To create new project:
   - Project Duration
   - Description
 
-![Image not Available](Fig34.png)
+![Image not Available](/assets/Fig34.png)
 
 
 The newly created project appears in the **Projects** page > **Overview** tab. Click **Save**.
 
-![Image not Available](Fig35.png)
+![Image not Available](/assets/Fig35.png)
 
 
 
@@ -59,7 +59,7 @@ In the Projects page, displays the project name, date created, number of publica
 After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
 
-![Image not Available](Fig36.png)
+![Image not Available](/assets/Fig36.png)
 
 Certificates:
 
@@ -71,12 +71,12 @@ Certificates:
  
  Alternatively, click **Generate certificate** button.
 
-![Image not Available](Fig37.png)
+![Image not Available](/assets/Fig37.png)
   
   
   You will receive a password through email and use that password in the Client key passphrase field.
 
-![Image not Available](Fig38.png)
+![Image not Available](/assets/Fig38.png)
 
 
 To set up MQTT Client connection:
@@ -85,7 +85,7 @@ To set up MQTT Client connection:
 
 **Step 2:**	Now, open MQTT Client.
 
-![Image not Available](Fig39.png)
+![Image not Available](/assets/Fig39.png)
 
 
 **Step 3:** Click Create MQTT Client.
@@ -105,21 +105,21 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 - Enter the password received from the email inbox in the Client key passphrase field
 
-![Image not Available](Fig40.png)
+![Image not Available](/assets/Fig40.png)
 
 
 - Click **Save** and connected successfully.
 
-![Image not Available](Fig41.png)
+![Image not Available](/assets/Fig41.png)
 
 
 **Step 5:** Using MQTT client, a publisher published a topic.
 
-- Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: govtech-ndmrcHUWg/Topic-temperature
+- Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: *govtech-ndmrcHUWg/Topic-temperature*
 - Click **Subscribe** button
 - Subscriber is ready to receive data for this topic
 
-![Image not Available](Fig42.png)
+![Image not Available](/assets/Fig42.png)
 
 
 
@@ -133,7 +133,7 @@ To create a topic:
 **Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create Topic**.
 
 
-![Image not Available](Fig43.png)
+![Image not Available](/assets/Fig43.png)
 
 
 **Step 2:** Select from the option who can see the topic. Click **Next**.
@@ -141,17 +141,17 @@ To create a topic:
 - All government agencies
 - Only my agency
 
-![Image not Available](Fig44.png)
+![Image not Available](/assets/Fig44.png)
 
 
 **Step 3:**	Select data classification. Click **Next**.
 
-![Image not Available](Fig45.png)
+![Image not Available](/assets/Fig45.png)
 
 
 **Step 4:**	Select the project and enter topic name. Click **Next**.
 
-![Image not Available](Fig46.png)
+![Image not Available](/assets/Fig46.png)
 
 
 **Step 5:**	Fill in the following details of the topic.
@@ -165,17 +165,17 @@ To create a topic:
   - Yes – Refer to the steps in **Publish Topic on SDX On-Premises** and continue 
   - No
 
-![Image not Available](Fig47.png)
+![Image not Available](/assets/Fig47.png)
 
 
 **Step 6:** Click **Create**. The new topic is created successfully.
 
-![Image not Available](Fig48.png)
+![Image not Available](/assets/Fig48.png)
 
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
-![Image not Available](Fig49.png)
+![Image not Available](/assets/Fig49.png)
 
 
 ### Publish Topic on SDX On-Premises ###
@@ -189,10 +189,10 @@ To publish topic on SDX on-premises:
 **Step 3:**	Click **Create**.
 
 
-![Image not Available](Fig50.png)
+![Image not Available](/assets/Fig50.png)
 
 
-You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](icon9.png) icon.
+You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
 
 ### Add Topic ###
 
@@ -200,20 +200,20 @@ To add new topic:
 
 **Step 1:**	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
 
-**Step 2:**	Click ![Image not Available](icon9.png) icon and click **New Topic**. A new window appears to create new topic.
+**Step 2:**	Click ![Image not Available](/assets/icon9.png) icon and click **New Topic**. A new window appears to create new topic.
 
 
-![Image not Available](Fig51.png)
+![Image not Available](/assets/Fig51.png)
 
 
 **Step 3:**	Enter topic name and click **Create Topic**.
 
-![Image not Available](Fig52.png)
+![Image not Available](/assets/Fig52.png)
 
 
 The newly created topic is added successfully in the Topic Details page.
 
-![Image not Available](Fig53.png)
+![Image not Available](/assets/Fig53.png)
 
 
 ### Edit Topic ###
@@ -227,7 +227,7 @@ To edit topic:
 **Step 3:**	Click **Edit**. A new window appears to edit the details of the topic.
 
 
-![Image not Available](Fig54.png)
+![Image not Available](/assets/Fig54.png)
 
 
 **Step 4:** Click **Update**.
@@ -240,27 +240,27 @@ To subscribe to a topic:
 
 **Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
 
-![Image not Available](Fig55.png)
+![Image not Available](/assets/Fig55.png)
 
 
 **Step 2:**	Select the topic card that you want to subscribe.
 
-![Image not Available](Fig56.png)
+![Image not Available](/assets/Fig56.png)
 
 
 **Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
 
-![Image not Available](Fig57.png)
+![Image not Available](/assets/Fig57.png)
 
 
 **Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.
 
-![Image not Available](Fig58.png)
+![Image not Available](/assets/Fig58.png)
 
 
 **Step 5:**	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
 
-![Image not Available](Fig59.png)
+![Image not Available](/assets/Fig59.png)
 
 
 
