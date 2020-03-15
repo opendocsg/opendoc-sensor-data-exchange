@@ -1,10 +1,14 @@
+# READ THIS FIRST
+
+This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+
 ## What is SDX? 
 
 **SDX** stands for **Sensors Data Exchange**, a centralized sensor data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Solutions Platform (SNSP).
 
 **SDX** enables government agencies and individuals to:
 
-- Publish and subscribe real-time sensor data using a self-service portal both on-premise and in the commercial cloud.
+- Publish and subscribe real-time sensor data using a self-service portal both government intranet and government commercial cloud.
 - Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
 
 ## Is SDX secured?
@@ -31,7 +35,6 @@
 
 ## How do I suggest changes to this user guide?
 
-This is an example from FormSG:
 Our user guide is hosted by OpenDoc and is written in Markdown, which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our Github repository, and send us a Pull Request if you have corrections or suggestions to the guide.
 
 ## What is MQTT and how it works?
