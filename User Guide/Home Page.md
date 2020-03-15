@@ -6,7 +6,7 @@
 This area is the main page or the Home page. 
 
 
-![Image not Available](Fig2.png)
+![Image not Available](/assets/Fig2.png)
 
 
 ## Sign Up
@@ -33,53 +33,53 @@ To sign up:
 - Confirm Password
 
 
-  ![Image not Available](Fig3.png)
+  ![Image not Available](/assets/Fig3.png)
 
 **Step 2:** Verify your email address.
 
-  ![Image not Available](Fig4.png)
+  ![Image not Available](/assets/Fig4.png)
 
 
 **Step 3:** From the verification email, click the verify email address link.
 
-  ![Image not Available](Fig5.png)
+  ![Image not Available](/assets/Fig5.png)
 
 
 **Step 4:** Enter the access code provided and click **Submit**. 
 
-  ![Image not Available](Fig6.png)
+  ![Image not Available](/assets/Fig6.png)
 
 
 **Step 5:** Once the account is successfully verified, log in using your username and password.
 
-  ![Image not Available](Fig7.png)
+  ![Image not Available](/assets/Fig7.png)
 
 
 **Step 6:**	Follow the steps as displayed on the screen. 
 
    You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
 
-   ![Image not Available](Fig9.png)
+   ![Image not Available](/assets/Fig9.png)
 
 
    Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
 
-   ![Image not Available](Fig10.png)
+   ![Image not Available](/assets/Fig10.png)
 
 
    Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click **Done**.
 
-   ![Image not Available](Fig13.png)
+   ![Image not Available](/assets/Fig13.png)
 
 
 **Step 8:**	Once the account is successfully setup, log in again. 
 
-   ![Image not Available](Fig12.png)
+   ![Image not Available](/assets/Fig12.png)
 
 
 **Step 9:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-   ![Image not Available](Fig11.png)
+   ![Image not Available](/assets/Fig11.png)
 
 
 Upon successful log in, the Browse Topics page displays. For more related information about browse topics, see **Browse Topics**.
@@ -94,12 +94,12 @@ To log in:
 
 **Step 3:**	Click **Login**.
 
-   ![Image not Available](Fig14.png)
+   ![Image not Available](/assets/Fig14.png)
 
 
 **Step 4:**	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
-   ![Image not Available](Fig15.png)
+   ![Image not Available](/assets/Fig15.png)
 
 
 Upon successful log in, the Browse Topics page displays, see **Browse Topics**.
@@ -112,12 +112,12 @@ To reset password:
 
 **Step 2:**	Click **Send recovery link**.
 
-   ![Image not Available](Fig16.png)
+   ![Image not Available](/assets/Fig16.png)
 
 
 You will receive an email to the registered email address with the password reset link. Click the reset password link.
 
-   ![Image not Available](Fig17.png)
+   ![Image not Available](/assets/Fig17.png)
 
 
 **Step 3:**	Enter the following information:
@@ -130,11 +130,11 @@ You will receive an email to the registered email address with the password rese
 **Step 4:**	Click **Reset Password**.
 
 
-  ![Image not Available](Fig18.png)
+  ![Image not Available](/assets/Fig18.png)
 
   Once reset password is successful, you will now be able to login to your account with your new password.
 
-  ![Image not Available](Fig19.png)
+  ![Image not Available](/assets/Fig19.png)
 
 
 
@@ -167,7 +167,7 @@ Navigate to Profile Icon and click **Account Settings**.
   - *At least 1 special character (space is not allowed)*
   
 
-  ![Image not Available](Fig20.png)
+  ![Image not Available](/assets/Fig20.png)
 
   
 To change password:
@@ -183,12 +183,12 @@ To change password:
 **Step 3:**	Click **Change password**.
 
 
-   ![Image not Available](Fig21.png)
+   ![Image not Available](/assets/Fig21.png)
 
 
    Once change password is successful, you will be asked to logged out and log in again with your new password.
 
-   ![Image not Available](Fig22.png)
+   ![Image not Available](/assets/Fig22.png)
 
 
 ### Feedback
@@ -207,7 +207,7 @@ To provide feedback:
 **Step 3:**	Click **Send Feedback**.
 
 
-   ![Image not Available](Fig23.png)
+   ![Image not Available](/assets/Fig23.png)
 
 
 ### Manage Users
@@ -228,7 +228,7 @@ In this page, you can view the following:
 - Action – Displays the action you can perform based on user status
 
 
-  ![Image not Available](Fig24.png)
+  ![Image not Available](/assets/Fig24.png)
 
 
 You can add more user on the list by clicking **Add User**. 
@@ -246,7 +246,7 @@ To add user:
 **Step 5:**	Click **Done**. The new user is added successfully to the list of users and the status is Active.
 
 
-![Image not Available](Fig25.png)
+![Image not Available](/assets/Fig25.png)
 
 
 By clicking **Action**, you can perform certain action based on the following status.
@@ -275,7 +275,7 @@ To report vulnerability:
 Navigate to Profile Icon and click **Report Vulnerability**. You will be redirected to a new link portal. 
 
 
-![Image not Available](Fig26.png)
+![Image not Available](/assets/Fig26.png)
 
 ### Logout
 
@@ -284,7 +284,7 @@ To log out:
 Navigate to Profile Icon and click **Logout**.
 
 
-![Image not Available](Fig27.png)
+![Image not Available](/assets/Fig27.png)
 
 
 
