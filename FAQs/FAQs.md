@@ -1,3 +1,4 @@
+
 # READ THIS FIRST
 
 This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
@@ -9,6 +10,7 @@ This is a 5 minute read that helps you understand most of the in-and-outs of SDX
 **SDX** enables government agencies and individuals to:
 
 - Publish and subscribe real-time sensor data using a self-service portal both government intranet and government commercial cloud.
+
 - Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
 
 ## Is SDX secured?

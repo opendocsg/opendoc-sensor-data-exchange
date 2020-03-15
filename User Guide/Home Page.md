@@ -6,7 +6,9 @@
 This area is the main page or the Home page. 
 
 
+
 ![Image not Available](/assets/Fig2.png)
+
 
 
 ## Sign Up
@@ -32,12 +34,13 @@ To sign up:
   
 - Confirm Password
 
-
   ![Image not Available](/assets/Fig3.png)
+
 
 **Step 2:** Verify your email address.
 
   ![Image not Available](/assets/Fig4.png)
+
 
 
 **Step 3:** From the verification email, click the verify email address link.
@@ -53,6 +56,7 @@ To sign up:
 **Step 5:** Once the account is successfully verified, log in using your username and password.
 
   ![Image not Available](/assets/Fig7.png)
+
 
 
 **Step 6:**	Follow the steps as displayed on the screen. 
@@ -78,6 +82,7 @@ To sign up:
 
 
 **Step 9:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
+
 
    ![Image not Available](/assets/Fig11.png)
 
@@ -165,9 +170,9 @@ Navigate to Profile Icon and click **Account Settings**.
   - *Uppercase and Lowercase letters*
   - *At least 1 number*
   - *At least 1 special character (space is not allowed)*
-  
 
   ![Image not Available](/assets/Fig20.png)
+
 
   
 To change password:
@@ -181,7 +186,6 @@ To change password:
    - Confirm new password
 
 **Step 3:**	Click **Change password**.
-
 
    ![Image not Available](/assets/Fig21.png)
 
@@ -205,7 +209,6 @@ To provide feedback:
    - Others
 
 **Step 3:**	Click **Send Feedback**.
-
 
    ![Image not Available](/assets/Fig23.png)
 
@@ -285,6 +288,7 @@ Navigate to Profile Icon and click **Logout**.
 
 
 ![Image not Available](/assets/Fig27.png)
+
 
 
 

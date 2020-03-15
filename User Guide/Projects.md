@@ -58,8 +58,8 @@ In the Projects page, displays the project name, date created, number of publica
 
 After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
-
 ![Image not Available](/assets/Fig36.png)
+
 
 Certificates:
 
@@ -173,6 +173,7 @@ To create a topic:
 ![Image not Available](/assets/Fig48.png)
 
 
+
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
 ![Image not Available](/assets/Fig49.png)
@@ -187,7 +188,6 @@ To publish topic on SDX on-premises:
 **Step 2:**	Select the project code and name. 
 
 **Step 3:**	Click **Create**.
-
 
 ![Image not Available](/assets/Fig50.png)
 
@@ -250,6 +250,7 @@ To subscribe to a topic:
 
 **Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
 
+
 ![Image not Available](/assets/Fig57.png)
 
 
@@ -259,6 +260,7 @@ To subscribe to a topic:
 
 
 **Step 5:**	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
+
 
 ![Image not Available](/assets/Fig59.png)
 

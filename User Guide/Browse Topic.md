@@ -5,20 +5,24 @@ The **Browse Topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
+
 - ![Image not Available](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
 - ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
 
 - ![Image not Available](/assets/icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
 
+
 Published date for each topic in the card is displayed. 
 
 Mouse hover over icons and a tooltip appears for each topic in the card: 
 
 - ![Image not Available](/assets/icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
+
 - Visibility icon – Displays who can view the topic: 
   - ![Image not Available](/assets/icon5.png) – This icon displays "All government agencies can view topic"
   - ![Image not Available](/assets/icon6.png) – This icon displays "Only members of my agency can view topic" 
+
   
 ![Image not Available](/assets/Fig28.png)   
 
@@ -63,6 +67,7 @@ As a Subscriber you can:
 - Subscribe to the topic
 
 ![Image not Available](/assets/Fig30.png)
+
 
 
 
