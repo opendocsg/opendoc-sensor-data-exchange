@@ -290,6 +290,7 @@ Navigate to Profile and click **User Guide**. You will be redirected to a new li
 ![Image not Available](/assets/Fig27a.png)
 
 
+
 ### Logout
 
 To log out:
