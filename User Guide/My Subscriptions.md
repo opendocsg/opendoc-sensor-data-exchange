@@ -16,34 +16,46 @@ The following status includes:
 - Rejected – The status of the topic that is being rejected.
 - Pending – The status of the topic that is pending. 
 
-[Insert screenshot - My Subscriptions Page]
+![Image not Available](/assets/Fig63.png)
+
 
 To unsubscribe to the topic:
 
-1.	Navigate to My Subscriptions page and select subscribed topic with Subscribed status.
-2.	Click **…** icon under the **Action** column.
-3.	Click **Subscribed**. A pop-up window appears to unsubscribe to the subscribed topic.
-4.	Click **Unsubscribe**. Once unsubscribed, the topic will be removed from My Subscriptions page.
+**Step 1:**	Navigate to My Subscriptions page and select subscribed topic with Subscribed status.
 
-[Insert screenshot - Unsubscribe to a Topic]
+**Step 2:**	Click **…** icon under the **Action** column.
+
+**Step 3:**	Click **Subscribed**. A pop-up window appears to unsubscribe to the subscribed topic.
+
+**Step 4:**	Click **Unsubscribe**. Once unsubscribed, the topic will be removed from My Subscriptions page.
+
+![Image not Available](/assets/Fig64.png)
+
 
 To View Reason of the Rejected Topic
 
-1.	Navigate to My Subscriptions page and select subscribed topic with Rejected status.
-2.	Click **…** icon under the **Action** column.
-3.	Click **Reason**. A pop-up window appears showing the reason of the topic rejection. 
-4.	Click **Ok**.
+**Step 1:**	Navigate to My Subscriptions page and select subscribed topic with Rejected status.
 
-[Insert screenshot - View Reason of Rejection]
+**Step 2:**	Click **…** icon under the **Action** column.
+
+**Step 3:**	Click **Reason**. A pop-up window appears showing the reason of the topic rejection. 
+
+**Step 4:**	Click **Ok**.
+
+![Image not Available](/assets/Fig65.png)
+
 
 To Withdraw Pending Topic Subscription
 
-1.	Navigate to My Subscriptions page and select subscribed topic with Pending status.
-2.	Click **…** icon under the **Action** column.
-3.	Click **Withdraw**. A pop-up window appears to withdraw the request for the topic subscription.
-5.	Click **Withdraw**. Once withdrawn, the topic is removed from My Subscriptions page.
+**Step 1:**	Navigate to My Subscriptions page and select subscribed topic with Pending status.
 
-[Insert screenshot - Withdraw Subscription]
+**Step 2:**	Click **…** icon under the **Action** column.
+
+**Step 3:**	Click **Withdraw**. A pop-up window appears to withdraw the request for the topic subscription.
+
+**Step 4:**	Click **Withdraw**. Once withdrawn, the topic is removed from My Subscriptions page.
+
+![Image not Available](/assets/Fig66.png)
 
 
 

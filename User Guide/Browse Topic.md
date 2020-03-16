@@ -5,20 +5,24 @@ The **Browse Topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
-- **Official-Open** ![Image not Availabler](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- **Official-Closed** ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
+- ![Image not Available](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- **Restricted** ![Image not Available](/assets/icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
+- ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
+
+- ![Image not Available](/assets/icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
+
 
 Published date for each topic in the card is displayed. 
 
-Hover to the icons shown for each topic in the card and a tooltip appears: 
+Mouse hover over icons and a tooltip appears for each topic in the card: 
 
 - ![Image not Available](/assets/icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
-- Visibility icon – This icon displays who can view the topic 
-  - ![Image not Available](/assets/icon5.png) All government agencies – This means all government agencies can view the topics
-  - ![Image not Available](/assets/icon6.png) Only my agency – This means only the members of my agency can view the topics 
+
+- Visibility icon – Displays who can view the topic: 
+  - ![Image not Available](/assets/icon5.png) – This icon displays "All government agencies can view topic"
+  - ![Image not Available](/assets/icon6.png) – This icon displays "Only members of my agency can view topic" 
+
   
 ![Image not Available](/assets/Fig28.png)   
 
@@ -39,8 +43,9 @@ Click **Clear all filters** to clear all filters selected.
 
 In the Browse Topics, you can start to create your own topic and project by clicking **Create** button. 
 
-For related information about how to add more topics, see [Insert Reference - My Topics]. 
-For related information about how to create project, see [Insert Reference - Projects].
+For related information about how to add more topics, see **My Topics**. 
+
+For related information about how to create project, see **Projects**.
 
 ## Topic Details
 
