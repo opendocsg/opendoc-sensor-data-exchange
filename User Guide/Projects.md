@@ -210,7 +210,6 @@ To add new topic:
 
 The newly created topic is added successfully in the Topic Details page.
 
-![Image not Available](/assets/Fig53.png)
 
 
 ### Edit Topic ###
