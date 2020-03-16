@@ -27,7 +27,7 @@ hide_toolbar:
 folders:
   - name: 'User Guide'
     title: 'User Guide'
-    subtitle: this is a subtitle
+    subtitle: ''
     order:
       - Getting Started.md
       - Introduction.md
@@ -42,3 +42,4 @@ folders:
     title: 'Terms of Use'
   - name: 'Privacy Statement'
     title: 'Privacy Statement'
+
