@@ -296,8 +296,8 @@ To log out:
 
 Navigate to Profile and click **Logout**.
 
-
 ![Image not Available](/assets/Fig27.png)
+
 
 
 
