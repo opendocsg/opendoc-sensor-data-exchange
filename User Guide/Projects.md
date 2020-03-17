@@ -170,9 +170,6 @@ To create a topic:
 
 **Step 6:** Click **Create**. The new topic is created successfully.
 
-![Image not Available](/assets/Fig48.png)
-
-
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
@@ -203,7 +200,7 @@ To add new topic:
 **Step 2:**	Click ![Image not Available](/assets/icon9.png) icon and click **New Topic**. A new window appears to create new topic.
 
 
-![Image not Available](/assets/Fig51.png)
+![Image not Available](/assets/Fig48.png)
 
 
 **Step 3:**	Enter topic name and click **Create Topic**.
@@ -213,7 +210,6 @@ To add new topic:
 
 The newly created topic is added successfully in the Topic Details page.
 
-![Image not Available](/assets/Fig53.png)
 
 
 ### Edit Topic ###
