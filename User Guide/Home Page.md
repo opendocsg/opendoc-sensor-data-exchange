@@ -145,12 +145,13 @@ You will receive an email to the registered email address with the password rese
 
 ## Profile
 
-Navigate to Profile Icon to perform the following:
+Navigate to Profile to perform the following:
 
 - Account Settings – Click to update user information
 - Feedback – Click to provide feedback such as future enhancements and improvements
 - Manage Users – Only Administrator role can view and manage users, see **Manage Users**
 - Report vulnerabilities – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
+- User Guide - Click to view user guide
 - Logout – Click to log out to the application
 
 ### Account Settings
@@ -275,19 +276,29 @@ By clicking **Action**, you can perform certain action based on the following st
 
 To report vulnerability:
 
-Navigate to Profile Icon and click **Report Vulnerability**. You will be redirected to a new link portal. 
+Navigate to Profile and click **Report Vulnerability**. You will be redirected to a new link portal. 
 
 
 ![Image not Available](/assets/Fig26.png)
+
+### User Guide
+
+To view user guide:
+
+Navigate to Profile and click **User Guide**. You will be redirected to a new link portal.
+
+![Image not Available](/assets/Fig27a.png)
+
+
 
 ### Logout
 
 To log out:
 
-Navigate to Profile Icon and click **Logout**.
-
+Navigate to Profile and click **Logout**.
 
 ![Image not Available](/assets/Fig27.png)
+
 
 
 
