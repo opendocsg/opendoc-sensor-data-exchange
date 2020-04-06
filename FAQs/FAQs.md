@@ -13,6 +13,44 @@ This is a 5 minute read that helps you understand most of the in-and-outs of SDX
 
 - Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
 
+## Why is my MQTT connection disconnecting?
+
+You are using duplicate MQTT Client ID across your different MQTT connection. MQTT Client ID must be unique. You can generate one using a UUID.
+
+## What are the inputs required to connect to SDX broker?
+
+Inputs required to connect to SDX broker:
+
+1. Unique MQTT Client ID
+2. Client key
+3. Client secret
+4. SSL CA file
+5. SSL Client cert
+6. SSL private key
+7. Private key password 
+
+All required and obtainable from the SDX Portal.
+
+## Why am I unable to subscribe to a topic on my MQTT client?
+
+Check that you have subscribed to the topic via SDX Portal. If the topic requires approval, check that the subscription request is approved.      
+
+## Why I cannot see a topic in Browse page?
+
+Check with the publisher if the topic visibility is own agency and WOG. If you are in the same organisation (or team) as the publisher, and the visibility is own agency, you should be able to see the topic.
+
+## How can I find out who is the publisher of the topic?
+
+Go to Browse topics page and click the topic you need to find out the publisher contact in the topic details page. You can see Publisher created by ID in the topic details page.
+
+## How can I contact the publisher of the topic?
+
+Use publisher created by ID from the topic details page  and email to contact publisher about this topic.
+
+## Can I subscribe to my own topics?
+
+You cannot subscribe to topics published by the same project. The same project is not allowed to subscribe to its own topics.
+
 ## Is SDX secured?
 
 ## Is publishing government information in SDX system secured? 
