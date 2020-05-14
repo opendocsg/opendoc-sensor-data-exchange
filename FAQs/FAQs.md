@@ -35,50 +35,36 @@ All required and obtainable from the SDX Portal.
 
 Check that you have subscribed to the topic via SDX Portal. If the topic requires approval, check that the subscription request is approved.      
 
-## Why I cannot see a topic in Browse page?
+## Why I cannot see a topic in the Browse topics page?
 
 Check with the publisher if the topic visibility is own agency and WOG. If you are in the same organisation (or team) as the publisher, and the visibility is own agency, you should be able to see the topic.
 
 ## How can I find out who is the publisher of the topic?
 
-Go to Browse topics page and click the topic you need to find out the publisher contact in the topic details page. You can see Publisher created by ID in the topic details page.
+GGo to Browse topics page and click the topic that you need to find out who the publisher is. You can see the Publisher Created by ID in the Topic Details page.
 
 ## How can I contact the publisher of the topic?
 
-Use publisher created by ID from the topic details page  and email to contact publisher about this topic.
+Use the Publisher Created by ID from the Topic Details page  and email to contact Publisher about this topic.
 
 ## Can I subscribe to my own topics?
 
 You cannot subscribe to topics published by the same project. The same project is not allowed to subscribe to its own topics.
 
-## Is SDX secured?
+## Why my MQTT client cannot connect to SDX?
 
-## Is publishing government information in SDX system secured? 
+Make sure you have provided your IP address for the team to open the firewall.
 
-## How can I set up and connect to MQTT Client?
+Check the connection settings on your client and ensure that the passwords are entered correctly.
 
-## What is MQTT Client? 
+Check your SSL certificates are in valid format. Refer to this page on how to check. 
+For example, check the private key file is ok using this command:
+openssl rsa –noout –modulus –in <file>.key | openssl md5
 
-## What happens if I forgot to copy the SSL certificates when setting up to MQTT Client?
+## Does the topic pattern have a maximum length?
 
-## How can I publish my sensor data to on-prem?
+The topic pattern has a maximum level of up to 8 levels. The total maximum length of the topic pattern is X characters.
 
-## What types of support does the SENSE Team offers?
+## What are the character restrictions on the topic pattern?
 
-## What should I do if I forget my SDX account password?
-
-## Can I make changes to my subscription details such as delivery address, email address and phone numbers?
-
-## Where do I find more documents that can help?
-
-## How long is my account activated?
-
-## How do I suggest changes to this user guide?
-
-Our user guide is hosted by OpenDoc and is written in Markdown, which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our Github repository, and send us a Pull Request if you have corrections or suggestions to the guide.
-
-## What is MQTT and how it works?
-
-## Can MQTT work without internet?
-
-## Does MQTT required internet?
+While creating a topic, the name must not have any slash (/), dot (.), or special characters. Letters, numbers, space, dash (-), and underscore (_) are allowed.
