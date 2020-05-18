@@ -292,7 +292,7 @@ To subscribe to a topic:
 
 **Step 2:**	Select the topic card that you want to subscribe.
 
-![Image not Available](/assets/Fig57.png)
+![Image not Available](/assets/Fig56.png)
 
 
 **Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
