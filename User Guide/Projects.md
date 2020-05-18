@@ -250,7 +250,7 @@ To suspend topic:
 
 **Note:** *Suspended topic cannot be published*
 
-![Image not Available](add figure 55)
+![Image not Available](/assets/Fig55.png)
 
 You can unsuspend the topic by clicking **Unsuspend** and the status becomes Active again.
 
@@ -272,7 +272,7 @@ To view pending topic:
 A topic with status Pending is displayed.
 
 
-![Image not Available](add figure 56)
+![Image not Available](/assets/Fig56.png)
 
 
 You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
@@ -287,18 +287,18 @@ To subscribe to a topic:
 
 **Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
 
-![Image not Available](/assets/Fig55.png)
+![Image not Available](/assets/Fig55a.png)
 
 
 **Step 2:**	Select the topic card that you want to subscribe.
 
-![Image not Available](/assets/Fig56.png)
+![Image not Available](/assets/Fig57.png)
 
 
 **Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
 
 
-![Image not Available](/assets/Fig57.png)
+![Image not Available](/assets/Fig57a.png)
 
 
 **Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.
