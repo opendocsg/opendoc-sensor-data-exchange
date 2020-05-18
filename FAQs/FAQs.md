@@ -57,8 +57,10 @@ Make sure you have provided your IP address for the team to open the firewall.
 
 Check the connection settings on your client and ensure that the passwords are entered correctly.
 
-Check your SSL certificates are in valid format. Refer to this page on how to check. 
+Check your SSL certificates are in valid format. Refer to this  [page](https://www.ssl247.com/kb/ssl-certificates/troubleshooting/certificate-matches-private-key) on how to check. 
+
 For example, check the private key file is ok using this command:
+
 openssl rsa –noout –modulus –in <file>.key | openssl md5
 
 ## Does the topic pattern have a maximum length?
@@ -67,4 +69,6 @@ The topic pattern has a maximum level of up to 8 levels. The total maximum lengt
 
 ## What are the character restrictions on the topic pattern?
 
-While creating a topic, the name must not have any slash (/), dot (.), or special characters. Letters, numbers, space, dash (-), and underscore (_) are allowed.
+While creating a topic, the name must not have any slash (/), dot (.), or special characters. 
+
+Letters, numbers, space, dash (-), and underscore (_) are allowed.
