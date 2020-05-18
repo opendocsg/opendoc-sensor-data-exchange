@@ -250,7 +250,7 @@ To suspend topic:
 
 **Note:** *Suspended topic cannot be published*
 
-![Image not Available](/assets/Fig55.png)
+![Image not Available](/assets/Fig55b.png)
 
 You can unsuspend the topic by clicking **Unsuspend** and the status becomes Active again.
 
@@ -272,7 +272,7 @@ To view pending topic:
 A topic with status Pending is displayed.
 
 
-![Image not Available](/assets/Fig56.png)
+![Image not Available](/assets/Fig56b.png)
 
 
 You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
