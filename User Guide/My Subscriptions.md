@@ -53,7 +53,7 @@ To Withdraw Pending Topic Subscription
 
 **Step 3:**	Click **Withdraw**. A pop-up window appears to withdraw the request for the topic subscription.
 
-**Step 4:**	Click **Withdraw**. Once withdrawn, the topic is removed from My Subscriptions page.
+Once withdrawn, the topic is removed from My Subscriptions page.
 
 ![Image not Available](/assets/Fig66.png)
 

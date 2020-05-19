@@ -150,7 +150,7 @@ Navigate to Profile to perform the following:
 - Account Settings – Click to update user information
 - Feedback – Click to provide feedback such as future enhancements and improvements
 - Manage Users – Only Administrator role can view and manage users, see **Manage Users**
-- Report vulnerabilities – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
+- Report Vulnerability – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
 - User Guide - Click to view user guide
 - Logout – Click to log out to the application
 
@@ -205,7 +205,7 @@ To provide feedback:
 **Step 2:**	Write feedback in the input box and select the type of feedback.
 
    - Bugs
-   - Suggestions
+   - Suggestion
    - Request
    - Others
 
