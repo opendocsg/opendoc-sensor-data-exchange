@@ -123,11 +123,11 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 ![Image not Available](/assets/Fig42.png)
 
-Here is an example of MQTT code samples for reference.
+Here is an example of MQTT code samples. Download the files and use for reference.
 
-- <a href="java.zip" download>Click to Download</a>
+<a href="/assets/java.zip" download="java.zip"></a>
 
-- <a href="node.zip" download>Click to Download</a> 
+<a href="/assets/node.zip" download="node.zip"></a>
 
 
 For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
