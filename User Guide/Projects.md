@@ -128,7 +128,7 @@ Here is an example of MQTT code samples. Download the file and use as reference.
 -![File not Available](/assets/java.zip)
 -![File not Available](/assets/node.zip)
 
-For more related information about MQTT, refer to this link.
+For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/)
 
 ## My Topics ##
 
