@@ -32,6 +32,7 @@ To create new project:
 
 **Step 2:**	Enter the following information.
   - Project Name
+  - Type of project (For example: Publish, Subscribe)
   - Project Duration
   - Description
 
@@ -56,25 +57,26 @@ In the Projects page, displays the project name, date created, number of publica
 
 ## Set up MQTT Connections ##
 
-After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT. 
+After creating a new project, this tab shows the connection strings and SSL certificates to setup connections to MQTT connections. 
+
+- Unique MQTT URL
+- Unique MQTT Client ID
+- Client key
+- Client secret
+- SSL Certificate chain
+- SSL Client certificate
+- SSL Private key 
+- Private key password
+
 
 ![Image not Available](/assets/Fig36.png)
 
 
-Certificates:
-
-- Certificate chain
-- Client certificate
-- Private key 
-
   **Note:** *The Private key only appears once. You must copy and save the certificates in a text editor file.*
  
- Alternatively, click **Generate certificate** button.
-
-![Image not Available](/assets/Fig37.png)
+ Alternatively, click **Generate certificate** button to generate new certificate.
   
-  
-  You will receive a password through email and use that password in the Client key passphrase field.
+ You will receive a Private key password through email and use that password in the Client key passphrase field.
 
 ![Image not Available](/assets/Fig38.png)
 
@@ -121,7 +123,14 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 ![Image not Available](/assets/Fig42.png)
 
+Here is an example of MQTT code samples. Download the files and use for reference.
 
+- <a href="/assets/java.zip" download>Click to download</a> java.zip.
+
+- <a href="/assets/node.zip" download>Click to download</a> node.zip.
+
+
+For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
 
 ## My Topics ##
 
@@ -188,16 +197,19 @@ To publish topic on SDX on-premises:
 
 ![Image not Available](/assets/Fig50.png)
 
+**Note:** *If there is no on-prem project available, select **No** to continue.*
 
 You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
 
-### Add Topic ###
+### Add Topic within a Topic ###
 
-To add new topic:
+To add topic within a topic:
 
-**Step 1:**	Navigate to Projects and select topic folder or subfolder in **My topics** tab. 
+**Step 1:**	Navigate to Projects > **My topics** tab. 
 
-**Step 2:**	Click ![Image not Available](/assets/icon9.png) icon and click **New Topic**. A new window appears to create new topic.
+**Step 2:**	Select a topic and click ![Image not Available](/assets/icon9.png) icon.
+
+**Step 3:** Click **New Topic**. A new window appears to create new topic.
 
 
 ![Image not Available](/assets/Fig48.png)
@@ -216,7 +228,7 @@ The newly created topic is added successfully in the Topic Details page.
 
 To edit topic:
 
-**Step 1:**	Navigate **Projects** > **My topics**. 
+**Step 1:**	Navigate **Projects** > **My topics** tab. 
 
 **Step 2:**	Select a topic to edit and the Topic Details page displayed. 
 
@@ -228,6 +240,52 @@ To edit topic:
 
 **Step 4:** Click **Update**.
 
+
+### Suspend Topic ###
+
+Suspending the topic allows to disconnect the topic so you will not receive anything from this topic.
+
+When a topic has been suspended, you can still edit and Subscribers can still subscribe to this topic.
+
+To suspend topic:
+
+**Step 1:** Navigate to Projects > **My topics** tab. 
+
+**Step 2:** Select a topic and click Click  and click ![Image not Available](/assets/icon9.png) icon.
+
+**Step 3:** Click **Suspend** and the status becomes Suspended.
+
+**Note:** *Suspended topic cannot be published*
+
+![Image not Available](/assets/Fig55b.png)
+
+You can unsuspend the topic by clicking **Unsuspend** and the status becomes Active again.
+
+If there is multiple topics within the topic selected, you can suspend multiple topics.
+
+In the Browse Topic page, you can see the topic has been suspended by the greyed out font and icon.
+
+
+### Pending Topic ###
+
+Pending topic is when the Publisher published the topic through MQTT without being first created from the portal.
+
+The Publisher allows to verify if the topic is a valid topic.
+
+To view pending topic:
+
+**Step 1:** Navigate to Projects and click **My topics** tab.
+
+A topic with status Pending is displayed.
+
+
+![Image not Available](/assets/Fig56b.png)
+
+
+You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
+
+
+
 ## Subscribed Topics ##
 
 Both publisher and subscriber can subscribe to a topic. Both publisher and subscriber can view the Subscribed topics tab.
@@ -236,7 +294,7 @@ To subscribe to a topic:
 
 **Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
 
-![Image not Available](/assets/Fig55.png)
+![Image not Available](/assets/Fig55a.png)
 
 
 **Step 2:**	Select the topic card that you want to subscribe.
@@ -247,7 +305,7 @@ To subscribe to a topic:
 **Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
 
 
-![Image not Available](/assets/Fig57.png)
+![Image not Available](/assets/Fig57a.png)
 
 
 **Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.

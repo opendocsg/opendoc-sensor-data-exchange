@@ -13,34 +13,62 @@ This is a 5 minute read that helps you understand most of the in-and-outs of SDX
 
 - Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
 
-## Is SDX secured?
+## Why is my MQTT connection disconnecting?
 
-## Is publishing government information in SDX system secured? 
+You are using duplicate MQTT Client ID across your different MQTT connection. MQTT Client ID must be unique. You can generate one using a UUID.
 
-## How can I set up and connect to MQTT Client?
+## What are the inputs required to connect to SDX broker?
 
-## What is MQTT Client? 
+Inputs required to connect to SDX broker:
 
-## What happens if I forgot to copy the SSL certificates when setting up to MQTT Client?
+1. Unique MQTT Client ID
+2. Client key
+3. Client secret
+4. SSL CA file
+5. SSL Client cert
+6. SSL private key
+7. Private key password 
 
-## How can I publish my sensor data to on-prem?
+All required and obtainable from the SDX Portal.
 
-## What types of support does the SENSE Team offers?
+## Why am I unable to subscribe to a topic on my MQTT client?
 
-## What should I do if I forget my SDX account password?
+Check that you have subscribed to the topic via SDX Portal. If the topic requires approval, check that the subscription request is approved.      
 
-## Can I make changes to my subscription details such as delivery address, email address and phone numbers?
+## Why I cannot see a topic in the Browse topics page?
 
-## Where do I find more documents that can help?
+Check with the publisher if the topic visibility is own agency and WOG. If you are in the same organisation (or team) as the publisher, and the visibility is own agency, you should be able to see the topic.
 
-## How long is my account activated?
+## How can I find out who is the publisher of the topic?
 
-## How do I suggest changes to this user guide?
+GGo to Browse topics page and click the topic that you need to find out who the publisher is. You can see the Publisher Created by ID in the Topic Details page.
 
-Our user guide is hosted by OpenDoc and is written in Markdown, which is a laymen-friendly language. The code for our user guide is open-sourced, and you may visit our Github repository, and send us a Pull Request if you have corrections or suggestions to the guide.
+## How can I contact the publisher of the topic?
 
-## What is MQTT and how it works?
+Use the Publisher Created by ID from the Topic Details page  and email to contact Publisher about this topic.
 
-## Can MQTT work without internet?
+## Can I subscribe to my own topics?
 
-## Does MQTT required internet?
+You cannot subscribe to topics published by the same project. The same project is not allowed to subscribe to its own topics.
+
+## Why my MQTT client cannot connect to SDX?
+
+Make sure you have provided your IP address for the team to open the firewall.
+
+Check the connection settings on your client and ensure that the passwords are entered correctly.
+
+Check your SSL certificates are in valid format. Refer to this  [page](https://www.ssl247.com/kb/ssl-certificates/troubleshooting/certificate-matches-private-key) on how to check. 
+
+For example, check the private key file is ok using this command:
+
+openssl rsa –noout –modulus –in <file>.key | openssl md5
+
+## Does the topic pattern have a maximum length?
+
+The topic pattern has a maximum level of up to 8 levels. The total maximum length of the topic pattern is X characters.
+
+## What are the character restrictions on the topic pattern?
+
+While creating a topic, the name must not have any slash (/), dot (.), or special characters. 
+
+Letters, numbers, space, dash (-), and underscore (_) are allowed.
