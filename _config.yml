@@ -5,7 +5,8 @@ repository: opendocsg/opendoc-sensor-data-exchange
 plugins:
   - jekyll-include-cache
 baseurl: ''
-server_PROD: https://sdx.sensors.gov.sg/sdx/home
+server_PROD: https://search.opendoc.sg
+server_DEV: https://search-staging.opendoc.sg
 google_analytics: null
 
 fast_build: false
