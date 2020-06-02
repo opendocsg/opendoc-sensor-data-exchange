@@ -1,5 +1,5 @@
 
-# Activities #
+# Activities
 
 This area allows you to view and track the list of all user activities in the portal. This page is available for publisher and subscriber. 
 
