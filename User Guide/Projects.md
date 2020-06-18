@@ -319,4 +319,404 @@ To subscribe to a topic:
 ![Image not Available](/assets/Fig59.png)
 
 
+## Set up MQTT Topic Name and Payload Format ##
 
+Ideally, it is important to design a topic naming and structure within the payload. 
+
+In this section, provides a guideline on how to construct the topic name and payload content for MQTT networks. 
+
+
+### Topic Format ###
+
+It is best to have a consistent approach in naming the topics for ease of integration to 3rd party application. 
+
+The proposed approach is to construct the topic name based on the following information:
+
+```
+{agency}-{client_id}/{message type}/{reading type}/{deviceId}
+{agency}-{client_id}/{category}/{sub-category}/{deviceId}
+```
+
+Here is a list of examples:
+
+```
+nea-ab1c23/environment/psi/device001
+nea-ab1c23/environment/temperature/device001
+nea-ab1c23/environment/humidity/device001
+nea-ab1c23/env/device001
+```
+
+### Payload Format ###
+
+The payload content should be as minimal as possible and can be grouped together when they make sense. 
+
+This is to ensure that clients do not incur data charges when not needed.
+
+***SensorML Format***
+
+```
+[
+    {"n":"urn:dev:ow:10e2073a01080063", "v":23.1}
+]
+```
+
+```
+[
+    {"bn":"gateway", "n":"temp", "u":"Cel", "v":23.1},
+    {"bn":"dev1", "bv":200, "n":"distance", "u":"m", "v":1}
+]
+```
+
+For more related information about SensorML format, refer to the following link:
+- [IETF RFC-8428](https://tools.ietf.org/html/rfc8428)
+- [SenML Dictionary](https://www.iana.org/assignments/senml/senml.xhtml)
+- [Examples](https://www.elastetic.com/wp/2018/05/20/senml-messages/) 
+
+
+***Alternatively:***
+
+**nea-ab1c23/environment/humidity/device001**
+
+```
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "humidity": {
+        "v": 67.00,
+        "uom": "%"
+    }
+}
+```
+
+**nea-ab1c23/environment/psi/device001**
+
+```
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "psi": {
+        "v": 24
+    }
+}
+```
+
+**nea-ab1c23/traffic/radar/device001**
+
+```
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "radar": {
+        "angle": {
+            "v": 22,
+            "uom": "degree"
+        },
+        "speed": {
+            "v": 32.6,
+            "uom": "m/s"
+        },
+        "direction": "into compound"
+    }
+}
+```
+
+**nea-ab1c23/environment/rain/device001**
+
+```
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "rain": {
+        "s": "off"
+    }
+}
+```
+
+**nea-ab1c23/environment/temperature/device001**
+
+```
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "temperature": {
+        "v": 24.0,
+        "uom": "C"
+    }
+}
+```
+
+For the **environment** topic, it can contain multiple measurements like **humidity**, **psi**, **rain**, and **temperature** grouped together.
+
+**nea-ab1c23/environment/sensors/device001**
+
+```
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "humidity": {
+        "v": 67.00,
+        "uom": "%"
+    },
+    "psi": {
+        "v": 24
+    },
+    "rain": {
+        "s": "off"
+    },
+    "temperature": {
+        "v": 24.0,
+        "uom": "C"
+    }
+}
+```
+
+***Common Payload Snippets***
+
+| Time                                                                                                                       |
+|:---------------------------------------------------------------------------------------------------------------------------|
+
+Time is denoted by the Unix epoch timestamp in seconds. Use milliseconds if readings are expected to be very frequent.
+
+> SenML                                                                             
+
+```
+{
+  "t":1.577836800e+09
+}
+```
+
+t: timestamp - double (seconds)                                                       
+
+
+> Traditional
+
+```
+{
+    "ts": 1577836800000
+}
+```
+
+ts: timestamp - double (milliseconds)
+
+Alternative:
+"timestamp": 1577836800 (seconds)
+
+|Status/State                                                                                                                |
+|:---------------------------------------------------------------------------------------------------------------------------|
+
+> SenML                                                                             
+
+```
+{
+    "u":"/", "v":1
+}
+```
+
+u: unit - string
+v: value - double                                                      
+
+
+> Traditional
+
+```
+{
+    "s": "on"
+}
+```
+
+s: state - string
+
+Alternative:
+"v": 1
+"state": "on"
+  
+  
+|Measurement                                                                                                                 |
+|:---------------------------------------------------------------------------------------------------------------------------|
+
+> SenML                                                                             
+
+```
+{
+    "u":"m", "v":80
+}
+```
+
+u: unit - string
+
+v: value - double
+- v: numeric values
+- vb: boolean values
+- vd: binary data
+- vs: strings
+
+> Traditional
+
+```
+{
+    "measure": {
+        "v": 80.0,
+        "uom": "%"
+    }
+}
+```
+
+```
+{
+    "measure": 80.0
+}
+```
+
+measure: measure name - block
+v: value - double
+uom: unit of measure - string
+
+  
+|Location                                                                                                                    |
+|:---------------------------------------------------------------------------------------------------------------------------|
+
+GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground sensors may not have altitude reading. Location for immobile sensor helps to enable visualisation on a map. Timestamp is Epoch time in milliseconds.
+
+> SenML                                                                             
+
+```
+{"u":"lat","v":13.361389,"t":1.577836800e+09},
+{"u":"lon","v":38.115556,"t":1.577836800e+09},
+{"u":"alt","v":20.112233,"t":1.577836800e+09}
+```
+```
+[
+    {"bn":"urn:dev:ow:10e2073a01080063","bt":1.577836800e+09},
+    {"u":"lat","v":13.361389},
+    {"u":"lon","v":38.115556},
+    {"u":"alt","v":20.112233}
+]
+```
+
+- lat: latitude - float
+- lon: longitude - float
+- alt: altitude - float
+- t: timestamp - double (milliseconds)
+- bt: base timestamp - double (milliseconds)
+- bn: base name (base name of the device)                                                   
+
+
+> Traditional
+
+```
+{
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556,
+        "alt": 38.115556,
+        "ts": 1577836800000
+    }
+}
+```
+
+- loc: location - block
+- lat: latitude - float
+- lon: longitude - float
+- alt: altitude - float
+- ts: timestamp - double (milliseconds)
+  
+***Recommended MQTT Topic Path Pattern Hierarchy***  
+  
+Here is a recommended MQTT topic path pattern hierarchy for easy categorisation and browsing. 
+
+MQTT Topic Path Patterns should follow a recommended hierarchy. This is recommended but not enforced. Using a hierarchy, allows easier subscribing of all children topics under a category.  
+
+```
+Topic Path: {agency}-{client_id}/{category}/{sub-category}/{deviceId}
+
+Example: nea-ab1c23/environment/temperature/device001
+```
+
+Categorising MQTT topics for browsing (with synonyms):
+
+| Topic                          | Synonyms    |
+|:--------------------------------|:-------------|
+| environment (climate, weather) | forecast    |
+|                                | humidity    |
+|                                | noise       |
+|                                | rainfall    |
+|                                | temperature |
+|                                | wind        |
+|                                | tide        |
+| emergency                      | alerts    |
+|                                | cardiac   |
+|                                | drowning  |
+|                                | drowning  |
+|           | accidents |
+|           | pullcords |
+|           | fires     |
+
+| Topic     | Synonyms  |
+|:-----------|:-----------|
+| emergency | alerts    |
+|           | cardiac   |
+|           | drowning  |
+|           | drowning  |
+|           | accidents |
+|           | pullcords |
+|           | fires     |
+
+
+| Topic    | Synonyms  |
+|:----------|:-----------|
+| security | cctv      |
+|          | cameras   |
+|          | incidents |
+
+
+| Topic     | Synonyms |
+|:-----------|:----------|
+| community | alerts   |
+|           | events   |
+
+
+| Topic   | Synonyms    |
+|:---------|:-------------|
+| utility | electricity |
+|         | water       |
+
+
+| Topic   | Synonyms   |
+|:---------|:------------|
+| traffic | cameras    |
+|         | incidents  |
+|         | roadworks  |
+|         | roadblocks |
+
+
+| Topic   | Synonyms |
+|:---------|:----------|
+| devices | status   |
+
+
+| Topic   | Synonyms |
+|:---------|:----------|
+| analytics| reports|
+
+
+| Topic   | Synonyms |
+|:---------|:----------|
+| system| metrics|
