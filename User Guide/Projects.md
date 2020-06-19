@@ -356,13 +356,13 @@ This is to ensure that clients do not incur data charges when not needed.
 
 ***SensorML Format***
 
-```
+```javascript
 [
     {"n":"urn:dev:ow:10e2073a01080063", "v":23.1}
 ]
 ```
 
-```
+```javascript
 [
     {"bn":"gateway", "n":"temp", "u":"Cel", "v":23.1},
     {"bn":"dev1", "bv":200, "n":"distance", "u":"m", "v":1}
@@ -379,7 +379,7 @@ For more related information about SensorML format, refer to the following link:
 
 **nea-ab1c23/environment/humidity/device001**
 
-```
+```javascript
 {
     "id": "device001",
     "loc": {
@@ -395,7 +395,7 @@ For more related information about SensorML format, refer to the following link:
 
 **nea-ab1c23/environment/psi/device001**
 
-```
+```javascript
 {
     "id": "device001",
     "loc": {
@@ -410,7 +410,7 @@ For more related information about SensorML format, refer to the following link:
 
 **nea-ab1c23/traffic/radar/device001**
 
-```
+```javascript
 {
     "id": "device001",
     "loc": {
@@ -433,7 +433,7 @@ For more related information about SensorML format, refer to the following link:
 
 **nea-ab1c23/environment/rain/device001**
 
-```
+```javascript
 {
     "id": "device001",
     "loc": {
@@ -448,7 +448,7 @@ For more related information about SensorML format, refer to the following link:
 
 **nea-ab1c23/environment/temperature/device001**
 
-```
+```javascript
 {
     "id": "device001",
     "loc": {
@@ -466,7 +466,7 @@ For the **environment** topic, it can contain multiple measurements like **humid
 
 **nea-ab1c23/environment/sensors/device001**
 
-```
+```javascript
 {
     "id": "device001",
     "loc": {
@@ -499,7 +499,7 @@ Time is denoted by the Unix epoch timestamp in seconds. Use milliseconds if read
 
 > **SenML**                                                                             
 
-```
+```javascript
 {
   "t":1.577836800e+09
 }
@@ -510,7 +510,7 @@ t: timestamp - double (seconds)
 
 > **Traditional**
 
-```
+```javascript
 {
     "ts": 1577836800000
 }
@@ -527,7 +527,7 @@ Alternative:
 
 > **SenML**                                                                             
 
-```
+```javascript
 {
     "u":"/", "v":1
 }
@@ -539,7 +539,7 @@ v: value - double
 
 > **Traditional**
 
-```
+```javascript
 {
     "s": "on"
 }
@@ -557,7 +557,7 @@ Alternative:
 
 > **SenML**                                                                             
 
-```
+```javascript
 {
     "u":"m", "v":80
 }
@@ -573,7 +573,7 @@ v: value - double
 
 > **Traditional**
 
-```
+```javascript
 {
     "measure": {
         "v": 80.0,
@@ -582,7 +582,7 @@ v: value - double
 }
 ```
 
-```
+```javascript
 {
     "measure": 80.0
 }
@@ -600,12 +600,12 @@ GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground
 
 > **SenML**                                                                             
 
-```
+```javascript
 {"u":"lat","v":13.361389,"t":1.577836800e+09},
 {"u":"lon","v":38.115556,"t":1.577836800e+09},
 {"u":"alt","v":20.112233,"t":1.577836800e+09}
 ```
-```
+```javascript
 [
     {"bn":"urn:dev:ow:10e2073a01080063","bt":1.577836800e+09},
     {"u":"lat","v":13.361389},
@@ -624,7 +624,7 @@ GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground
 
 > **Traditional**
 
-```
+```javascript
 {
     "loc": {
         "lat": 13.361389,
