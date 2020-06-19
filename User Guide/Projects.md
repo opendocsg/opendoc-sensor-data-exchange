@@ -641,7 +641,7 @@ GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground
 - alt: altitude - float
 - ts: timestamp - double (milliseconds)
   
-***Recommended MQTT Topic Path Pattern Hierarchy***  
+### Recommended MQTT Topic Path Pattern Hierarchy ### 
   
 Here is a recommended MQTT topic path pattern hierarchy for easy categorisation and browsing. 
 
