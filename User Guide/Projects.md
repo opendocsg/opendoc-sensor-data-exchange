@@ -129,6 +129,8 @@ Here is an example of MQTT code samples. Download the files and use for referenc
 
 - <a href="/assets/node.zip" download>Click to download</a> node.zip.
 
+- <a href="/assets/python.zip" download>Click to download</a> python.zip.
+
 
 For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
 
@@ -495,7 +497,7 @@ For the **environment** topic, it can contain multiple measurements like **humid
 
 Time is denoted by the Unix epoch timestamp in seconds. Use milliseconds if readings are expected to be very frequent.
 
-> SenML                                                                             
+> **SenML**                                                                             
 
 ```
 {
@@ -506,7 +508,7 @@ Time is denoted by the Unix epoch timestamp in seconds. Use milliseconds if read
 t: timestamp - double (seconds)                                                       
 
 
-> Traditional
+> **Traditional**
 
 ```
 {
@@ -519,10 +521,11 @@ ts: timestamp - double (milliseconds)
 Alternative:
 "timestamp": 1577836800 (seconds)
 
+
 |Status/State                                                                                                                |
 |:---------------------------------------------------------------------------------------------------------------------------|
 
-> SenML                                                                             
+> **SenML**                                                                             
 
 ```
 {
@@ -534,7 +537,7 @@ u: unit - string
 v: value - double                                                      
 
 
-> Traditional
+> **Traditional**
 
 ```
 {
@@ -552,7 +555,7 @@ Alternative:
 |Measurement                                                                                                                 |
 |:---------------------------------------------------------------------------------------------------------------------------|
 
-> SenML                                                                             
+> **SenML**                                                                             
 
 ```
 {
@@ -568,7 +571,7 @@ v: value - double
 - vd: binary data
 - vs: strings
 
-> Traditional
+> **Traditional**
 
 ```
 {
@@ -595,7 +598,7 @@ uom: unit of measure - string
 
 GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground sensors may not have altitude reading. Location for immobile sensor helps to enable visualisation on a map. Timestamp is Epoch time in milliseconds.
 
-> SenML                                                                             
+> **SenML**                                                                             
 
 ```
 {"u":"lat","v":13.361389,"t":1.577836800e+09},
@@ -619,7 +622,7 @@ GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground
 - bn: base name (base name of the device)                                                   
 
 
-> Traditional
+> **Traditional**
 
 ```
 {
@@ -652,8 +655,9 @@ Example: nea-ab1c23/environment/temperature/device001
 
 Categorising MQTT topics for browsing (with synonyms):
 
+
 | Topic                          | Synonyms    |
-|:--------------------------------|:-------------|
+|:-------------------------------|:------------|
 | environment (climate, weather) | forecast    |
 |                                | humidity    |
 |                                | noise       |
@@ -661,62 +665,23 @@ Categorising MQTT topics for browsing (with synonyms):
 |                                | temperature |
 |                                | wind        |
 |                                | tide        |
-| emergency                      | alerts    |
-|                                | cardiac   |
-|                                | drowning  |
-|                                | drowning  |
-|           | accidents |
-|           | pullcords |
-|           | fires     |
-
-| Topic     | Synonyms  |
-|:-----------|:-----------|
-| emergency | alerts    |
-|           | cardiac   |
-|           | drowning  |
-|           | drowning  |
-|           | accidents |
-|           | pullcords |
-|           | fires     |
-
-
-| Topic    | Synonyms  |
-|:----------|:-----------|
-| security | cctv      |
-|          | cameras   |
-|          | incidents |
-
-
-| Topic     | Synonyms |
-|:-----------|:----------|
-| community | alerts   |
-|           | events   |
-
-
-| Topic   | Synonyms    |
-|:---------|:-------------|
-| utility | electricity |
-|         | water       |
-
-
-| Topic   | Synonyms   |
-|:---------|:------------|
-| traffic | cameras    |
-|         | incidents  |
-|         | roadworks  |
-|         | roadblocks |
-
-
-| Topic   | Synonyms |
-|:---------|:----------|
-| devices | status   |
-
-
-| Topic   | Synonyms |
-|:---------|:----------|
-| analytics| reports|
-
-
-| Topic   | Synonyms |
-|:---------|:----------|
-| system| metrics|
+| emergency                      | alerts      |
+|                                | cardiac     |
+|                                | drowning    |
+|                                | accidents   |
+|                                | pullcords   |
+|                                | fires       |
+| security                       | cctv        |
+|                                | cameras     |
+|                                | incidents   |
+| community                      | alerts      |
+|                                | events      |
+| utility                        | electricity |
+|                                | water       |
+| traffic                        | cameras     |
+|                                | incidents   |
+|                                | roadworks   |
+|                                | roadblocks  |
+| devices                        | status      |
+| analytics                      | reports     |
+| system                         | metrics     |
