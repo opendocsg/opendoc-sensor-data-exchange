@@ -645,7 +645,7 @@ GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground
   
 Here is a recommended MQTT topic path pattern hierarchy for easy categorisation and browsing. 
 
-MQTT Topic Path Patterns should follow a recommended hierarchy. This is recommended but not enforced. Using a hierarchy, allows easier subscribing of all children topics under a category.  
+MQTT topic path pattern should follow a recommended hierarchy. This is recommended but not enforced. Using a hierarchy, allows easier subscribing of all children topics under a category.  
 
 ```
 Topic Path: {agency}-{client_id}/{category}/{sub-category}/{deviceId}
