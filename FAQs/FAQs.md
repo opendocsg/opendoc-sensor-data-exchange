@@ -41,7 +41,7 @@ Check with the publisher if the topic visibility is own agency and WOG. If you a
 
 ## How can I find out who is the publisher of the topic?
 
-GGo to Browse topics page and click the topic that you need to find out who the publisher is. You can see the Publisher Created by ID in the Topic Details page.
+Go to Browse topics page and click the topic that you need to find out who the publisher is. You can see the Publisher Created by ID in the Topic Details page.
 
 ## How can I contact the publisher of the topic?
 
