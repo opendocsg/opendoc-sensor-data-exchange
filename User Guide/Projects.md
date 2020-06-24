@@ -492,8 +492,7 @@ For the **environment** topic, it can contain multiple measurements like **humid
 
 ***Common Payload Snippets***
 
-| Time                                                                                                                       |
-|:---------------------------------------------------------------------------------------------------------------------------|
+**Time**                                                                                                                       
 
 Time is denoted by the Unix epoch timestamp in seconds. Use milliseconds if readings are expected to be very frequent.
 
@@ -522,8 +521,7 @@ Alternative:
 "timestamp": 1577836800 (seconds)
 
 
-|Status/State                                                                                                                |
-|:---------------------------------------------------------------------------------------------------------------------------|
+**Status/State**                                                                                                                
 
 > **SenML**                                                                             
 
@@ -552,8 +550,8 @@ Alternative:
 "state": "on"
   
   
-|Measurement                                                                                                                 |
-|:---------------------------------------------------------------------------------------------------------------------------|
+**Measurement**                                                                                                                 
+
 
 > **SenML**                                                                             
 
@@ -593,8 +591,7 @@ v: value - double
 uom: unit of measure - string
 
   
-|Location                                                                                                                    |
-|:---------------------------------------------------------------------------------------------------------------------------|
+**Location**                                                                                                                    
 
 GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground sensors may not have altitude reading. Location for immobile sensor helps to enable visualisation on a map. Timestamp is Epoch time in milliseconds.
 
