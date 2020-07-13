@@ -16,9 +16,9 @@ For first sign up within your organization, you role will be a Publisher. If you
 
 There are two ways to reset your account password successfully.
 
-**Step 1:** Go to **Profile** icon > Account settings.
+**Step 1:** Go to **Profile** icon > **Account settings**.
 
-**Step 2:** Click Change and Change your password window appears.
+**Step 2:** Click **Change** and Change your password window appears.
 
 **Step 3:** Enter the following:
 - Current password
@@ -64,5 +64,6 @@ If your account is disabled and you cannot log in with your credentials, send an
 ## What happens if my password expires? ##
 
 You will receive a notification from the portal before 90 days of expiry when you log in to SDX. If you did not make any change to your password, then your password will be expired.
+
 You can go to Login page and click **Forgot password**.
 
