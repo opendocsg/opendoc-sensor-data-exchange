@@ -2,7 +2,7 @@
 
 This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
 
-## How do I create an account? ##
+## How do I create an account? 
 
 You need to sign up to create an account
 
@@ -12,7 +12,7 @@ Follow the steps here: [Getting Started](https://sensor-data-exchange.opendoc.sg
 
 For first sign up within your organization, you role will be a Publisher. If you want to upgrade your account as Administrator role, send an email to SDX Support Team through <sense@tech.gov.sg>.
 
-## How do I reset my password? ##
+## How do I reset my password? 
 
 There are two ways to reset your account password successfully.
 
@@ -39,7 +39,7 @@ or,
 
 **Step 5:** Click **Reset Password**.
 
-## What happens if my account is locked? ##
+## What happens if my account is locked? 
 
 You can send request to unlock account to Administrator using **Contact us**.
 
@@ -57,11 +57,11 @@ Or,
 
 ![Image not Available] (../assets/faqsfig2.png)
 
-## How can I log in if my account is disabled? ##
+## How can I log in if my account is disabled? 
 
 If your account is disabled and you cannot log in with your credentials, send an email to your Administrator to help you enable your account.
 
-## What happens if my password expires? ##
+## What happens if my password expires? 
 
 You will receive a notification from the portal before 90 days of expiry when you log in to SDX. If you did not make any change to your password, then your password will be expired.
 
