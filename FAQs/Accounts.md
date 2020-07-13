@@ -57,7 +57,7 @@ Or,
 
 ![Image not Available] (../assets/faqsfig2.png)
 
-## How can I login if my account is disabled? ##
+## How can I log in if my account is disabled? ##
 
 If your account is disabled and you cannot log in with your credentials, send an email to your Administrator to help you enable your account.
 
