@@ -7,11 +7,15 @@ This is a 5 minute read that helps you understand most of the in-and-outs of SDX
 
 **SDX** stands for **Sensors Data Exchange**, a centralized sensor data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Solutions Platform (SNSP).
 
-**SDX** enables government agencies and individuals to:
+**SDX** enables government agencies to:
 
 - Publish and subscribe real-time sensor data using a self-service portal both government intranet and government commercial cloud.
 
-- Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
+- Share unclassified (potentially up to restricted) sensor data with government sector organisations.
+
+## What is MQTT?
+
+Message Queue Telemetry Transport (MQTT), is a publish-subscribe-based messaging protocol based on ISO standard ISO/IEC PRF 20922. It works over TCP/IP. It is designed to be light weight for small, low power, and low bandwidth device communication. MQTT is the most common protocol used in Internet Of Things (IOT).
 
 ## Why is my MQTT connection disconnecting?
 
