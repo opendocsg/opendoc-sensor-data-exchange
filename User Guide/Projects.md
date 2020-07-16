@@ -286,6 +286,39 @@ A topic with status Pending is displayed.
 
 You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
 
+## Delete Topic ##
+
+You can delete existing topic in two ways:
+
+**Step 1:** Navigate to Browse topics.
+
+**Step 2:** Select a topic that you want to delete and the Topic Details page displayed.
+
+**Step 3:** Click ![Image not Available](../assets/icon9.png)  icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
+
+**Step 4:** Tick ![Image not Available](../assets/icon10.png)  icon and click **Delete**. 
+
+Once the topic is deleted, it will not appear in the Browse topic page.
+
+Or,
+
+**Step 1:** Navigate to Projects.
+
+**Step 2:** Click **My topics** tab and the Topic Details page displayed. 
+
+**Step 3:** Select a topic that you want delete. 
+
+**Step 4:** Click ![Image not Available](../assets/icon9.png) icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
+
+**Step 5:** Tick ![Image not Available](../assets/icon10.png) icon and click **Delete**. 
+
+Deleting a topic from within the topic or its children will also be deleted. When topic is deleted, its associated topic or subtopic is also deleted. 
+
+![Image not Available](../assets/Fig54a.png)
+
+You can also delete topic that are pending and suspended.
+
+**Note:** A topic that is published on SDX On-prem cannot be deleted. Whereas, if topic is not published on SDX On-prem, topic can be deleted and published in MQTT. 
 
 
 ## Subscribed Topics ##
