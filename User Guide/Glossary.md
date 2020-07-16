@@ -25,6 +25,10 @@
     <td class="tg-0lax">Installed and run on computers on the premises of the organisations</td>
   </tr>
   <tr>
+    <td class="tg-0lax">Payload</td>
+    <td class="tg-0lax">The content of the MQTT message</td>
+  </tr>
+  <tr>
     <td class="tg-0lax">Publisher</td>
     <td class="tg-0lax">A person who wishes to publish a new topic using real-time sensor data using a self-service portal both on-premise and in the commercial cloud. Also known as sender of messages.</td>
   </tr>
