@@ -61,6 +61,7 @@ As a Publisher you can:
 - Edit own topic only
 - Subscribe to the topic
 - See the status of the topic
+- Delete own topic only
 
 As a Subscriber you can:
 
