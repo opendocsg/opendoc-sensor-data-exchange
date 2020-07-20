@@ -19,18 +19,27 @@ Message Queue Telemetry Transport (MQTT), is a publish-subscribe-based messaging
 
 ## What is the difference between SDX and APEX?
 
-APEX and SDX are two communication models for computers on a network. Both are self-service data sharing platform for the Whole-of-Government. 
+Both **SDX** and **APEX** are self-service data sharing platform for the Whole-of-Government.
 
-APEX enables users to directly communicate in terms of requesting and granting access to APIs. APEX acts as a centralized and secure API gateway. 
+**APEX** enables users to directly communicate in terms of requesting and granting access to APIs. It acts as a centralized and secure API gateway.
 
-It uses request-response architecture, each client opens a direct connection to each server, because the client request data directly from the server. For example, SMS to send message to a recipient. Another example, you want news. One way to get information is you go directly to the store to buy newspaper or a telephone call to which someone is called and you answer the call.
+It uses request-response architecture, each client opens a direct connection to each server, because the client request data directly from the server. A one to one distribution process.
 
-For more information about APEX, refer to this [link](https://www.developer.gov.sg/technologies/data-and-apis/apex). 
+For example, SMS to send message to a recipient. Another example, you want news. One way to get information is you go directly to the store to buy newspaper or a telephone call to which someone is called and you answer the call.
 
-As compared to SDX, which enables government agencies to share real-time information between each other through government intranet and government commercial cloud.
+For more information about **APEX**, refer to this [link](https://www.developer.gov.sg/technologies/data-and-apis/apex). 
 
-It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available just like in Whatsapp application or you want to hear a news on a radio then you tune in to a channel. 
+**SDX**, a messaging exchange platform which enables government agencies to share real-time information. 
 
-SDX uses MQTT, a pub-sub transport messaging protocol which is  commonly used for internet of things (IoT). 
+It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available. A one to many distribution process.
 
-You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1). 
+For example, Whatsapp application or you want to hear a news on a radio then you tune in to a channel.
+
+**SDX** uses a pub-sub transport messaging protocol (MQTT) which is commonly used for internet of things (IoT).
+
+One advantage of **SDX**, it is good for heavy traffic and lightweight networks. It reduces network load with client and data with latest data.
+
+You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1) and which one to use [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-2).
+
+
+
