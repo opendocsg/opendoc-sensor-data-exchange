@@ -1,6 +1,6 @@
 # FAQs about Subscription
 
-This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+FAQs for subscription includes questions about topic subscription.
 
 ## Can I subscribe to my own topics? 
 
