@@ -1,6 +1,6 @@
-# FAQs about Topic #
+# FAQs about Topic 
 
-This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+FAQs for topic includes questions about topic, topic pattern, and character restrictions on the topic pattern.
 
 ## Why I cannot see a topic in the **Browse topics** page? 
 
