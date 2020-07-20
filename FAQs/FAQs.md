@@ -17,62 +17,20 @@ This is a 5 minute read that helps you understand most of the in-and-outs of SDX
 
 Message Queue Telemetry Transport (MQTT), is a publish-subscribe-based messaging protocol based on ISO standard ISO/IEC PRF 20922. It works over TCP/IP. It is designed to be light weight for small, low power, and low bandwidth device communication. MQTT is the most common protocol used in Internet Of Things (IOT).
 
-## Why is my MQTT connection disconnecting?
+## What is the difference between SDX and APEX?
 
-You are using duplicate MQTT Client ID across your different MQTT connection. MQTT Client ID must be unique. You can generate one using a UUID.
+APEX and SDX are two communication models for computers on a network. Both are self-service data sharing platform for the Whole-of-Government. 
 
-## What are the inputs required to connect to SDX broker?
+APEX enables users to directly communicate in terms of requesting and granting access to APIs. APEX acts as a centralized and secure API gateway. 
 
-Inputs required to connect to SDX broker:
+It uses request-response architecture, each client opens a direct connection to each server, because the client request data directly from the server. For example, SMS to send message to a recipient. Another example, you want news. One way to get information is you go directly to the store to buy newspaper or a telephone call to which someone is called and you answer the call.
 
-1. Unique MQTT Client ID
-2. Client key
-3. Client secret
-4. SSL CA file
-5. SSL Client cert
-6. SSL private key
-7. Private key password 
+For related information about APEX, see APEX (add link). 
 
-All required and obtainable from the SDX Portal.
+As compared to SDX, which enables government agencies to share real-time information between each other through government intranet and government commercial cloud.
 
-## Why am I unable to subscribe to a topic on my MQTT client?
+It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available just like in Whatsapp application or you want to hear a news on a radio then you tune in to a channel. 
 
-Check that you have subscribed to the topic via SDX Portal. If the topic requires approval, check that the subscription request is approved.      
+SDX uses MQTT, a pub-sub transport messaging protocol which is  commonly used for internet of things (IoT). 
 
-## Why I cannot see a topic in the Browse topics page?
-
-Check with the publisher if the topic visibility is own agency and WOG. If you are in the same organisation (or team) as the publisher, and the visibility is own agency, you should be able to see the topic.
-
-## How can I find out who is the publisher of the topic?
-
-Go to Browse topics page and click the topic that you need to find out who the publisher is. You can see the Publisher Created by ID in the Topic Details page.
-
-## How can I contact the publisher of the topic?
-
-Use the Publisher Created by ID from the Topic Details page  and email to contact Publisher about this topic.
-
-## Can I subscribe to my own topics?
-
-You cannot subscribe to topics published by the same project. The same project is not allowed to subscribe to its own topics.
-
-## Why my MQTT client cannot connect to SDX?
-
-Make sure you have provided your IP address for the team to open the firewall.
-
-Check the connection settings on your client and ensure that the passwords are entered correctly.
-
-Check your SSL certificates are in valid format. Refer to this  [page](https://www.ssl247.com/kb/ssl-certificates/troubleshooting/certificate-matches-private-key) on how to check. 
-
-For example, check the private key file is ok using this command:
-
-openssl rsa –noout –modulus –in <file>.key | openssl md5
-
-## Does the topic pattern have a maximum length?
-
-The topic pattern has a maximum level of up to 8 levels. The total maximum length of the topic pattern is X characters.
-
-## What are the character restrictions on the topic pattern?
-
-While creating a topic, the name must not have any slash (/), dot (.), or special characters. 
-
-Letters, numbers, space, dash (-), and underscore (_) are allowed.
+You can check relevant information [here] https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1 
