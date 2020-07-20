@@ -8,6 +8,12 @@
   * [My Subscriptions](User%20Guide/My%20Subscriptions)
   * [Activities](User%20Guide/Activities)
   * [Glossary](User%20Guide/Glossary)
-* [FAQs](FAQs/FAQs)
+* [FAQs]
+  * [General](FAQs/General)
+  * [Account](FAQs/Account)
+  * [Publishing](FAQs/Publishing)
+  * [Subscription](FAQs/Subscription)
+  * [Topic](FAQs/Topic)
+  * [Messaging](FAQs/Messaging)
 * [Terms of Use](Terms%20of%20Use/TOU)
 * [Privacy Statement](Privacy%20Statement/Privacy)
