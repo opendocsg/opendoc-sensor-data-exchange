@@ -1,6 +1,6 @@
 # FAQs about Messaging
 
-This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+FAQs for messaging includes questions about inputs required to connect to SDX broker and disconnection to MQTT. 
 
 ## Why is my MQTT connection disconnecting? 
 
