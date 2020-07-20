@@ -1,6 +1,6 @@
 # FAQs about Account
 
-FAQs about account includes questions about creating account, how to sign up, resetting of password, disabled or locked account.
+FAQs for account includes questions about creating account, how to sign up, resetting of password, disabled or locked account.
 
 ## How do I create an account? 
 
