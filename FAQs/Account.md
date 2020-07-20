@@ -1,6 +1,6 @@
 # FAQs about Account
 
-This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+FAQs about account includes questions about creating account, how to sign up, resetting of password, disabled or locked account.
 
 ## How do I create an account? 
 
