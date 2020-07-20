@@ -29,7 +29,7 @@ For example, SMS to send message to a recipient. Another example, you want news.
 
 For more information about **APEX**, refer to this [link](https://www.developer.gov.sg/technologies/data-and-apis/apex). 
 
-**SDX**, a messaging exchange platform which enables government agencies to share real-time information. 
+**SDX**, a messaging exchange platform enables government agencies to share real-time information. 
 
 It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available. A one to many distribution process.
 
