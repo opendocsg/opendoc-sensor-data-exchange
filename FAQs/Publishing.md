@@ -1,6 +1,6 @@
 # FAQs about Publishing
 
-This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+FAQs for publishing includes questions about publishing a topic.
 
 ## How can I find out who is the publisher of the topic? 
 
