@@ -8,7 +8,7 @@
   * [My Subscriptions](User%20Guide/My%20Subscriptions)
   * [Activities](User%20Guide/Activities)
   * [Glossary](User%20Guide/Glossary)
-* [FAQs]
+* Frequently Asked Questions
   * [General](FAQs/General)
   * [Account](FAQs/Account)
   * [Publishing](FAQs/Publishing)
