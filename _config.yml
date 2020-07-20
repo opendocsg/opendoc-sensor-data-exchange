@@ -40,6 +40,14 @@ folders:
       - Glossary.md
   - name: 'FAQs'
     title: 'FAQs'
+    subtitle: ''
+    order:
+      - General.md
+      - Account.md
+      - Publishing.md
+      - Subscription.md
+      - Topic.md
+      - Messaging.md
   - name: 'Terms of Use'
     title: 'Terms of Use'
   - name: 'Privacy Statement'
