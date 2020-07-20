@@ -1,7 +1,6 @@
+# FAQs about General
 
-# READ THIS FIRST
-
-This is a 5 minute read that helps you understand most of the in-and-outs of SDX.
+This includes general questions about SDX, publish-subscribe-based messaging protocol or MQTT, and difference of SDX to APEX. 
 
 ## What is SDX? 
 
