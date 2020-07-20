@@ -15,7 +15,7 @@ This is a 5 minute read that helps you understand most of the in-and-outs of SDX
 
 ## What is MQTT?
 
-Message Queue Telemetry Transport (MQTT), is a publish-subscribe-based messaging protocol based on ISO standard ISO/IEC PRF 20922. It works over TCP/IP. It is designed to be light weight for small, low power, and low bandwidth device communication. MQTT is the most common protocol used in Internet Of Things (IOT).
+Message Queue Telemetry Transport (MQTT), is a publish-subscribe-based messaging protocol based on ISO standard ISO/IEC PRF 20922. It works over TCP/IP. It is designed to be lightweight for small, low power, and low bandwidth device communication. MQTT is the most common protocol used in Internet Of Things (IOT).
 
 ## What is the difference between SDX and APEX?
 
@@ -35,7 +35,7 @@ It uses pub-sub model which allows clients to publish and subscribe to a channel
 
 For example, Whatsapp application or you want to hear a news on a radio then you tune in to a channel.
 
-**SDX** uses a pub-sub transport messaging protocol (MQTT) which is commonly used for internet of things (IoT).
+**SDX** uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
 
 One advantage of **SDX**, it is good for heavy traffic and lightweight networks. It reduces network load with client and data with latest data.
 
