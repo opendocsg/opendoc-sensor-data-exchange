@@ -33,4 +33,4 @@ It uses pub-sub model which allows clients to publish and subscribe to a channel
 
 SDX uses MQTT, a pub-sub transport messaging protocol which is  commonly used for internet of things (IoT). 
 
-You can check relevant information [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1) 
+You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1). 
