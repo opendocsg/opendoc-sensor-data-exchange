@@ -4,7 +4,7 @@ This includes general questions about SDX, publish-subscribe-based messaging pro
 
 ## What is SDX? 
 
-**SDX** stands for **Sensor Data Exchange**, a centralized sensor data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Solutions Platform (SNSP).
+**SDX** stands for **Sensors Data Exchange**, a centralized sensor data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Solutions Platform (SNSP).
 
 **SDX** enables government agencies to:
 
