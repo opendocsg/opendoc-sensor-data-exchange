@@ -22,21 +22,21 @@ Both **SDX** and **APEX** are self-service data sharing platform for the Whole-o
 
 **APEX** enables users to directly communicate in terms of requesting and granting access to APIs. It acts as a centralized and secure API gateway.
 
-It uses request-response architecture, each client opens a direct connection to each server, because the client request data directly from the server. A one to one distribution process.
+It uses request-response architecture, each client opens a direct connection to each server, because the client request data directly from the server. A one-to-one distribution process.
 
-For example, SMS to send message to a recipient. Another example, you want news. One way to get information is you go directly to the store to buy newspaper or a telephone call to which someone is called and you answer the call.
+The equivalent is like SMS used for sending message to a recipient. Another example, is newspapers where you go to a store to buy or get it delivered to your house.
 
 For more information about **APEX**, refer to this [link](https://www.developer.gov.sg/technologies/data-and-apis/apex). 
 
 **SDX**, a messaging exchange platform enables government agencies to share real-time information. 
 
-It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available. A one to many distribution process.
+It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available. A one-to-many distribution process.
 
-For example, Whatsapp application or you want to hear a news on a radio then you tune in to a channel.
+The equivalent is like WhatsApp mobile app where you can group chats. Another example is radio news where you tune in to a channel.
 
 **SDX** uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
 
-One advantage of **SDX**, it is good for heavy traffic and lightweight networks. It reduces network load with client and data with latest data.
+One advantage of **SDX**, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data.
 
 You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1) and which one to use [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-2).
 
