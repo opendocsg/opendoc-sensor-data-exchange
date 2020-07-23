@@ -2,12 +2,12 @@
 # Introduction #
 
 
-**Sensor Data Exchange (SDX)** is a centralized data exchange platform for Whole-of-Government (WOG) to provide seamless data sharing and management, and encompass public, private and industrial internet-of-things (IoT) sensors.
+**Sensors Data Exchange (SDX)** is a centralized data exchange platform for Whole-of-Government (WOG) to provide seamless data sharing and management, and encompass public, private and industrial internet-of-things (IoT) sensors.
 
 This system enables government agencies to:
 
 - Publish and subscribe (near) real-time sensor data using a self-service portal both government intranet and government commercial cloud.
-- Share unclassified (potentially up to restricted) sensor data with government sector organisations and individuals.
+- Share unclassified (potentially up to restricted) sensor data with government sector organisations.
 
 In SDX, a government agency can act as a publisher to publish information. For example, the National Environment Agency (NEA) may publish and share environment-related information about the weather and air quality. 
 

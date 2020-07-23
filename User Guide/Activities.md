@@ -17,4 +17,4 @@ Specify the date range to filter the information such as action and service.
 Click **Show Payload** to display the details of the activity and allow you to copy the JSON file.
 
 
-![Image not Available](/assets/Fig64.png)
+![Image not Available](../assets/Fig64.png)
