@@ -12,11 +12,11 @@ Both publisher and subscriber can create a project. Both publisher and subscribe
 You can create new project by clicking **Create** button on the top right of the Browse Topics page and select **New Project**.
 
 
-![Image not Available](../assets/Fig31.png)
+![Image not Available](/assets/Fig31.png)
 
 Or, click **Projects** from the left side navigation bar.
 
-![Image not Available](../assets/Fig32.png)
+![Image not Available](/assets/Fig32.png)
 
 
 ## Create New Project ##
@@ -27,7 +27,7 @@ To create new project:
 
    **Note:** *For your first project, you will see this page as shown below.*
 
-![Image not Available](../assets/Fig33.png)
+![Image not Available](/assets/Fig33.png)
 
 
 **Step 2:**	Enter the following information.
@@ -36,12 +36,12 @@ To create new project:
   - Project Duration
   - Description
 
-![Image not Available](../assets/Fig34.png)
+![Image not Available](/assets/Fig34.png)
 
 
 The newly created project appears in the **Projects** page > **Overview** tab. Click **Save**.
 
-![Image not Available](../assets/Fig35.png)
+![Image not Available](/assets/Fig35.png)
 
 
 
@@ -69,7 +69,7 @@ After creating a new project, this tab shows the connection strings and SSL cert
 - Private key password
 
 
-![Image not Available](../assets/Fig36.png)
+![Image not Available](/assets/Fig36.png)
 
 
   **Note:** *The Private key only appears once. You must copy and save the certificates in a text editor file.*
@@ -78,7 +78,7 @@ After creating a new project, this tab shows the connection strings and SSL cert
   
  You will receive a Private key password through email and use that password in the Client key passphrase field.
 
-![Image not Available](../assets/Fig38.png)
+![Image not Available](/assets/Fig38.png)
 
 
 To set up MQTT Client connection:
@@ -87,7 +87,7 @@ To set up MQTT Client connection:
 
 **Step 2:**	Now, open MQTT Client.
 
-![Image not Available](../assets/Fig39.png)
+![Image not Available](/assets/Fig39.png)
 
 
 **Step 3:** Click Create MQTT Client.
@@ -107,12 +107,12 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 - Enter the password received from the email inbox in the Client key passphrase field
 
-![Image not Available](../assets/Fig40.png)
+![Image not Available](/assets/Fig40.png)
 
 
 - Click **Save** and connected successfully.
 
-![Image not Available](../assets/Fig41.png)
+![Image not Available](/assets/Fig41.png)
 
 
 **Step 5:** Using MQTT client, a publisher published a topic.
@@ -121,17 +121,17 @@ A Publisher can create MQTT connection using the certificates generated and with
 - Click **Subscribe** button
 - Subscriber is ready to receive data for this topic
 
-![Image not Available](../assets/Fig42.png)
+![Image not Available](/assets/Fig42.png)
 
 Here is an example of MQTT code samples. Download the files and use for reference.
 
-- <a href="../assets/java.zip" download>Click to download</a> java.zip.
+- <a href="/assets/java.zip" download>Click to download</a> java.zip.
 
-- <a href="../assets/node.zip" download>Click to download</a> node.zip.
+- <a href="/assets/node.zip" download>Click to download</a> node.zip.
 
-- <a href="../assets/python.zip" download>Click to download</a> python.zip.
+- <a href="/assets/python.zip" download>Click to download</a> python.zip.
 
-- <a href="../assets/golang.zip" download>Click to download</a> golang.zip.
+- <a href="/assets/golang.zip" download>Click to download</a> golang.zip.
 
 For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
 
@@ -145,7 +145,7 @@ To create a topic:
 **Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create Topic**.
 
 
-![Image not Available](../assets/Fig43.png)
+![Image not Available](/assets/Fig43.png)
 
 
 **Step 2:** Select from the option who can see the topic. Click **Next**.
@@ -153,17 +153,17 @@ To create a topic:
 - All government agencies
 - Only my agency
 
-![Image not Available](../assets/Fig44.png)
+![Image not Available](/assets/Fig44.png)
 
 
 **Step 3:**	Select data classification. Click **Next**.
 
-![Image not Available](../assets/Fig45.png)
+![Image not Available](/assets/Fig45.png)
 
 
 **Step 4:**	Select the project and enter topic name. Click **Next**.
 
-![Image not Available](../assets/Fig46.png)
+![Image not Available](/assets/Fig46.png)
 
 
 **Step 5:**	Fill in the following details of the topic.
@@ -177,7 +177,7 @@ To create a topic:
   - Yes – Refer to the steps in **Publish Topic on SDX On-Premises** and continue 
   - No
 
-![Image not Available](../assets/Fig47.png)
+![Image not Available](/assets/Fig47.png)
 
 
 **Step 6:** Click **Create**. The new topic is created successfully.
@@ -185,7 +185,7 @@ To create a topic:
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
-![Image not Available](../assets/Fig49.png)
+![Image not Available](/assets/Fig49.png)
 
 
 ### Publish Topic on SDX On-Premises ###
@@ -198,11 +198,11 @@ To publish topic on SDX on-premises:
 
 **Step 3:**	Click **Create**.
 
-![Image not Available](../assets/Fig50.png)
+![Image not Available](/assets/Fig50.png)
 
 **Note:** *If there is no on-prem project available, select **No** to continue.*
 
-You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](../assets/icon9.png) icon.
+You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
 
 ### Add Topic within a Topic ###
 
@@ -210,17 +210,17 @@ To add topic within a topic:
 
 **Step 1:**	Navigate to Projects > **My topics** tab. 
 
-**Step 2:**	Select a topic and click ![Image not Available](../assets/icon9.png) icon.
+**Step 2:**	Select a topic and click ![Image not Available](/assets/icon9.png) icon.
 
 **Step 3:** Click **New Topic**. A new window appears to create new topic.
 
 
-![Image not Available](../assets/Fig48.png)
+![Image not Available](/assets/Fig48.png)
 
 
 **Step 3:**	Enter topic name and click **Create Topic**.
 
-![Image not Available](../assets/Fig52.png)
+![Image not Available](/assets/Fig52.png)
 
 
 The newly created topic is added successfully in the Topic Details page.
@@ -238,7 +238,7 @@ To edit topic:
 **Step 3:**	Click **Edit**. A new window appears to edit the details of the topic.
 
 
-![Image not Available](../assets/Fig54.png)
+![Image not Available](/assets/Fig54.png)
 
 
 **Step 4:** Click **Update**.
@@ -254,13 +254,13 @@ To suspend topic:
 
 **Step 1:** Navigate to Projects > **My topics** tab. 
 
-**Step 2:** Select a topic and click Click  and click ![Image not Available](../assets/icon9.png) icon.
+**Step 2:** Select a topic and click Click  and click ![Image not Available](/assets/icon9.png) icon.
 
 **Step 3:** Click **Suspend** and the status becomes Suspended.
 
 **Note:** *Suspended topic cannot be published*
 
-![Image not Available](../assets/Fig55b.png)
+![Image not Available](/assets/Fig55b.png)
 
 You can unsuspend the topic by clicking **Unsuspend** and the status becomes Active again.
 
@@ -282,7 +282,7 @@ To view pending topic:
 A topic with status Pending is displayed.
 
 
-![Image not Available](../assets/Fig56b.png)
+![Image not Available](/assets/Fig56b.png)
 
 
 You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
@@ -295,9 +295,9 @@ You can delete existing topic in two ways:
 
 **Step 2:** Select a topic that you want to delete and the Topic Details page displayed.
 
-**Step 3:** Click ![Image not Available](../assets/icon9.png)  icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
+**Step 3:** Click ![Image not Available](/assets/icon9.png)  icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
 
-**Step 4:** Tick ![Image not Available](../assets/icon10.png)  icon and click **Delete**. 
+**Step 4:** Tick ![Image not Available](/assets/icon10.png)  icon and click **Delete**. 
 
 Once the topic is deleted, it will not appear in the Browse topic page.
 
@@ -309,13 +309,13 @@ Or,
 
 **Step 3:** Select a topic that you want delete. 
 
-**Step 4:** Click ![Image not Available](../assets/icon9.png) icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
+**Step 4:** Click ![Image not Available](/assets/icon9.png) icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
 
-**Step 5:** Tick ![Image not Available](../assets/icon10.png) icon and click **Delete**. 
+**Step 5:** Tick ![Image not Available](/assets/icon10.png) icon and click **Delete**. 
 
 Deleting a topic from within the topic or its children will also be deleted. When topic is deleted, its associated topic or subtopic is also deleted. 
 
-![Image not Available](../assets/Fig54a.png)
+![Image not Available](/assets/Fig54a.png)
 
 You can also delete topic that are pending and suspended.
 
@@ -330,29 +330,29 @@ To subscribe to a topic:
 
 **Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
 
-![Image not Available](../assets/Fig55a.png)
+![Image not Available](/assets/Fig55a.png)
 
 
 **Step 2:**	Select the topic card that you want to subscribe.
 
-![Image not Available](../assets/Fig56.png)
+![Image not Available](/assets/Fig56.png)
 
 
 **Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
 
 
-![Image not Available](../assets/Fig57a.png)
+![Image not Available](/assets/Fig57a.png)
 
 
 **Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.
 
-![Image not Available](../assets/Fig58.png)
+![Image not Available](/assets/Fig58.png)
 
 
 **Step 5:**	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
 
 
-![Image not Available](../assets/Fig59.png)
+![Image not Available](/assets/Fig59.png)
 
 
 ## Set up MQTT Topic Name and Payload Format ##
