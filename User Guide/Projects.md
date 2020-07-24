@@ -131,6 +131,7 @@ Here is an example of MQTT code samples. Download the files and use for referenc
 
 - <a href="../assets/python.zip" download>Click to download</a> python.zip.
 
+- <a href="../assets/golang.zip" download>Click to download</a> golang.zip.
 
 For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
 
