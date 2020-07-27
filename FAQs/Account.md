@@ -49,13 +49,13 @@ Or,
 
 **Step 2:** Click **click here** and the Unlock account request window appears.
 
-![Image not Available](../assets/faqsfig1.png)
+![Image not Available](/assets/faqsfig1.png)
 
 **Step 3:** Enter email address.
 
 **Step 4:** Click **Submit**.
 
-![Image not Available](../assets/faqsfig2.png)
+![Image not Available](/assets/faqsfig2.png)
 
 ## How can I log in if my account is disabled? 
 
