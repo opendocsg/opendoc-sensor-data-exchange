@@ -1,4 +1,4 @@
-title: Sensor Data Exchange
+title: Sensors Data Exchange
 remote_theme: opendocsg/opendoc-theme@master
 timezone: Asia/Singapore
 repository: opendocsg/opendoc-sensor-data-exchange
@@ -41,6 +41,14 @@ folders:
       - Glossary.md
   - name: 'FAQs'
     title: 'FAQs'
+    subtitle: ''
+    order:
+      - General.md
+      - Account.md
+      - Publishing.md
+      - Subscription.md
+      - Topic.md
+      - Messaging.md
   - name: 'Terms of Use'
     title: 'Terms of Use'
   - name: 'Privacy Statement'
