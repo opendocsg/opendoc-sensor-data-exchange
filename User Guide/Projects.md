@@ -508,9 +508,9 @@ For 2-way SSL connection, use the same PEM files as MQTTS: ca.pem, client.pem, p
 
 **Exchange:** amq.topic
 
-**Routing key** for publish: full topic pattern with dot (. ) instead of slash (/ )
+**Routing key for publish:** Full topic pattern with dot (. ) instead of slash (/ )
  
-> **Publish**
+> **Publish:**
 
 ```javascript
 
@@ -528,9 +528,9 @@ channel.Publish(
 
 ```
 
-**Binding key** for subscribe: full topic pattern with dot (. ) instead of slash (/ )
+**Binding key for subscribe:** Full topic pattern with dot (. ) instead of slash (/ )
 
-> **Subscribe**
+> **Subscribe:**
 
 ```javascript
 
