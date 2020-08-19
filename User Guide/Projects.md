@@ -135,225 +135,6 @@ Here is an example of MQTT code samples. Download the files and use for referenc
 
 For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
 
-## My Topics ##
-
-After creating a project, create your first topic. The **My Topics** tab is only available for a Publisher. This tab shows the topic that have been published on this project.
-
-
-To create a topic:
-
-**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create Topic**.
-
-
-![Image not Available](/assets/Fig43.png)
-
-
-**Step 2:** Select from the option who can see the topic. Click **Next**.
-
-- All government agencies
-- Only my agency
-
-![Image not Available](/assets/Fig44.png)
-
-
-**Step 3:**	Select data classification. Click **Next**.
-
-![Image not Available](/assets/Fig45.png)
-
-
-**Step 4:**	Select the project and enter topic name. Click **Next**.
-
-![Image not Available](/assets/Fig46.png)
-
-
-**Step 5:**	Fill in the following details of the topic.
-
-- Description – Enter description to the topic
-- Tags – Add tags to the topic maximum of 5 tags
-- Is approval needed for subscription requests?
-  - Yes – Approval is needed from publisher before you subscribe 
-  - No – Allows free access to the topic and no approval needed from the publisher
-- Also publish on SDX on-prem?
-  - Yes – Refer to the steps in **Publish Topic on SDX On-Premises** and continue 
-  - No
-
-![Image not Available](/assets/Fig47.png)
-
-
-**Step 6:** Click **Create**. The new topic is created successfully.
-
-
-You can see the newly created topic being added in **Projects** page > **My topics** tab.
-
-![Image not Available](/assets/Fig49.png)
-
-
-### Publish Topic on SDX On-Premises ###
-
-To publish topic on SDX on-premises:
-
-**Step 1:**	Click **Yes** in Also publish on SDX on-prem? field.
-
-**Step 2:**	Select the project code and name. 
-
-**Step 3:**	Click **Create**.
-
-![Image not Available](/assets/Fig50.png)
-
-**Note:** *If there is no on-prem project available, select **No** to continue.*
-
-You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
-
-### Add Topic within a Topic ###
-
-To add topic within a topic:
-
-**Step 1:**	Navigate to Projects > **My topics** tab. 
-
-**Step 2:**	Select a topic and click ![Image not Available](/assets/icon9.png) icon.
-
-**Step 3:** Click **New Topic**. A new window appears to create new topic.
-
-
-![Image not Available](/assets/Fig48.png)
-
-
-**Step 3:**	Enter topic name and click **Create Topic**.
-
-![Image not Available](/assets/Fig52.png)
-
-
-The newly created topic is added successfully in the Topic Details page.
-
-
-
-### Edit Topic ###
-
-To edit topic:
-
-**Step 1:**	Navigate **Projects** > **My topics** tab. 
-
-**Step 2:**	Select a topic to edit and the Topic Details page displayed. 
-
-**Step 3:**	Click **Edit**. A new window appears to edit the details of the topic.
-
-
-![Image not Available](/assets/Fig54.png)
-
-
-**Step 4:** Click **Update**.
-
-
-### Suspend Topic ###
-
-Suspending the topic allows to disconnect the topic so you will not receive anything from this topic.
-
-When a topic has been suspended, you can still edit and Subscribers can still subscribe to this topic.
-
-To suspend topic:
-
-**Step 1:** Navigate to Projects > **My topics** tab. 
-
-**Step 2:** Select a topic and click Click  and click ![Image not Available](/assets/icon9.png) icon.
-
-**Step 3:** Click **Suspend** and the status becomes Suspended.
-
-**Note:** *Suspended topic cannot be published*
-
-![Image not Available](/assets/Fig55b.png)
-
-You can unsuspend the topic by clicking **Unsuspend** and the status becomes Active again.
-
-If there is multiple topics within the topic selected, you can suspend multiple topics.
-
-In the Browse Topic page, you can see the topic has been suspended by the greyed out font and icon.
-
-
-### Pending Topic ###
-
-Pending topic is when the Publisher published the topic through MQTT without being first created from the portal.
-
-The Publisher allows to verify if the topic is a valid topic.
-
-To view pending topic:
-
-**Step 1:** Navigate to Projects and click **My topics** tab.
-
-A topic with status Pending is displayed.
-
-
-![Image not Available](/assets/Fig56b.png)
-
-
-You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
-
-## Delete Topic ##
-
-You can delete existing topic in two ways:
-
-**Step 1:** Navigate to Browse topics.
-
-**Step 2:** Select a topic that you want to delete and the Topic Details page displayed.
-
-**Step 3:** Click ![Image not Available](/assets/icon9.png)  icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
-
-**Step 4:** Tick ![Image not Available](/assets/icon10.png)  icon and click **Delete**. 
-
-Once the topic is deleted, it will not appear in the Browse topic page.
-
-Or,
-
-**Step 1:** Navigate to Projects.
-
-**Step 2:** Click **My topics** tab and the Topic Details page displayed. 
-
-**Step 3:** Select a topic that you want delete. 
-
-**Step 4:** Click ![Image not Available](/assets/icon9.png) icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
-
-**Step 5:** Tick ![Image not Available](/assets/icon10.png) icon and click **Delete**. 
-
-Deleting a topic from within the topic or its children will also be deleted. When topic is deleted, its associated topic or subtopic is also deleted. 
-
-![Image not Available](/assets/Fig54a.png)
-
-You can also delete topic that are pending and suspended.
-
-**Note:** A topic that is published on SDX On-prem cannot be deleted. Whereas, if topic is not published on SDX On-prem, topic can be deleted and published in MQTT. 
-
-
-## Subscribed Topics ##
-
-Both publisher and subscriber can subscribe to a topic. Both publisher and subscriber can view the Subscribed topics tab.
-
-To subscribe to a topic:
-
-**Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
-
-![Image not Available](/assets/Fig55a.png)
-
-
-**Step 2:**	Select the topic card that you want to subscribe.
-
-![Image not Available](/assets/Fig56.png)
-
-
-**Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
-
-
-![Image not Available](/assets/Fig57a.png)
-
-
-**Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.
-
-![Image not Available](/assets/Fig58.png)
-
-
-**Step 5:**	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
-
-
-![Image not Available](/assets/Fig59.png)
-
 
 ## Set up MQTT Topic Name and Payload Format ##
 
@@ -716,3 +497,294 @@ Categorising MQTT topics for browsing (with synonyms):
 | devices                        | status      |
 | analytics                      | reports     |
 | system                         | metrics     |
+
+
+
+
+## Set up AMQP Connections ##
+
+For 2-way SSL connection, use the same PEM files as MQTTS: ca.pem, client.pem, private.key, clientid and clientkey are required.
+
+
+**Exchange:** amq.topic
+
+**Routing key for publish:** Full topic pattern with dot (. ) instead of slash (/ )
+ 
+> **Publish:**
+
+```javascript
+
+channel.Publish(
+            "amq.topic",        // exchange
+            $topic,             // routing key
+            false,              // mandatory
+            false,              // immediate
+            amqp.Publishing{
+                DeliveryMode: amqp.Transient,
+                ContentType:  "application/json",
+                Body:         $payload,
+                Timestamp:    time.Now(),
+            })
+
+```
+
+**Binding key for subscribe:** Full topic pattern with dot (. ) instead of slash (/ )
+
+> **Subscribe:**
+
+```javascript
+
+q, err := channel.QueueDeclare(
+        "",    // name, leave empty to generate a unique name
+        false, // durable
+        true,  // delete when unused
+        false, // exclusive
+        false, // noWait
+        nil,   // arguments
+    )
+ 
+err := channel.QueueBind(
+        q.Name,         // name of the queue (generated from above step)
+        $topic,         // bindingKey, topic pattern with . seperator
+        "amq.topic",    // sourceExchange, must use "amq.topic" for MQTT topics
+        false,          // noWait
+        nil,            // arguments
+    )
+ 
+replies <-chan amqp.Delivery
+replies, err := channel.Consume(
+        q.Name,         // name of the queue (generated from above step)
+        $consumerTag,   // consumer tag (consumer "id", eg. mqtt_clientid)
+        true,           // auto-ack
+        false,          // exclusive
+        false,          // no-local
+        false,          // no-wait
+        nil,            // args
+    )
+
+```
+
+For more related information about AMQP, refer to this [link](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-amqp-protocol-guide).
+
+
+
+## My Topics ##
+
+After creating a project, create your first topic. The **My Topics** tab is only available for a Publisher. This tab shows the topic that have been published on this project.
+
+
+To create a topic:
+
+**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create Topic**.
+
+
+![Image not Available](/assets/Fig43.png)
+
+
+**Step 2:** Select from the option who can see the topic. Click **Next**.
+
+- All government agencies
+- Only my agency
+
+![Image not Available](/assets/Fig44.png)
+
+
+**Step 3:**	Select data classification. Click **Next**.
+
+![Image not Available](/assets/Fig45.png)
+
+
+**Step 4:**	Select the project and enter topic name. Click **Next**.
+
+![Image not Available](/assets/Fig46.png)
+
+
+**Step 5:**	Fill in the following details of the topic.
+
+- Description – Enter description to the topic
+- Tags – Add tags to the topic maximum of 5 tags
+- Is approval needed for subscription requests?
+  - Yes – Approval is needed from publisher before you subscribe 
+  - No – Allows free access to the topic and no approval needed from the publisher
+- Also publish on SDX on-prem?
+  - Yes – Refer to the steps in **Publish Topic on SDX On-Premises** and continue 
+  - No
+
+![Image not Available](/assets/Fig47.png)
+
+
+**Step 6:** Click **Create**. The new topic is created successfully.
+
+
+You can see the newly created topic being added in **Projects** page > **My topics** tab.
+
+![Image not Available](/assets/Fig49.png)
+
+
+### Publish Topic on SDX On-Premises ###
+
+To publish topic on SDX on-premises:
+
+**Step 1:**	Click **Yes** in Also publish on SDX on-prem? field.
+
+**Step 2:**	Select the project code and name. 
+
+**Step 3:**	Click **Create**.
+
+![Image not Available](/assets/Fig50.png)
+
+**Note:** *If there is no on-prem project available, select **No** to continue.*
+
+You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
+
+### Add Topic within a Topic ###
+
+To add topic within a topic:
+
+**Step 1:**	Navigate to Projects > **My topics** tab. 
+
+**Step 2:**	Select a topic and click ![Image not Available](/assets/icon9.png) icon.
+
+**Step 3:** Click **New Topic**. A new window appears to create new topic.
+
+
+![Image not Available](/assets/Fig48.png)
+
+
+**Step 3:**	Enter topic name and click **Create Topic**.
+
+![Image not Available](/assets/Fig52.png)
+
+
+The newly created topic is added successfully in the Topic Details page.
+
+
+
+### Edit Topic ###
+
+To edit topic:
+
+**Step 1:**	Navigate **Projects** > **My topics** tab. 
+
+**Step 2:**	Select a topic to edit and the Topic Details page displayed. 
+
+**Step 3:**	Click **Edit**. A new window appears to edit the details of the topic.
+
+
+![Image not Available](/assets/Fig54.png)
+
+
+**Step 4:** Click **Update**.
+
+
+### Suspend Topic ###
+
+Suspending the topic allows to disconnect the topic so you will not receive anything from this topic.
+
+When a topic has been suspended, you can still edit and Subscribers can still subscribe to this topic.
+
+To suspend topic:
+
+**Step 1:** Navigate to Projects > **My topics** tab. 
+
+**Step 2:** Select a topic and click Click  and click ![Image not Available](/assets/icon9.png) icon.
+
+**Step 3:** Click **Suspend** and the status becomes Suspended.
+
+**Note:** *Suspended topic cannot be published*
+
+![Image not Available](/assets/Fig55b.png)
+
+You can unsuspend the topic by clicking **Unsuspend** and the status becomes Active again.
+
+If there is multiple topics within the topic selected, you can suspend multiple topics.
+
+In the Browse Topic page, you can see the topic has been suspended by the greyed out font and icon.
+
+
+### Pending Topic ###
+
+Pending topic is when the Publisher published the topic through MQTT without being first created from the portal.
+
+The Publisher allows to verify if the topic is a valid topic.
+
+To view pending topic:
+
+**Step 1:** Navigate to Projects and click **My topics** tab.
+
+A topic with status Pending is displayed.
+
+
+![Image not Available](/assets/Fig56b.png)
+
+
+You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active.
+
+## Delete Topic ##
+
+You can delete existing topic in two ways:
+
+**Step 1:** Navigate to Browse topics.
+
+**Step 2:** Select a topic that you want to delete and the Topic Details page displayed.
+
+**Step 3:** Click ![Image not Available](/assets/icon9.png)  icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
+
+**Step 4:** Tick ![Image not Available](/assets/icon10.png)  icon and click **Delete**. 
+
+Once the topic is deleted, it will not appear in the Browse topic page.
+
+Or,
+
+**Step 1:** Navigate to Projects.
+
+**Step 2:** Click **My topics** tab and the Topic Details page displayed. 
+
+**Step 3:** Select a topic that you want delete. 
+
+**Step 4:** Click ![Image not Available](/assets/icon9.png) icon and select **Delete**. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. 
+
+**Step 5:** Tick ![Image not Available](/assets/icon10.png) icon and click **Delete**. 
+
+Deleting a topic from within the topic or its children will also be deleted. When topic is deleted, its associated topic or subtopic is also deleted. 
+
+![Image not Available](/assets/Fig54a.png)
+
+You can also delete topic that are pending and suspended.
+
+**Note:** A topic that is published on SDX On-prem cannot be deleted. Whereas, if topic is not published on SDX On-prem, topic can be deleted and published in MQTT. 
+
+
+## Subscribed Topics ##
+
+Both publisher and subscriber can subscribe to a topic. Both publisher and subscriber can view the Subscribed topics tab.
+
+To subscribe to a topic:
+
+**Step 1:**	Navigate to **Projects** page > **Subscribed topics** tab. Click **Browse Topics**.
+
+![Image not Available](/assets/Fig55a.png)
+
+
+**Step 2:**	Select the topic card that you want to subscribe.
+
+![Image not Available](/assets/Fig56.png)
+
+
+**Step 3:**	Once the topic card is selected, the Topic Details page is displayed. Click **Subscribe**.
+
+
+![Image not Available](/assets/Fig57a.png)
+
+
+**Step 4:**	Select a project to subscribe to the topic. Click **Subscribe**.
+
+![Image not Available](/assets/Fig58.png)
+
+
+**Step 5:**	Go back to **Projects** and click **Subscribed topics** tab. The new subscription is added to the subscribed topics.
+
+
+![Image not Available](/assets/Fig59.png)
+
+
