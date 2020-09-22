@@ -39,7 +39,7 @@ Click ![Image not Available](/assets/icon8.png) to filter the following:
 
 Click **Clear all filters** to clear all filters selected.
 
-![Image not Available](/assets/Fig29.png)
+![Image not Available](/assets/Fig29a.png)
 
 
 In the Browse Topics, you can start to create your own topic and project by clicking **Create** button. 
