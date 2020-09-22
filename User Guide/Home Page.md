@@ -126,11 +126,9 @@ To join a team:
 
 You may skip to join in a team by clicking **Skip for now**. 
 
-![Image not Available](/assets/Fig15b.png)
+![Image not Available](/assets/Fig16a.png)
 
 A confirmation message is displayed that your request to join a team has been sent for approval and the Team Administrator will approve the request. You can go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
-
-![Image not Available](/assets/Fig15c.png)
 
 
 ### Create a Team
@@ -141,17 +139,16 @@ To create a team:
 
 **Step 1:** In **Create or join a team** pop-up window, click **Create it now** to create new team. 
 
-![Image not Available](/assets/Fig15d.png)
+![Image not Available](/assets/Fig18a.png)
 
 **Step 2:** In **Team Description** text box, type in description.
 
 **Step 3:** Click **Create**. 
 
-![Image not Available](/assets/Fig15e.png)
+![Image not Available](/assets/Fig19a.png)
 
 A confirmation message is displayed that your request to create a team has been sent for approval. 
 
-![Image not Available](/assets/Fig15f.png)
 
 **Note:** *While waiting for your request approval, you can still explore the portal as a Subscriber.*
 
