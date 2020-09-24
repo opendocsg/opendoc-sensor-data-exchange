@@ -107,7 +107,51 @@ To log in:
    ![Image not Available](/assets/Fig15.png)
 
 
-Upon successful log in, the Browse Topics page displays, see **Browse Topics**.
+
+## Team
+
+Upon successful login, a pop-up message appears allowing you to join in a team or create your own team.
+
+Being in a team allows you to use all features available in SDX which was assigned to your user account.
+
+### Join a Team
+
+To join a team:
+
+**Step 1:** Select a team and list of team displayed from the dropdown list. 
+
+![Image not Available](/assets/Fig15a.png)
+
+**Step 2:** Click **Join**.
+
+You may skip to join in a team by clicking **Skip for now**. 
+
+![Image not Available](/assets/Fig16a.png)
+
+A confirmation message is displayed that your request to join a team has been sent for approval and the Team Administrator will approve the request. You can go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
+
+
+### Create a Team
+
+Creating a new team allows you to manage a team by adding members and assigning role to each member. Go to **Dashboard** to view and manage teams.
+
+To create a team:
+
+**Step 1:** In **Create or join a team** pop-up window, click **Create it now** to create new team. 
+
+![Image not Available](/assets/Fig18a.png)
+
+**Step 2:** In **Team Description** text box, type in description.
+
+**Step 3:** Click **Create**. 
+
+![Image not Available](/assets/Fig19a.png)
+
+A confirmation message is displayed that your request to create a team has been sent for approval. 
+
+
+**Note:** *While waiting for your request approval, you can still explore the portal as a Subscriber.*
+
 
 ## Forgot Password
 
