@@ -41,8 +41,10 @@ To create new project:
 
 The newly created project appears in the **Projects** page > **Overview** tab. Click **Save**.
 
-![Image not Available](/assets/Fig35.png)
+![Image not Available](/assets/Fig51a.png)
 
+
+You can aslo delete project by clicking **Delete**.
 
 
 In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs:

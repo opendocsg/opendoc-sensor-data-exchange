@@ -2,6 +2,7 @@
   * [Getting Started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
   * [Home Page](User%20Guide/Home%20Page)
+  * [Dashboard](User%20Guide/Dashboard)
   * [Browse Topics](User%20Guide/Browse%20Topic)
   * [Projects](User%20Guide/Projects)
   * [My Subscribers](User%20Guide/My%20Subscribers)
