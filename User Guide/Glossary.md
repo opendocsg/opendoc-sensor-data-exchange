@@ -38,7 +38,7 @@
   </tr>
   <tr>
     <td class="tg-0lax">SDX</td>
-    <td class="tg-0lax">Sensors Data Exchange is a centralised data exchange platform for the Whole-of-Government</td>
+    <td class="tg-0lax">Sensor Data Exchange is a centralised data exchange platform for the Whole-of-Government</td>
   </tr>
   <tr>
     <td class="tg-0lax">Subscriber</td>
