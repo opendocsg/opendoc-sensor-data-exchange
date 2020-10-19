@@ -19,7 +19,7 @@ To get started in using the application:
 
    ![Image is not available](/assets/Fig1.png)
 
-You can send a request through email to <sense@tech.gov.sg> to change the role as Administrator to access Administrative features such as manage users.
+You can send a request through email to <sense@tech.gov.sg> to change the role as Administrator to access Administrative features.
 
 **Step 4:** As a Publisher to publish your relevant information, you must first create your Project to create a topic. You can   also subscribe to your own topic. 
 
