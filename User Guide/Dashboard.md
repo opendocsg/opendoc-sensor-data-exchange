@@ -134,7 +134,7 @@ To view team's name and description:
 
 **Step 3:** Select **About** tab. The team's description and the person who created the team is displayed. 
 
-![Image not Available](/assets/Fig41a.png)
+![Image not Available](/assets/Fig36a.png)
 
 
 In **Members** tab, you can view the list of the team members.
