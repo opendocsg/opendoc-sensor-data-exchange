@@ -634,6 +634,8 @@ To publish topic on SDX on-premises:
             
 You can click **Refresh projects list** to refresh the list of the project.
 
+![Image not Available](/assets/Fig64b.png)
+
 **Step 3:**	Click **Create**.
 
 ![Image not Available](/assets/Fig50.png)
@@ -653,7 +655,7 @@ To add topic within a topic:
 **Step 3:** Click **New Topic**. A new window appears to create new topic.
 
 
-![Image not Available](/assets/Fig48.png)
+![Image not Available](/assets/Fig48.png))
 
 
 **Step 3:**	Enter topic name and click **Create**.
