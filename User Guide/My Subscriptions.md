@@ -29,7 +29,7 @@ To unsubscribe to the topic:
 
 **Step 4:**	Click **Unsubscribe**. Once unsubscribed, the topic will be removed from My Subscriptions page.
 
-![Image not Available](/assets/Fig64.png)
+![Image not Available](/assets/Fig64a.png)
 
 
 To View Reason of the Rejected Topic

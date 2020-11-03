@@ -193,7 +193,6 @@ Navigate to Profile to perform the following:
 
 - Account Settings – Click to update user information
 - Feedback – Click to provide feedback such as future enhancements and improvements
-- Manage Users – Only Administrator role can view and manage users, see **Manage Users**
 - Report Vulnerability – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
 - User Guide - Click to view user guide
 - Logout – Click to log out to the application
@@ -257,64 +256,6 @@ To provide feedback:
 
    ![Image not Available](/assets/Fig23.png)
 
-
-### Manage Users
-
-Allows you to add and manage users within your agency. Only the Administrator can view and manage this page. 
-
-In this page, you can view the following:
-
-- Name – Displays the name of the user
-- Email – Displays the email address
-- Role – Displays the role assigned to the user
-- Status – Displays the status of the user account
-  - Active
-  - Disabled
-  - Verifying
-  - Locked
-  
-- Action – Displays the action you can perform based on user status
-
-
-  ![Image not Available](/assets/Fig24.png)
-
-
-You can add more user on the list by clicking **Add User**. 
-
-To add user:
-
-**Step 1:**	Navigate to Profile Icon and click **Manage Users**. The Manager Users page displays.
-
-**Step 2:**	Click **Add User**.
-
-**Step 3:**	Enter email address.
-
-**Step 4:**	Select from the dropdown the role to assign to new user.
-
-**Step 5:**	Click **Done**. The new user is added successfully to the list of users and the status is Active.
-
-
-![Image not Available](/assets/Fig25.png)
-
-
-By clicking **Action**, you can perform certain action based on the following status.
-
-- Active status
-
-  - Locked – Click to lock the user account
-  - Disable – Click to disable the user account
-  - Changed Role – Click to change the role assigned to the user as Publisher, Subscriber, and Administrator
-  	
-- Disabled status
-
-  - Enable – Click to enable again the user account created
-  
-- Verifying status 
-
-  - Resend code – Click to resend code again to the user
-  - Disable – Click to disable the user account
-  
-- Locked status– Click to unlock the user account
 
 ### Report Vulnerability
 
