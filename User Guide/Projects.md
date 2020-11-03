@@ -32,6 +32,7 @@ To create new project:
 
 **Step 2:**	Enter the following information.
   - Project Name
+  - Team - Once you select a team, you can choose the type of project
   - Type of project (For example: Publish, Subscribe)
   - Project Duration
   - Description
@@ -630,6 +631,10 @@ To publish topic on SDX on-premises:
 **Step 1:**	Click **Yes** in Also publish on SDX on-prem? field.
 
 **Step 2:**	Select the project code and name. 
+            
+You can click **Refresh projects list** to refresh the list of the project.
+
+![Image not Available](/assets/Fig64b.png)
 
 **Step 3:**	Click **Create**.
 
@@ -650,10 +655,10 @@ To add topic within a topic:
 **Step 3:** Click **New Topic**. A new window appears to create new topic.
 
 
-![Image not Available](/assets/Fig48.png)
+![Image not Available](/assets/Fig48.png))
 
 
-**Step 3:**	Enter topic name and click **Create Topic**.
+**Step 3:**	Enter topic name and click **Create**.
 
 ![Image not Available](/assets/Fig52.png)
 

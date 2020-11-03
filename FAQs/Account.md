@@ -8,7 +8,7 @@ You need to sign up to create an account
 
 Go to [SDX](https://sdx.sensors.gov.sg/sdx/home) portal and click **Sign Up**. You must use a valid agency email address when you sign up.
 
-Follow the steps here: [Getting Started](https://sensor-data-exchange.opendoc.sg/User%20Guide/Getting%20Started.html)
+Follow the steps here: [Getting Started](/User%20Guide/Getting%20Started)
 
 For first sign up within your organization, you role will be a Publisher. If you want to upgrade your account as Administrator role, send an email to SDX Support Team through <sense@tech.gov.sg>.
 
