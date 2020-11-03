@@ -16,5 +16,6 @@
   * [Subscription](FAQs/Subscription)
   * [Topic](FAQs/Topic)
   * [Messaging](FAQs/Messaging)
+  * [Portal](FAQs/Portal)
 * [Terms of Use](Terms%20of%20Use/TOU)
 * [Privacy Statement](Privacy%20Statement/Privacy)
