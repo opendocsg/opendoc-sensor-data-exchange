@@ -15,7 +15,7 @@ To get started in using the application:
 
 **Step 4:** Add a project to start publishing and subscribing, and create a new topic to share your sensor data.
 
-   You can view latest and available topics displayed in cards coontaining the topic related information in Browse Topics page.
+   You can view latest and available topics displayed in cards containing the topic related information in Browse Topics page.
 
    ![Image is not available](/assets/Fig1.png)
 
