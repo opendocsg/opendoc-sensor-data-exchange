@@ -1,7 +1,7 @@
 
 # Getting Started
 
-**SDX** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both in Government Commercial Cloud (GCC) through internet and Government Data Centre through intranet or private networks.
+**SDX** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both in Government Commercial Cloud (GCC) through internet and Government Data Centre (GDC) through intranet or private networks.
 
 To get started in using the application:
 
