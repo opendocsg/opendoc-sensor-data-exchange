@@ -60,7 +60,7 @@ In the Projects page, displays the project name, date created, number of publica
 
 ## Set up MQTT Connections ##
 
-After creating a new project, go to **Connections** tab. This tab shows the connection strings and SSL certificates to setup connections to MQTT connections. 
+After creating a new project, go to **Connections** tab. This tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
 - Unique MQTT URL
 - Unique MQTT Client ID
