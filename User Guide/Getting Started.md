@@ -1,7 +1,7 @@
 
 # Getting Started
 
-**SDX** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both government intranet and government commercial cloud.
+**SDX** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both in Government Commercial Cloud (GCC) through internet and Government Data Centre (GDC) through intranet or private networks.
 
 To get started in using the application:
 
@@ -11,21 +11,17 @@ To get started in using the application:
    
    ![Image is not available](/assets/vid0howtosignup.gif)
    
-**Step 3:** On first sign up within organization, your role will be a **PUBLISHER**. 
+**Step 3:** Upon successful sign up and log in, you can now create a team and invite team members to explore SDX together with your agency members. 
 
-   On second sign up with the same organization, your role will be a **SUBSCRIBER**.
+**Step 4:** Add a project to start publishing and subscribing, and create a new topic to share your sensor data.
 
-   You can now share information, browse to latest topics, and create your own projects and topics.
+   You can view latest and available topics displayed in cards containing the topic related information in Browse Topics page.
 
    ![Image is not available](/assets/Fig1.png)
 
-You can send a request through email to <sense@tech.gov.sg> to change the role as Administrator to access Administrative features.
+You can send an email request to <sense@tech.gov.sg> for approval to access fully the Administrator features.
 
-**Step 4:** As a Publisher to publish your relevant information, you must first create your Project to create a topic. You can   also subscribe to your own topic. 
-
-   A topic cannot be duplicated and cannot published and subscribed to the same project again. 
-   
-   Both Publisher and Subscriber can create a project, but only the Publisher can create topic. 
+For more related information about how to manage project and topics, see Projects.
    
 **Here is an example use case scenario:**
 
