@@ -28,9 +28,9 @@ To sign up:
 - Password – For the password strength, these are the criteria to fulfill:
 
   - At least 12 characters long
-  - One uppercase and one lowercase letter
+  - Uppercase and one lowercase letters
   - At least 1 number
-  - At least 1 special character (space is not allowed)
+  - At least 1 special character 
   
 - Confirm Password
 
@@ -43,7 +43,7 @@ To sign up:
 
 
 
-**Step 3:** From the verification email, click the verify email address link.
+**Step 3:** From the verification email, click the verify email address link and will redirect you to **Home Page** screen.
 
   ![Image not Available](/assets/Fig5.png)
 
@@ -105,6 +105,18 @@ To log in:
 **Step 4:**	After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
    ![Image not Available](/assets/Fig15.png)
+
+
+You can reset MFA by clicking **Click here**.
+
+
+   ![Image not Available](/assets/Fig15x.png)
+ 
+ 
+You will receive an email with link to reset your new MFA. 
+
+
+   ![Image not Available](/assets/Fig15y.png)
 
 
 
@@ -211,9 +223,9 @@ Navigate to Profile Icon and click **Account Settings**.
 - *Mobile number must be 8-digit number.*
 - *Password must meet the following requirements:*
   - *At least 12 characters long*
-  - *Uppercase and Lowercase letters*
+  - *Uppercase and lowercase letters*
   - *At least 1 number*
-  - *At least 1 special character (space is not allowed)*
+  - *At least 1 special character*
 
   ![Image not Available](/assets/Fig20.png)
 
