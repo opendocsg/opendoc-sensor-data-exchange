@@ -149,7 +149,7 @@ Creating a new team allows you to manage a team by adding members and assigning 
 
 To create a team:
 
-**Step 1:** In **Create or join a team** pop-up window, click **Create team** to create new team. 
+**Step 1:** In **Create or join a team** pop-up window, click **+Create team** to create new team. 
 
 ![Image not Available](/assets/Fig18a.png)
 
