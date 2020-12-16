@@ -31,13 +31,13 @@ You can also create or join  new team.
 
 To create a new team:  
 
-**Step 1:** Click **+Create**. A pop-up windows appears.
+**Step 1:** Click **Join team**. A Create or join a team pop-up windows appears.
 
-**Step 2:** Enter name in **Team name**.
+**Step 2:** Enter name in **Team name** and click **+Create team**.
 
 **Step 3:** Enter description in **Team description**.
 
-**Step 4:** Click **Save**.
+**Step 4:** Click **Create**.
 
 The newly created team is subjected for approval and will appear under **Teams I manage(n)** tab.
 
