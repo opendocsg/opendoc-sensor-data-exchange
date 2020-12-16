@@ -19,6 +19,23 @@ Or, click **Projects** from the left side navigation bar.
 ![Image not Available](/assets/Fig32.png)
 
 
+The Project displays two tabs:
+
+- Team view
+- Project view
+
+In **Team view** tab, you can see list of teams with projects containing topics being grouped together. You can expand and collapse each teams by clicking the arrow on the left besides team's name.
+
+
+![Image not Available](/assets/Fig32a.png)
+
+
+In **Project view** tab, you can see list of all pub/sub projects containing number of topics being grouped together. Select a project to see project details, connectioon status, published and subscribed topics. 
+
+
+![Image not Available](/assets/Fig32b.png)
+
+
 ## Create New Project ##
 
 To create new project:
