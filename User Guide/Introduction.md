@@ -25,6 +25,7 @@ There are several roles within the SDX application.
   - Browse topics and verify topic details
   - Create projects and topics
   - Publish and subscribe to topics
+  - Manage teams such as create, add or remove team members, assign or change roles
 
 - **Subscriber**
 
