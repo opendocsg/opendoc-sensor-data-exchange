@@ -25,7 +25,7 @@ When you select **Teams I manage(n)** tab, you can view the teams you manage in 
 
 When you select **My teams(n)** tab, you can view other teams (those teams that you joined and you are not the Team Administrator). 
 
-**Note:** *You cannot join any other organization. For example, a GovTech team member cannot join to SLA, or vice versa. The **Add** button here will add only the members of the same organization.*
+**Note:** *You cannot join any other organization. For example, a GovTech team member cannot join to SLA, or vice versa. The **Add** button here will add only the members of the same organisation.*
 
 You can also create or join  new team. 
 
@@ -33,7 +33,7 @@ To create a new team:
 
 **Step 1:** Click **Join team**. A Create or join a team pop-up windows appears.
 
-**Step 2:** Enter name in **Team name** and click **+Create team**.
+**Step 2:** Enter name in **Team name** and click **+ Create team**.
 
 **Step 3:** Enter description in **Team description**.
 
