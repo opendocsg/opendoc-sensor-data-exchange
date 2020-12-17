@@ -30,7 +30,7 @@ You can search for topic by entering the topic name in the ![Image not Available
 
 Click ![Image not Available](/assets/icon8.png) to filter the following:
 
-- **My Topics** - Filter your own creted topics
+- **My Topics** - Filter your own created topics
 - **Data Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
 - **Approval** – Filter the topic whether approval is needed from the publisher as Free access or Request needed
 - **Publish date range** – Filter the topic based on selected range of publishing date
@@ -72,6 +72,6 @@ As a Subscriber you can:
 
 ![Image not Available](/assets/Fig30.png)
 
-
+You can also preview the content of the publish topic by clicking **View payload**. 
 
 
