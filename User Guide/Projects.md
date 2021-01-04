@@ -82,7 +82,7 @@ To extend the project period:
 
 ![Image not Available](/assets/Fig36d.png)
 
-**Step 4:** Click **Save** to saved the project details successfully. 
+**Step 4:** Click **Save** to save the project details successfully. 
 
 
 
