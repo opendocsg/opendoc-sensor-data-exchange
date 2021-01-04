@@ -70,6 +70,22 @@ The newly created project appears in the **Projects** page > **Overview** tab. C
 You can aslo delete project by clicking **Delete**.
 
 
+You will receive a notification email when your project expires. You must extend the project period before it get suspended.
+
+To extend the project period:
+
+**Step 1:** Go to **Project** and search for project to update the project duration. 
+
+**Step 2:** Select project to view the project details.
+
+**Step 3:** Under **Project duration**, extend the project period. 
+
+![Image not Available](/assets/Fig36d.png)
+
+**Step 4:** Click **Save** to saved the project details successfully. 
+
+
+
 In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs:
 
 - Overview – Displays the details of the project.
