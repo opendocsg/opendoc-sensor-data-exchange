@@ -9,7 +9,7 @@ This system enables government agencies to:
 - Publish and subscribe to real-time sensor data using a self-service portal both in  Government Commercial Cloud (GCC) through internet and Government Data Centre (GDC) through intranet or private networks.
 - Share unclassified (potentially up to restricted) sensor data with government sector organisations.
 
-In SDX, a government agency can act as a publisher to publish information. For example, the National Environment Agency (NEA) may publish and share environment-related information about the weather and air quality. 
+In SDX, a government agency can act as a publisher to publish information. For example, the National Environment Agency (NEA) may publish and share environment-related information about the health and Covid-19 cases. 
 
 ## Roles and Responsibilities
 
