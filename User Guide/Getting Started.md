@@ -11,9 +11,11 @@ To get started in using the application:
    
    ![Image is not available](/assets/vid0howtosignup.gif)
    
-**Step 3:** Upon successful sign up and log in, you can now create a team and invite team members to explore SDX together with your agency members. 
+**Step 3:** Upon successful sign up and log in, you can now create a team and invite team members to explore SDX together with your agency members. For more related information about create or join team, see Team.
 
 **Step 4:** Add a project to start publishing and subscribing, and create a new topic to share your sensor data.
+
+*Note: You can refer to an example use case scenario.*
 
    You can view latest and available topics displayed in cards containing the topic related information in Browse Topics page.
 
@@ -31,14 +33,14 @@ For more related information about how to manage project and topics, see Project
 
 Agency A - For example, National Environment Agency (NEA)
 
-Agency B - For example, Land Transportation Authority (LTA)
+Agency B - For example, Government Technology Agency (GovTech)
    
 
 *Scenario:*
 
-Agency A will publish and share environment-related information about "Rainfall". 
+Agency A will publish and share health-related information about "Covid-19". 
 
-In SDX portal, Agency A will create a Project "Rainfall" and create topic about total rainfall for the month and publish it. 
+In SDX portal, Agency A will create a Project named "Covid-19" and create a topic and publish it. 
 
 A subscription approval is needed for another agency (Agency B) to subscribes to this topic.
    

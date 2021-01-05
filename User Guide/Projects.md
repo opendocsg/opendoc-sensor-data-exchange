@@ -24,11 +24,16 @@ The Project displays two tabs:
 - Team view
 - Project view
 
+
+## Team view ##
+
 In **Team view** tab, you can see list of teams with projects containing topics being grouped together. You can expand and collapse each teams by clicking the arrow on the left besides team's name.
 
 
 ![Image not Available](/assets/Fig32a.png)
 
+
+## Project view ##
 
 In **Project view** tab, you can see list of all pub/sub projects containing number of topics being grouped together. Select a project to see project details, connectioon status, published and subscribed topics. 
 
@@ -36,7 +41,7 @@ In **Project view** tab, you can see list of all pub/sub projects containing num
 ![Image not Available](/assets/Fig32b.png)
 
 
-## Create New Project ##
+### Create New Project ###
 
 To create new project:
 
@@ -65,6 +70,22 @@ The newly created project appears in the **Projects** page > **Overview** tab. C
 You can aslo delete project by clicking **Delete**.
 
 
+You will receive a notification email when your project expires. You must extend the project period before it get suspended.
+
+To extend the project period:
+
+**Step 1:** Go to **Project** and search for project to update the project duration. 
+
+**Step 2:** Select project to view the project details.
+
+**Step 3:** Under **Project duration**, extend the project period. 
+
+![Image not Available](/assets/Fig36d.png)
+
+**Step 4:** Click **Save** to save the project details successfully. 
+
+
+
 In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs:
 
 - Overview – Displays the details of the project.
@@ -75,7 +96,7 @@ In the Projects page, displays the project name, date created, number of publica
 - Subscribed topics – Displays the topic that you have subscribed by this project and the total number of topics subscribed by this project.
 
 
-## Set up MQTT Connections ##
+### Set up MQTT Connections ###
 
 After creating a new project, go to **Connections** tab. This tab shows the connection strings and SSL certificates to setup connections to MQTT. 
 
@@ -156,14 +177,14 @@ Here is an example of MQTT code samples. Download the files and use for referenc
 For more related information about MQTT, refer to this [link](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/).
 
 
-## Set up MQTT Topic Name and Payload Format ##
+### Set up MQTT Topic Name and Payload Format ###
 
 Ideally, it is important to design a topic naming and structure within the payload. 
 
 In this section, provides a guideline on how to construct the topic name and payload content for MQTT networks. 
 
 
-### Topic Format ###
+#### Topic Format ####
 
 It is best to have a consistent approach in naming the topics for ease of integration to 3rd party application. 
 
@@ -183,7 +204,7 @@ nea-ab1c23/environment/humidity/device001
 nea-ab1c23/env/device001
 ```
 
-### Payload Format ###
+#### Payload Format ####
 
 The payload content should be as minimal as possible and can be grouped together when they make sense. 
 
@@ -473,7 +494,7 @@ GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground
 - alt: altitude - float
 - ts: timestamp - double (milliseconds)
   
-### Recommended MQTT Topic Path Pattern Hierarchy ### 
+#### Recommended MQTT Topic Path Pattern Hierarchy #### 
   
 Here is a recommended MQTT topic path pattern hierarchy for easy categorisation and browsing. 
 
@@ -521,7 +542,7 @@ Categorising MQTT topics for browsing (with synonyms):
 
 
 
-## Set up AMQP Connections ##
+### Set up AMQP Connections ###
 
 For 2-way SSL connection, use the same PEM files as MQTTS: ca.pem, client.pem, private.key, clientid and clientkey are required.
 
