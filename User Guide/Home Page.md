@@ -107,13 +107,13 @@ To log in:
    ![Image not Available](/assets/Fig15.png)
 
 
-You can reset MFA by clicking **Click here**.
+You can reset MFA by clicking **Click here**. (to update screenshot)
 
 
    ![Image not Available](/assets/Fig15x.png)
  
  
-You will receive an email with link to reset your new MFA. 
+You will receive an email with link to reset your new MFA. (to update screenshot)
 
 
    ![Image not Available](/assets/Fig15y.png)
@@ -140,8 +140,11 @@ You may skip to join in a team by clicking **Skip for now**.
 
 ![Image not Available](/assets/Fig16a.png)
 
-A confirmation message is displayed that your request to join a team has been sent for approval and the Team Administrator will approve the request. You can go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
+A confirmation message is displayed that your request to join a team has been sent for approval. The Team Administrator will receive an email notification to approve and reject the member's request. 
 
+![Image not Available](/assets/Fig16b.png)
+
+Go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
 
 ### Create a Team
 
