@@ -107,13 +107,13 @@ To log in:
    ![Image not Available](/assets/Fig15.png)
 
 
-You can reset MFA by clicking **Click here**. (to update screenshot)
+You can reset MFA by clicking **Click here**. 
 
 
    ![Image not Available](/assets/Fig15x.png)
  
  
-You will receive an email with link to reset your new MFA. (to update screenshot)
+You will receive an email with link to reset your new MFA. 
 
 
    ![Image not Available](/assets/Fig15y.png)
