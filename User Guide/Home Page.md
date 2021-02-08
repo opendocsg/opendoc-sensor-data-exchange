@@ -61,7 +61,7 @@ To sign up:
 
 **Step 6:**	Follow the steps as displayed on the screen. 
 
-   You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
+   You must first set up your multi-factor authentication (MFA) to be able to login. The MFA allows you to have additional layer of security when logging in.
 
    ![Image not Available](/assets/Fig9.png)
 
