@@ -76,12 +76,12 @@ To sign up:
    ![Image not Available](/assets/Fig13.png)
 
 
-**Step 8:**	Once the account is successfully setup, log in again. 
+**Step 7:**	Once the account is successfully setup, log in again. 
 
    ![Image not Available](/assets/Fig12.png)
 
 
-**Step 9:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
+**Step 8:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
 
    ![Image not Available](/assets/Fig11.png)
