@@ -18,6 +18,10 @@ The following status includes:
 
 ![Image not Available](/assets/Fig63.png)
 
+The Team Administrator will receive an email notification to approve and reject the member's request to subscribe to a topic. 
+
+![Image not Available](/assets/Fig63a.png) 
+
 
 To unsubscribe to the topic:
 
