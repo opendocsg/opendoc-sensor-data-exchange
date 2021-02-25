@@ -61,7 +61,7 @@ To sign up:
 
 **Step 6:**	Follow the steps as displayed on the screen. 
 
-   You must first set up your MFA to be able to login. The MFA allows you to have additional layer of security when logging in.
+   You must first set up your multi-factor authentication (MFA) to be able to login. The MFA allows you to have additional layer of security when logging in.
 
    ![Image not Available](/assets/Fig9.png)
 
@@ -76,12 +76,12 @@ To sign up:
    ![Image not Available](/assets/Fig13.png)
 
 
-**Step 8:**	Once the account is successfully setup, log in again. 
+**Step 7:**	Once the account is successfully setup, log in again. 
 
    ![Image not Available](/assets/Fig12.png)
 
 
-**Step 9:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
+**Step 8:** After you log in, enter the authentication 6-digit-code from your Authenticator App. Click **Done**.
 
 
    ![Image not Available](/assets/Fig11.png)
@@ -107,7 +107,7 @@ To log in:
    ![Image not Available](/assets/Fig15.png)
 
 
-You can reset MFA by clicking **Click here**.
+You can reset MFA by clicking **Click here**. 
 
 
    ![Image not Available](/assets/Fig15x.png)
@@ -140,8 +140,11 @@ You may skip to join in a team by clicking **Skip for now**.
 
 ![Image not Available](/assets/Fig16a.png)
 
-A confirmation message is displayed that your request to join a team has been sent for approval and the Team Administrator will approve the request. You can go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
+A confirmation message is displayed that your request to join a team has been sent for approval. The Team Administrator will receive an email notification to approve and reject the member's request. 
 
+![Image not Available](/assets/Fig16b.png)
+
+Go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
 
 ### Create a Team
 
