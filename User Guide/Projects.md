@@ -1,7 +1,7 @@
 
 # Projects
 
-A project is a piece of planned work or activity where you can organize and arrange topics that you intend to publish and wish to subscribe to.
+A project is a piece of planned work or activity where you can organise and arrange topics that you intend to publish and wish to subscribe to.
 
 It contains connection strings and SSL certifications to set up a connection to MQTT. SDX uses MQTT which stands for Message Queuing Telemetry Transport. It is a publish/subscribe protocol where you can publish and receive messages as a client, often called a “broker”. The job of an MQTT broker is to filter messages based on topic, and then distribute them to subscribers. There is no direct connection between a publisher and subscriber. All clients can publish (broadcast) and subscribe (receive).
 
@@ -158,7 +158,7 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 **Step 5:** Using MQTT client, a publisher published a topic.
 
-- Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: *govtech-ndmrcHUWg/Topic-temperature*
+- Copy the topic path and fill into the **Topic to subscribe** field in MQTT client. For example: *govtech-ndmrcHUWg/Topic-temperature*
 - Click **Subscribe** button
 - Subscriber is ready to receive data for this topic
 
