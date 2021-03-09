@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td class="tg-cly1">AMQP</td>
-    <td class="tg-cly1">Refers to Advanced Message Queueing Protocol. It is a standardized framing and transfer protocol for asynchronously, securely, and reliably transferring messages between two parties.</td>
+    <td class="tg-cly1">Refers to Advanced Message Queueing Protocol. It is a standardised framing and transfer protocol for asynchronously, securely, and reliably transferring messages between two parties.</td>
   </tr>
   <tr>
     <td class="tg-cly1">GovTech</td>
