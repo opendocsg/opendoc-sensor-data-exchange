@@ -31,7 +31,7 @@ You can search for topic by entering the topic name in the ![Image not Available
 Click ![Image not Available](/assets/icon8.png) to filter the following:
 
 - **My Topics** - Filter your own created topics
-- **Data Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
+- **Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
 - **Approval** – Filter the topic whether approval is needed from the publisher as Free access or Request needed
 - **Publish date range** – Filter the topic based on selected range of publishing date
 - **Organisation** – Select from the dropdown to filter the organisation 
