@@ -187,7 +187,6 @@ You will receive an email to the registered email address with the password rese
 **Step 3:**	Enter the following information:
 
 - Confirmation Code
-- Email
 - Password
 - Confirm Password
 
