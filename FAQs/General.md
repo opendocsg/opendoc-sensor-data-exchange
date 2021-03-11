@@ -32,7 +32,7 @@ The equivalent is like WhatsApp mobile app where you can group chats. Another ex
 
 ADEX uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
 
-One advantage of ADEX, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work ot only with sensor, but also non-sensor and streaming data.
+One advantage of ADEX, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work not only with sensor, but also with non-sensor and streaming data.
 
 You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1) and which one to use [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-2).
 
