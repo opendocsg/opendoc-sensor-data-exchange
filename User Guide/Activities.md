@@ -6,7 +6,7 @@ This area allows you to view and track the list of all user activities in the po
 It displays the following information:
 
 - **Date** - Displays the date based on filter range 
-- **Service** - Displays the module of the system such as Topic, User, Project, Subscription, Adapter, Message, On-Prem, and so on
+- **Service** - Displays the module of the system such as Topic, User, Project, Subscription, Adaptor, Message, and so on
 - **Action** - Displays activity logs for create, update, and delete actions. 
 - **Action description** - Displays description of certain activity such as log in, update, or create.
 - **Payload** - Displays the content of the activity
