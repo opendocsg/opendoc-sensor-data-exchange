@@ -25,20 +25,16 @@
     <td class="tg-cly1">Refers to Message Queuing Telemetry Transport. It is a lightweight publish and subscribe system where you can publish and receive messages as a client, often called a “broker”. A client may be either a publisher of information or a subscriber. Each client can connect to a broker.</td>
   </tr>
   <tr>
-    <td class="tg-0lax">On-Premise (On-Prem)</td>
-    <td class="tg-0lax">Installed and run on computers on the premises of the organisations</td>
-  </tr>
-  <tr>
     <td class="tg-0lax">Payload</td>
-    <td class="tg-0lax">The content of the MQTT message</td>
+    <td class="tg-0lax">The content of the MQTT message.</td>
   </tr>
   <tr>
     <td class="tg-0lax">Publisher</td>
     <td class="tg-0lax">A person who wishes to publish a new topic using real-time sensor data using a self-service portal both on-premise and in the commercial cloud. Also known as sender of messages.</td>
   </tr>
   <tr>
-    <td class="tg-0lax">SDX</td>
-    <td class="tg-0lax">Sensor Data Exchange is a centralised data exchange platform for the Whole-of-Government</td>
+    <td class="tg-0lax">ADEX</td>
+    <td class="tg-0lax">Asynchronous Data Exchange (ADEX) is a centralised data exchange platform for the whole-of-government (WOG).</td>
   </tr>
   <tr>
     <td class="tg-0lax">Subscriber</td>
