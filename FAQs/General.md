@@ -2,7 +2,7 @@
 
 This includes general questions about ADEX, publish-subscribe-based messaging protocol or MQTT, and difference of ADEX to APEX. 
 
-## What is SDX? 
+## What is ADEX? 
 
 **ADEX** stands for **Asynchronous Data Exchange**, a centralised data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Sensor Platform (SNSP).
 
@@ -32,7 +32,7 @@ The equivalent is like WhatsApp mobile app where you can group chats. Another ex
 
 **ADEX** uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
 
-One advantage of **ADEX**, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX also broaden its services not only for sensors but also non-sensors and streaming data.
+One advantage of **ADEX**, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work ot only with sensor, but also non-sensor and streaming data.
 
 You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1) and which one to use [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-2).
 
