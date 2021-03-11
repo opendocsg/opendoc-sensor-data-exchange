@@ -24,15 +24,15 @@ The equivalent is like SMS used for sending message to a recipient. Another exam
 
 For more information about **APEX**, refer to this [link](https://www.developer.gov.sg/technologies/data-and-apis/apex). 
 
-ADEX is a platform for real-time, asynchronous fire-and-forget data transfer.
+**ADEX** is a platform for real-time, asynchronous fire-and-forget data transfer.
 
 It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available. A one-to-many distribution process.
 
 The equivalent is like WhatsApp mobile app where you can group chats. Another example is radio news where you tune in to a channel.
 
-**ADEX** uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
+ADEX uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
 
-One advantage of **ADEX**, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work ot only with sensor, but also non-sensor and streaming data.
+One advantage of ADEX, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work ot only with sensor, but also non-sensor and streaming data.
 
 You can check relevant information about request-response versus publish-subscribe [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-1) and which one to use [here](https://blog.opto22.com/optoblog/request-response-vs-pub-sub-part-2).
 
