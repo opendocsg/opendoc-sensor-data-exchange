@@ -26,11 +26,9 @@ For more information about **APEX**, refer to this [link](https://www.developer.
 
 **ADEX** is a platform for real-time, asynchronous fire-and-forget data transfer.
 
-It uses pub-sub model which allows clients to publish and subscribe to a channel and receives messages as they become available. A one-to-many distribution process.
+It uses pub-sub transport messaging protocol (MQTT), which allows clients to publish and subscribe to a channel and receives messages as they become available. A one-to-many distribution process.
 
 The equivalent is like WhatsApp mobile app where you can group chats. Another example is radio news where you tune in to a channel.
-
-ADEX uses a pub-sub transport messaging protocol (MQTT) which is commonly used for Internet of Things (IoT).
 
 One advantage of ADEX, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work not only with sensor, but also with non-sensor and streaming data.
 
