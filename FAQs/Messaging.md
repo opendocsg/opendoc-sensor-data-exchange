@@ -1,14 +1,14 @@
 # FAQs about Messaging
 
-FAQs for messaging includes questions about inputs required to connect to SDX broker and disconnection to MQTT. 
+FAQs for messaging includes questions about inputs required to connect to ADEX broker and disconnection to MQTT. 
 
 ## Why is my MQTT connection disconnecting? 
 
 You are using a duplicate MQTT Client ID across your different MQTT connections. MQTT Client ID should be unique in the exchange. You can generate one using a UUID.
 
-## What are the inputs required to connect to SDX broker?
+## What are the inputs required to connect to ADEX broker?
 
-Inputs required to connect to SDX broker:
+Inputs required to connect to ADEX broker:
 
 - Unique MQTT Client ID
 - Client key
@@ -18,9 +18,9 @@ Inputs required to connect to SDX broker:
 - SSL private key
 - Private key password
 
-All required and obtainable from the SDX Portal.
+All required and obtainable from the ADEX Portal.
 
-## Why my MQTT client cannot connect to SDX?
+## Why my MQTT client cannot connect to ADEX?
 
 Make sure you have provided your IP address for the support team to open the firewall.
 
