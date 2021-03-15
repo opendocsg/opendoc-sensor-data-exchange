@@ -1,3 +1,3 @@
-# Sensor Data Exchange
+# Asynchronous Data Exchange (ADEX)
 
-> Learn about [SDX](https://sdx.sensors.gov.sg)
+> Learn about [ADEX](https://sdx.sensors.gov.sg)

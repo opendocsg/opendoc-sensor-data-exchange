@@ -124,7 +124,7 @@ You will receive an email with link to reset your new MFA.
 
 Upon successful login, a pop-up message appears allowing you to join in a team or create your own team.
 
-Being in a team allows you to use all features available in SDX which was assigned to your user account.
+Being in a team allows you to use all features available in ADEX which was assigned to your user account.
 
 ### Join a Team
 
@@ -141,8 +141,6 @@ You may skip to join in a team by clicking **Skip for now**.
 ![Image not Available](/assets/Fig16a.png)
 
 A confirmation message is displayed that your request to join a team has been sent for approval. The Team Administrator will receive an email notification to approve and reject the member's request. 
-
-![Image not Available](/assets/Fig16b.png)
 
 Go to **Dashboard** to view teams that you joined, teams under your administration, and team members. 
 
@@ -187,7 +185,6 @@ You will receive an email to the registered email address with the password rese
 **Step 3:**	Enter the following information:
 
 - Confirmation Code
-- Email
 - Password
 - Confirm Password
 

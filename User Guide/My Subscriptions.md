@@ -20,9 +20,6 @@ The following status includes:
 
 The Team Administrator will receive an email notification to approve and reject the member's request to subscribe to a topic. 
 
-![Image not Available](/assets/Fig63a.png) 
-
-
 To unsubscribe to the topic:
 
 **Step 1:**	Navigate to My Subscriptions page and select subscribed topic with Subscribed status.

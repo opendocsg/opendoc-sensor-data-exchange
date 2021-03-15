@@ -2,18 +2,13 @@
 # Introduction #
 
 
-**Sensor Data Exchange (SDX)** is a centralised data exchange platform for Whole-of-Government (WOG) to provide seamless data sharing and management, and encompass public, private and industrial internet-of-things (IoT) sensors.
+**Asynchronous Data Exchange (ADEX)** platform is the solution to unlock the universe of whole-of-government (WOG) real-time data, asynchronous fire-and-forget data transfer. With ADEX’s data marketplace, agencies can browse all datasets across the whole-of-government for sharing.
 
-This system enables government agencies to:
-
-- Publish and subscribe to real-time sensor data using a self-service portal both in  Government Commercial Cloud (GCC) through internet and Government Data Centre (GDC) through intranet or private networks.
-- Share unclassified (potentially up to restricted) sensor data with government sector organisations.
-
-In SDX, a government agency can act as a publisher to publish information. For example, the National Environment Agency (NEA) may publish and share environment-related information about the health and Covid-19 cases. 
+ADEX enables government agencies to publish and subscribe to real-time data using a self-service portal that will run in  Government Commercial Cloud (GCC) both internet and intranet.
 
 ## Roles and Responsibilities
 
-There are several roles within the SDX application.
+There are several roles within the ADEX application.
 
 - **Administrator**
 

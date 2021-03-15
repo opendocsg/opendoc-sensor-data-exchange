@@ -1,7 +1,9 @@
 
 # Getting Started
 
-**SDX** is a browser-based application that enable government agencies to share real-time information between each other through a self-service portal both in Government Commercial Cloud (GCC) through internet and Government Data Centre (GDC) through intranet or private networks.
+**ADEX** is a browser-based application that enables data sharing of real-time information using a self-service portal that will run from Government Commercial Cloud (GCC) on both internet and intranet. 
+
+In ADEX, a government agency can act as a publisher to publish real-time data. For example, the National Environment Agency (NEA) may publish and share health-related information about Covid-19 cases, see use cases scenario as an example.
 
 To get started in using the application:
 
@@ -11,9 +13,9 @@ To get started in using the application:
    
    ![Image is not available](/assets/vid0howtosignup.gif)
    
-**Step 3:** Upon successful sign up and log in, you can now create a team and invite team members to explore SDX together with your agency members. For more related information about create or join team, see Team.
+**Step 3:** Upon successful sign up and log in, you can now create a team and invite team members to explore ADEX portal together with your agency members. For more related information about create or join team, see Team.
 
-**Step 4:** Add a project to start publishing and subscribing, and create a new topic to share your sensor data.
+**Step 4:** Add a project to start publishing and subscribing, and create a new topic to share your data.
 
 *Note: You can refer to an example use case scenario.*
 
@@ -40,7 +42,7 @@ Agency B - For example, Government Technology Agency (GovTech)
 
 Agency A will publish and share health-related information about "Covid-19". 
 
-In SDX portal, Agency A will create a Project named "Covid-19" and create a topic and publish it. 
+In ADEX portal, Agency A will create a Project named "Covid-19" and create a topic and publish it. 
 
 A subscription approval is needed for another agency (Agency B) to subscribes to this topic.
    

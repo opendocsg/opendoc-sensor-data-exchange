@@ -1,9 +1,11 @@
 
 # Projects
 
-A project is a piece of planned work or activity where you can organize and arrange topics that you intend to publish and wish to subscribe to.
+A project is a piece of planned work or activity where you can organise and arrange topics that you intend to publish and wish to subscribe to.
 
-It contains connection strings and SSL certifications to set up a connection to MQTT. SDX uses MQTT which stands for Message Queuing Telemetry Transport. It is a publish/subscribe protocol where you can publish and receive messages as a client, often called a “broker”. The job of an MQTT broker is to filter messages based on topic, and then distribute them to subscribers. There is no direct connection between a publisher and subscriber. All clients can publish (broadcast) and subscribe (receive).
+It contains connection strings and SSL certifications to set up a connection to MQTT. ADEX uses MQTT (Message Queuing Telemetry Transport) a messaging protocol to connect to the portal. In MQTT, a publisher publishes messages on a topic and a subscriber subscribes to that topic to view the message. 
+
+MQTT connection is required to publish and subscribe topics on ADEX. 
 
 To publish your relevant information, you must first create your own project to create a topic and subscribe to your own topic. A topic cannot be duplicated  and cannot published and subscribed to the same project again.
 
@@ -158,7 +160,7 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 **Step 5:** Using MQTT client, a publisher published a topic.
 
-- Copy the topic path and fill into the **Topic to publish** field in MQTT client. For example: *govtech-ndmrcHUWg/Topic-temperature*
+- Copy the topic path and fill into the **Topic to subscribe** field in MQTT client. For example: *govtech-ndmrcHUWg/Topic-temperature*
 - Click **Subscribe** button
 - Subscriber is ready to receive data for this topic
 
@@ -647,9 +649,6 @@ To create a topic:
 - Is approval needed for subscription requests?
   - Yes – Approval is needed from publisher before you subscribe 
   - No – Allows free access to the topic and no approval needed from the publisher
-- Also publish on SDX on-prem?
-  - Yes – Refer to the steps in **Publish Topic on SDX On-Premises** and continue 
-  - No
 
 ![Image not Available](/assets/Fig47.png)
 
@@ -660,25 +659,6 @@ To create a topic:
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
 ![Image not Available](/assets/Fig49.png)
-
-
-### Publish Topic on SDX On-Premises ###
-
-To publish topic on SDX on-premises:
-
-**Step 1:**	Click **Yes** in Also publish on SDX on-prem? field.
-
-**Step 2:**	Select the project code and name. 
-            
-You can click **Refresh projects list** to refresh the list of the project.
-
-![Image not Available](/assets/Fig64b.png)
-
-**Step 3:**	Click **Create**.
-
-![Image not Available](/assets/Fig50.png)
-
-**Note:** *If there is no on-prem project available, select **No** to continue.*
 
 You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
 
@@ -796,8 +776,6 @@ Deleting a topic from within the topic or its children will also be deleted. Whe
 ![Image not Available](/assets/Fig54a.png)
 
 You can also delete topic that are pending and suspended.
-
-**Note:** A topic that is published on SDX On-prem cannot be deleted. Whereas, if topic is not published on SDX On-prem, topic can be deleted and published in MQTT. 
 
 
 ## Subscribed Topics ##
