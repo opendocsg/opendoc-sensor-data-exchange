@@ -119,7 +119,7 @@ After creating a new project, go to **Connections** tab. This tab shows the conn
  
  Alternatively, click **Generate certificate** button to generate new certificate.
   
- You will receive a Private key password through email and use that password in the Client key passphrase field.
+ As a Publisher you will receive a Private key password through email and use that password in the Client key passphrase field.
 
 ![Image not Available](/assets/Fig38.png)
 
@@ -135,7 +135,6 @@ To set up MQTT Client connection:
 
 **Step 3:** Click Create MQTT Client.
 
-A Publisher can create MQTT connection using the certificates generated and with the password from the email inbox.
 
 **Step 4:** Set up MQTT connections with the following:
 
@@ -155,14 +154,13 @@ A Publisher can create MQTT connection using the certificates generated and with
 
 - Click **Save** and connected successfully.
 
+As a Publisher you are now ready to publish a topic.
+
 ![Image not Available](/assets/Fig41.png)
 
+A Subscriber needs to subscribe to this topic from the portal.
 
-**Step 5:** Using MQTT client, a publisher published a topic.
-
-- Copy the topic path and fill into the **Topic to subscribe** field in MQTT client. For example: *govtech-ndmrcHUWg/Topic-temperature*
-- Click **Subscribe** button
-- Subscriber is ready to receive data for this topic
+**Step 5:** Enter the topic path and click the **Subscribe** button to receive subscription to this topic. 
 
 ![Image not Available](/assets/Fig42.png)
 
