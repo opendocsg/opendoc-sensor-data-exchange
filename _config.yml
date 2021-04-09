@@ -14,8 +14,8 @@ preload_pages: true
 
 styling_options:
   primary_brand_color: "#00B4B4"
-  logo_path: /assets/sdx-logo.png
-  opendoc_logo_path: /assets/sdx-logo.png
+  logo_path: /assets/adex-logo.png
+  opendoc_logo_path: /assets/adex-logo.png
   feedback_url: https://form.gov.sg/5e4e552386290e0013ae5685
   logo_url: https://sdx.sensors.gov.sg/sdx/home
 
