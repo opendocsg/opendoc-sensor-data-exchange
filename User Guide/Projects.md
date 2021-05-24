@@ -21,23 +21,7 @@ Or, click **Projects** from the left side navigation bar.
 ![Image not Available](/assets/Fig32.png)
 
 
-The Project displays two tabs:
-
-- Team view
-- Project view
-
-
-## Team view ##
-
-In **Team view** tab, you can see list of teams with projects containing topics being grouped together. You can expand and collapse each teams by clicking the arrow on the left besides team's name.
-
-
-![Image not Available](/assets/Fig32a.png)
-
-
-## Project view ##
-
-In **Project view** tab, you can see list of all pub/sub projects containing number of topics being grouped together. Select a project to see project details, connectioon status, published and subscribed topics. 
+In **Project** page, you can see list of all pub/sub projects containing number of topics being grouped together. Select a project to see project details, connection status, published/subscribed topics, and activities. 
 
 
 ![Image not Available](/assets/Fig32b.png)
@@ -64,7 +48,7 @@ To create new project:
 ![Image not Available](/assets/Fig34.png)
 
 
-The newly created project appears in the **Projects** page > **Overview** tab. Click **Save**.
+Click **Create**. The newly created project appears in the list of project in the Project page.
 
 ![Image not Available](/assets/Fig51a.png)
 
@@ -96,6 +80,7 @@ In the Projects page, displays the project name, date created, number of publica
   **Note:** *This tab is only available for a Publisher only.*
   
 - Subscribed topics – Displays the topic that you have subscribed by this project and the total number of topics subscribed by this project.
+- Activities - Displays the list of all user activities in the portal.
 
 
 ### Set up MQTT Connections ###
@@ -160,7 +145,9 @@ As a Publisher you are now ready to publish a topic.
 
 A Subscriber needs to subscribe to this topic from the portal.
 
-**Step 5:** Enter the topic path and click the **Subscribe** button to receive subscription to this topic. 
+**Step 5:** Enter the topic path and fill into the **Topic to subscribe** field. For example: govtech-ndmrcHUWg/Topic-temperature
+
+Click the **Subscribe** button to receive subscription to this topic.
 
 ![Image not Available](/assets/Fig42.png)
 
@@ -616,13 +603,16 @@ After creating a project, create your first topic. The **My Topics** tab is only
 
 To create a topic:
 
-**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create Topic**.
+**Step 1:** Navigate to **Projects** page > **My topics** tab. Click **Create topic**.
 
 
 ![Image not Available](/assets/Fig43.png)
 
+**Step 2:** Select a type of topic if you want to create a new one or add to an existing topic. Click **Next**.
 
-**Step 2:** Select from the option who can see the topic. Click **Next**.
+![Image not Available](/assets/Fig43.png)
+
+**Step 3:** Select from the option who can see the topic. Click **Next**.
 
 - All government agencies
 - Only my agency
@@ -630,17 +620,17 @@ To create a topic:
 ![Image not Available](/assets/Fig44.png)
 
 
-**Step 3:**	Select data classification. Click **Next**.
+**Step 4:**	Select data classification. Click **Next**.
 
 ![Image not Available](/assets/Fig45.png)
 
 
-**Step 4:**	Select the project and enter topic name. Click **Next**.
+**Step 5:**	Select the project and enter topic name. Click **Next**.
 
 ![Image not Available](/assets/Fig46.png)
 
 
-**Step 5:**	Fill in the following details of the topic.
+**Step 6:**	Fill in the following details of the topic.
 
 - Description – Enter description to the topic
 - Tags – Add tags to the topic maximum of 5 tags
@@ -651,7 +641,7 @@ To create a topic:
 ![Image not Available](/assets/Fig47.png)
 
 
-**Step 6:** Click **Create**. The new topic is created successfully.
+**Step 7:** Click **Create**. The new topic is created successfully.
 
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
