@@ -643,11 +643,11 @@ To create a topic:
 
 **Step 7:** Click **Create**. The new topic is created successfully.
 
-![Image not Available](/assets/Fig49.png)
+![Image not Available](/assets/Fig69.png)
 
 You can see the newly created topic being added in **Projects** page > **My topics** tab.
 
-![Image not Available](/assets/Fig49a.png)
+![Image not Available](/assets/Fig49.png)
 
 You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the ![Image not Available](/assets/icon9.png) icon.
 
@@ -662,7 +662,7 @@ To add topic within a topic:
 **Step 3:** Click **New Topic**. A new window appears to create new topic.
 
 
-![Image not Available](/assets/Fig48.png))
+![Image not Available](/assets/Fig48.png)
 
 
 **Step 3:**	Enter topic name and click **Create**.
