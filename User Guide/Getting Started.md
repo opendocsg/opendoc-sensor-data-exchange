@@ -9,9 +9,9 @@ To get started in using the application:
 
 **Step 1:** Click this [link](https://sdx.sensors.gov.sg/sdx/home) and sign up using a valid agency email address (e.g. @tech.gov.sg). 
 
-**Step 2:** System will send an email notification to your email inbox. Click link to verify and proceed to sign up. 
-   
-   ![Image is not available](/assets/vid0howtosignup.gif)
+**Step 2:** System will send an email notification to your email inbox. Click the link to verify and proceed to sign up. For more related information about sign up, see Sign Up. 
+
+Click [link](https://d3uzjhjcl6zsbz.cloudfront.net/how-to-get-started-on-ADEX.mp4) on how to get started. 
    
 **Step 3:** Upon successful sign up and log in, you can now create a team and invite team members to explore ADEX portal together with your agency members. For more related information about create or join team, see Team.
 

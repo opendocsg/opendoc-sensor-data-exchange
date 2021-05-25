@@ -99,7 +99,7 @@ To add team members:
 
 **Step 2:** Select a team to add members under **Teams I manage(n)** tab.
 
-**Step 3:** Click **Add**. A pop-up window appears and enter the following:
+**Step 3:** Click **Add member**. A pop-up window appears and enter the following:
 
 - Email
 - Role

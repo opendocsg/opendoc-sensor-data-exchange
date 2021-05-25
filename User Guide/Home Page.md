@@ -33,6 +33,7 @@ To sign up:
   - At least 1 special character 
   
 - Confirm Password
+- Show Password - Click to show password
 
   ![Image not Available](/assets/Fig3.png)
 
@@ -203,19 +204,19 @@ You will receive an email to the registered email address with the password rese
 
 Navigate to Profile to perform the following:
 
-- Account Settings – Click to update user information
+- Account settings – Click to update user information
 - Feedback – Click to provide feedback such as future enhancements and improvements
-- Report Vulnerability – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
-- User Guide - Click to view user guide
+- Report vulnerability – Click to report vulnerability using this [link](https://www.tech.gov.sg/report_vulnerability)
+- User guide - Click to view user guide
 - Logout – Click to log out to the application
 
-### Account Settings
+### Account settings
 
-You can update information in the Account Settings.
+You can update information in the Account settings.
 
 To update account:
 
-Navigate to Profile Icon and click **Account Settings**.
+Navigate to Profile Icon and click **Account settings**.
  
 **Note:** *You can update name, mobile number, and password.*
 
@@ -269,20 +270,20 @@ To provide feedback:
    ![Image not Available](/assets/Fig23.png)
 
 
-### Report Vulnerability
+### Report vulnerability
 
 To report vulnerability:
 
-Navigate to Profile and click **Report Vulnerability**. You will be redirected to a new link portal. 
+Navigate to Profile and click **Report vulnerability**. You will be redirected to a new link portal. 
 
 
 ![Image not Available](/assets/Fig26.png)
 
-### User Guide
+### User guide
 
 To view user guide:
 
-Navigate to Profile and click **User Guide**. You will be redirected to a new link portal.
+Navigate to Profile and click **User guide**. You will be redirected to a new link portal.
 
 ![Image not Available](/assets/Fig27a.png)
 

@@ -3,10 +3,9 @@
 
 This area allows you to view all subscribers who subscribed successfully to all the topics within the projects. This page is available only for Publisher and displays the following information:
 
+- Date
 - Project Name
-- Agency
 - Topic subscribed
-- Project description
 - Status
 - Action
 

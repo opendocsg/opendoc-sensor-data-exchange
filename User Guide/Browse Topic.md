@@ -30,10 +30,11 @@ You can search for topic by entering the topic name in the ![Image not Available
 
 Click ![Image not Available](/assets/icon8.png) to filter the following:
 
-- **My Topics** - Filter your own created topics
+- **Show only my topics** - Filter your own created topics
 - **Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
 - **Approval** – Filter the topic whether approval is needed from the publisher as Free access or Request needed
 - **Publish date range** – Filter the topic based on selected range of publishing date
+- **Tags** - Filter the keywords used to organise and categorise the topics
 - **Organisation** – Select from the dropdown to filter the organisation 
 - **Sort By** – Select from the dropdown to filter the newest, oldest, and recently updated topics
 
