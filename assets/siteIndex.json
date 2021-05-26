@@ -1,0 +1,355 @@
+[{
+"title": "FAQs about Account",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Account.html",
+"text": "FAQs about Account FAQs for account includes questions about creating account, how to sign up, resetting of password, disabled or locked account."
+}
+,{
+"title": "How do I create an account?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Account.html#how-do-i-create-an-account",
+"text": "How do I create an account? You need to sign up to create an account Go to ADEX portal and click Sign Up. You must use a valid agency email address when you sign up. Follow the steps here: Getting Started For first sign up within your organization, you role will be a Publisher. If you want to upgrade your account as Administrator role, send an email to ADEX Support Team through sense@tech.gov.sg."
+}
+,{
+"title": "How do I reset my password?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Account.html#how-do-i-reset-my-password",
+"text": "How do I reset my password? There are two ways to reset your account password successfully. Step 1: Go to Profile icon &gt; Account settings. Step 2: Click Change and Change your password window appears. Step 3: Enter the following: Current password New password Confirm new password Step 4: Click Change password. or, Step 1: Go to Home page. Step 2: Click Forgot password? and Forgot password window appears. Step 3: Enter email address. Step 4: Click Send recovery link. You will receive an email with the confirmation code and links if you requested to verify your email address or reset your password. Step 5: Click Reset Password."
+}
+,{
+"title": "What happens if my account is locked?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Account.html#what-happens-if-my-account-is-locked",
+"text": "What happens if my account is locked? You can send request to unlock account to Administrator using Contact us. Or, Step 1: Go to Home page. Step 2: Click click here and the Unlock account request window appears. Step 3: Enter email address. Step 4: Click Submit."
+}
+,{
+"title": "How can I log in if my account is disabled?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Account.html#how-can-i-log-in-if-my-account-is-disabled",
+"text": "How can I log in if my account is disabled? If your account is disabled and you cannot log in with your credentials, send an email to your Administrator to help you enable your account."
+}
+,{
+"title": "What happens if my password expires?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Account.html#what-happens-if-my-password-expires",
+"text": "What happens if my password expires? You will receive a notification from the portal before 90 days of expiry when you log in to ADEX. If you did not make any change to your password, then your password will be expired. You can go to Login page and click Forgot password."
+}
+,{
+"title": "FAQs about General",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/General.html",
+"text": "FAQs about General This includes general questions about ADEX, publish-subscribe-based messaging protocol or MQTT, and difference of ADEX to APEX."
+}
+,{
+"title": "What is ADEX?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/General.html#what-is-adex",
+"text": "What is ADEX? ADEX stands for Asynchronous Data Exchange, a centralised data exchange platform for the Whole-of-Government (WOG). It is part of the Strategic National Project under Smart Nation Sensor Platform (SNSP). ADEX enables government agencies to publish and subscribe to real-time data using a self-service portal that will run in Government Commercial Cloud (GCC) both in the internet and intranet."
+}
+,{
+"title": "What is MQTT?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/General.html#what-is-mqtt",
+"text": "What is MQTT? Message Queue Telemetry Transport (MQTT), is a publish-subscribe-based messaging protocol based on ISO standard ISO/IEC PRF 20922. It works over TCP/IP. It is designed to be lightweight for small, low power, and low bandwidth device communication. MQTT is the most common protocol used in Internet Of Things (IOT)."
+}
+,{
+"title": "What is the difference between ADEX and APEX?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/General.html#what-is-the-difference-between-adex-and-apex",
+"text": "What is the difference between ADEX and APEX? Both ADEX and APEX are self-service data sharing platform for the Whole-of-Government. APEX enables users to directly communicate in terms of requesting and granting access to APIs. It acts as a centralized and secure API gateway. It uses request-response architecture, each client opens a direct connection to each server, because the client request data directly from the server. A one-to-one distribution process. The equivalent is like SMS used for sending message to a recipient. Another example, is newspapers where you go to a store to buy or get it delivered to your house. For more information about APEX, refer to this link. ADEX is a platform for real-time, asynchronous fire-and-forget data transfer. It uses pub-sub transport messaging protocol (MQTT), which allows clients to publish and subscribe to a channel and receives messages as they become available. A one-to-many distribution process. The equivalent is like WhatsApp mobile app where you can group chats. Another example is radio news where you tune in to a channel. One advantage of ADEX, it is good for frequent traffic and lightweight networks. It reduces network load and clients are pushed the latest data. ADEX will work not only with sensor, but also with non-sensor and streaming data. You can check relevant information about request-response versus publish-subscribe here and which one to use here."
+}
+,{
+"title": "FAQs about Messaging",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Messaging.html",
+"text": "FAQs about Messaging FAQs for messaging includes questions about inputs required to connect to ADEX broker and disconnection to MQTT."
+}
+,{
+"title": "Why is my MQTT connection disconnecting?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Messaging.html#why-is-my-mqtt-connection-disconnecting",
+"text": "Why is my MQTT connection disconnecting? You are using a duplicate MQTT Client ID across your different MQTT connections. MQTT Client ID should be unique in the exchange. You can generate one using a UUID."
+}
+,{
+"title": "What are the inputs required to connect to ADEX broker?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Messaging.html#what-are-the-inputs-required-to-connect-to-adex-broker",
+"text": "What are the inputs required to connect to ADEX broker? Inputs required to connect to ADEX broker: Unique MQTT Client ID Client key Client secret SSL CA file SSL Client cert SSL private key Private key password All required and obtainable from the ADEX Portal."
+}
+,{
+"title": "Why my MQTT client cannot connect to ADEX?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Messaging.html#why-my-mqtt-client-cannot-connect-to-adex",
+"text": "Why my MQTT client cannot connect to ADEX? Make sure you have provided your IP address for the support team to open the firewall. Check the connection settings on your client and ensure that the passwords are entered correctly. Check your SSL certificates are in valid format. Refer to this page on how to check. For example, check the private key file is ok using this command: openssl rsa –noout –modulus –in .key | openssl md5"
+}
+,{
+"title": "FAQs about Portal",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Portal.html",
+"text": "FAQs about Portal FAQs for portal includes questions about issues in accessing the portal."
+}
+,{
+"title": "I get an SSL error when browsing to the portal.",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Portal.html#i-get-an-ssl-error-when-browsing-to-the-portal",
+"text": "I get an SSL error when browsing to the portal. If you get an SSL error “NET::ERR_CERT_COMMON_NAME_INVALID” when browsing to https://sdx.sensor.gov.sg, click Proceed and accept to be redirected automatically to https://sdx.sensors.gov.sg."
+}
+,{
+"title": "FAQs about Publishing",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Publishing.html",
+"text": "FAQs about Publishing FAQs for publishing includes questions about publishing a topic."
+}
+,{
+"title": "How can I find out who is the publisher of the topic?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Publishing.html#how-can-i-find-out-who-is-the-publisher-of-the-topic",
+"text": "How can I find out who is the publisher of the topic? Go to Browse topics page and click the topic that you need to find out who the publisher is. You can see the “Publisher Created by ID” in the Topic Details page."
+}
+,{
+"title": "How can I contact the publisher of the topic?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Publishing.html#how-can-i-contact-the-publisher-of-the-topic",
+"text": "How can I contact the publisher of the topic? Use the “Publisher Created by ID” from the Topic Details page and email to contact Publisher about this topic."
+}
+,{
+"title": "FAQs about Subscription",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Subscription.html",
+"text": "FAQs about Subscription FAQs for subscription includes questions about topic subscription."
+}
+,{
+"title": "Can I subscribe to my own topics?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Subscription.html#can-i-subscribe-to-my-own-topics",
+"text": "Can I subscribe to my own topics? You cannot subscribe to topics published by the same project. The same project is not allowed to subscribe to its own topics."
+}
+,{
+"title": "FAQs about Topic",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Topic.html",
+"text": "FAQs about Topic FAQs for topic includes questions about topic, topic pattern, and character restrictions on the topic pattern."
+}
+,{
+"title": "Why I cannot see a topic in the Browse topics page?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Topic.html#why-i-cannot-see-a-topic-in-the-browse-topics-page",
+"text": "Why I cannot see a topic in the Browse topics page? Check with the publisher if the topic visibility is own agency and WOG. If you are in the same organisation (or team) as the publisher, and the visibility is own agency, you should be able to see the topic."
+}
+,{
+"title": "Does the topic pattern has a maximum length?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Topic.html#does-the-topic-pattern-has-a-maximum-length",
+"text": "Does the topic pattern has a maximum length? The topic pattern has a maximum level of up to 8 levels. The total maximum length of the topic pattern is 150 characters including the prefix and slashes (/)."
+}
+,{
+"title": "What are the character restrictions on the topic pattern?",
+"documentTitle": "FAQs",
+"url": "/opendoc-sensor-data-exchange/FAQs/Topic.html#what-are-the-character-restrictions-on-the-topic-pattern",
+"text": "What are the character restrictions on the topic pattern? While creating a topic, the name must not have any slash ( / ), dot ( . ), or special characters. Letters, numbers, space, dash ( - ), and underscore ( _ ) are allowed."
+}
+,{
+"title": "Privacy",
+"documentTitle": "Privacy Statement",
+"url": "/opendoc-sensor-data-exchange/Privacy%20Statement/Privacy.html",
+"text": "Privacy"
+}
+,{
+"title": "Government Agency Privacy Statement",
+"documentTitle": "Privacy Statement",
+"url": "/opendoc-sensor-data-exchange/Privacy%20Statement/Privacy.html#government-agency-privacy-statement",
+"text": "Government Agency Privacy Statement 1. This is a Government Agency digital service. 2. We may use “cookies”, where a small data file is sent to your browser to store and track information about you when you enter our websites. The cookie is used to track information such as the number of users and their frequency of use, profiles of users and their preferred sites. While this cookie can tell us when you enter our sites and which pages you visit, it cannot read data off your hard disk. 3. You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website. 4. If you provide us with personally identifiable data (a) We may share necessary data with other Government agencies, so as to serve you in the most efficient and effective way unless such sharing is prohibited by law. (b) We will NOT share your Personal Data with non-Government entities, except where such entities have been authorised to carry out specific Government services. (c) For your convenience, we may also display to you data you had previously supplied us or other Government Agencies. This will speed up the transaction and save you the trouble of repeating previous submissions. Should the data be out-of-date, please supply us the latest data. 5. To safeguard your Personal Data, all electronic storage and transmission of Personal Data is secured with appropriate security technologies. 6. This site may contain links to non-Government sites whose data protection and privacy practices may differ from ours. We are not responsible for the content and privacy practices of these other websites and encourage you to consult the privacy notices of those sites. 7. Please contact sense@tech.gov.sg if you: (a) have any enquires or feedback on our data protection policies and procedures, (b) need more information on or access to data which you have provided to us in the past."
+}
+,{
+"title": "Terms of Use",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html",
+"text": "Terms of Use"
+}
+,{
+"title": "General",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#general",
+"text": "General 1. Thank you for visiting this website (“Website”) which is owned and operated by the Government Technology Agency (“GovTech”). By accessing and using this Website, you unconditionally accept and agree to be bound by these Terms of Use. If you do not agree to these Terms of Use, please do not use this Website. 2. GovTech reserves the right to change these Terms of Use from time to time. All changes will be posted on this page, and your use of this Website after such changes have been posted will constitute your unconditional agreement to the modified Terms of Use and all of the changes. 2A. Use of the functions of this Website: a. is limited only to Singapore public sector agencies; and b. is permitted only where the Singapore public sector agency has a separate agreement with us governing the use of the functions of the Website (the “Public Sector Agreement”). The Public Sector Agreement will supersede these Terms of Use. If you are not acting for and on behalf of a Singapore public sector agency which has a Public Sector Agreement with us, then these Terms of Use apply to you. You will not be able to access or use the functions of the Website."
+}
+,{
+"title": "Proprietary Rights",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#proprietary-rights",
+"text": "Proprietary Rights 1. This Website and the materials made available on or through this Website (“Contents”), are protected by copyright, trademark and other forms of intellectual property rights. All rights in this Website and the Contents are owned by, licensed to, managed or controlled by GovTech."
+}
+,{
+"title": "Restrictions on use of Contents",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#restrictions-on-use-of-contents",
+"text": "Restrictions on use of Contents 1. You may access and use this Website and the Contents in the manner permitted in these Terms of Use only. For the avoidance of doubt, the functions of the Website will not be available to you. 2. You may view and print the Contents for your personal, internal and non-commercial use, provided that you keep intact all accompanying copyright and other proprietary notices. 3. You shall not make any deletions, additions, adjustments, alterations, adaptations or modifications to this Website or any of the Contents. You acknowledge and agree that any deletion, addition, adjustment, alteration, adaptation or modification of this Website or any of the Contents is a violation of intellectual property rights subsisting therein. 4. Except as expressly permitted by these Terms of Use, you shall not reproduce, publish, upload, post, display, transmit or otherwise distribute this Website or any of the Contents in any manner or in any form, without the prior written permission of GovTech. You acknowledge and agree that any use of the Contents otherwise than in accordance with these Terms of Use is a violation of intellectual property rights subsisting therein"
+}
+,{
+"title": "Disclaimers against Warranties, Representations and Liability",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#disclaimers-against-warranties-representations-and-liability",
+"text": "Disclaimers against Warranties, Representations and Liability 1. This Website and the Contents are provided on an “as is” and “as available” basis without warranties of any kind. To the fullest extent permitted by law, GovTech does not make any representations or warranties whatsoever and hereby disclaims all express, implied and statutory warranties of any kind to you or any third party, whether arising from usage or custom or trade or by operation of law or otherwise, including but not limited to the following: a. any representations or warranties as to the accuracy, completeness, reliability, timeliness, currency, quality or fitness for any particular purpose of the Contents of this Website; and b. any representations or warranties that the Contents and functions available on this Website shall be error-free or shall be available without interruption or delay, or that any defects on this Website shall be rectified or corrected, or that this Website, the Contents and the hosting servers are and will be free of all viruses and other harmful elements. 2. GovTech shall not be liable to you or any third party for any damage or loss whatsoever, including but not limited to direct, indirect, punitive, special or consequential damages, loss of income, revenue or profits, lost or damaged data, or damage to your computer, software, modem or other property, arising directly or indirectly from: a. your access to or use of this Website; b. any loss of access to or use of this Website, howsoever caused; c. any inaccuracy or incompleteness in, or errors or omissions in the transmission of, the Contents; d. any delay or interruption in the transmission of the Contents on this Website, whether caused by delay or interruption in transmission over the internet or otherwise; or e. any decision made or action taken by you or any third party in reliance upon the Contents, regardless of whether GovTech has been advised of the possibility of such damage or loss. 3. You shall not rely on any Contents of this Website to claim or assert any form of legitimate expectation against GovTech, whether procedural or substantive in nature, in respect of any action that GovTech may or may not take in the exercise of its discretion, or in connection with GovTech’s roles as a statutory agency."
+}
+,{
+"title": "Indemnity",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#indemnity",
+"text": "Indemnity 1. You hereby agree to indemnify GovTech and hold GovTech harmless from and against any and all claims, losses, liabilities, costs and expenses (including but not limited to legal costs and expenses on a full indemnity basis) made against or suffered or incurred by GovTech arising directly or indirectly out of: a. your access to or use of this Website; or b. your breach of any of these Terms of Use."
+}
+,{
+"title": "Availability, Right of Access, Changes to Website and Contents",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#availability-right-of-access-changes-to-website-and-contents",
+"text": "Availability, Right of Access, Changes to Website and Contents 1. GovTech may at any time suspend the operation of this Website or all or any of the Contents for any period of time without any prior notice, whether for the purposes of Website updating and upgrading or system maintenance or otherwise. 2. GovTech reserves all rights to deny or restrict access to this Website by any person, or to block access from a particular internet address to this Website, at any time without prior notice and without ascribing any reason whatsoever. 3. This Website and the Contents may be changed, modified, edited, removed or withdrawn by GovTech at its absolute discretion and at any time without prior notice. 4. You shall obtain your own professional and/or legal advice relevant to your particular circumstances and conduct all necessary due diligence, including but not limited to making such investigations or seeking clarifications as may be appropriate, as regards any decision or action that you intend to take in relation to any matter concerning the Contents of this Website. This Website may not cover all information available on a particular issue."
+}
+,{
+"title": "Hyperlinks from this Website to other websites",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#hyperlinks-from-this-website-to-other-websites",
+"text": "Hyperlinks from this Website to other websites 1. This Website contains hyperlinks to websites which are not maintained by GovTech. GovTech is not responsible for the contents or reliability of those Websites and does not necessarily endorse the views expressed in them. GovTech has no control over and cannot guarantee the accessibility or proper functioning of those websites. Further, GovTech shall not be liable to you or any third party for any damage or loss whatsoever arising from your access to those websites. Use of the hyperlinks and access to those websites are entirely at your own risk."
+}
+,{
+"title": "Governing Law",
+"documentTitle": "Terms of Use",
+"url": "/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#governing-law",
+"text": "Governing Law 1. These Terms of Use shall be governed and construed in accordance with laws of the Republic of Singapore."
+}
+,{
+"title": "Activities",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Activities.html",
+"text": "Activities This area allows you to view and track the list of all user activities in the portal. This page is available for publisher and subscriber. It displays the following information: Date - Displays the date based on filter range  Service - Displays the module of the system such as Topic, User, Project, Subscription, Adaptor, Message, and so on Action - Displays activity logs for create, update, and delete actions. Action description - Displays description of certain activity such as log in, update, or create. Payload - Displays the content of the activity Specify the date range to filter the information such as action and service. Click Show Payload to display the details of the activity and allow you to copy the JSON file."
+}
+,{
+"title": "Browse Topics",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Browse%20Topic.html",
+"text": "Browse Topics The Browse Topics page displays the latest topics and available topics in cards containing the topic related information. Each topic in the card is classified as: - Refers to unclassified information disclosed to the public in the normal course of duty - Refers to unclassified information not disclosed to the public in the normal course of duty - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency Published date for each topic in the card is displayed. Mouse hover over icons and a tooltip appears for each topic in the card: icon – This icon displays “Approval is needed from publisher before you subscribe” Visibility icon – Displays who can view the topic: – This icon displays “All government agencies can view topic” – This icon displays “Only members of my agency can view topic” You can search for topic by entering the topic name in the input box. Click to filter the following: Show only my topics - Filter your own created topics Classification – Filter the topic classified as Official-Open, Official-Closed, and Restricted Approval – Filter the topic whether approval is needed from the publisher as Free access or Request needed Publish date range – Filter the topic based on selected range of publishing date Tags - Filter the keywords used to organise and categorise the topics Organisation – Select from the dropdown to filter the organisation Sort By – Select from the dropdown to filter the newest, oldest, and recently updated topics Click Clear all filters to clear all filters selected. In the Browse Topics, you can start to create your own topic and project by clicking Create button. For related information about how to add more topics, see My Topics. For related information about how to create project, see Projects."
+}
+,{
+"title": "Topic Details",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Browse%20Topic.html#topic-details",
+"text": "Topic Details You can view each topic in the card to know the details and what the topic is all about. As a Publisher you can: See the topic overview See folders and its subfolders within the topic Edit folders and its subfolders within the topic See subscribers to the topic Edit own topic only Subscribe to the topic See the status of the topic Delete own topic only As a Subscriber you can: See the topic overview See folders and its subfolders within the topic Subscribe to the topic See the status of the topic You can also preview the content of the publish topic by clicking View payload."
+}
+,{
+"title": "Dashboard",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html",
+"text": "Dashboard The Dashboard displays the following: Overview - TBD Teams Billing - TBD In Teams page, you can view and manage team and team members. You can also search for existing teams. On the left side pane, you can select teams under Teams I manage(n) tab and My teams(n) tab. Under My requests(n) tab, is the team which you sent request using Join team button. You can view the team request which was sent to the Team Administrator and its pending for approval. Once your request was approved, you can see under My teams(n) tab. Note: where (n) denotes a number. On the right side pane, displays About and Members(n) tabs. When you Create a new team, it is subjected for the Administrator’s approval of this team. Once approved, the newly created team will appear under Teams I manage(n) tab. The Team Administrator can manage user request by approve or reject actions. Note: The Team Administrator is the creator of the team. If any member join the team of the Team Administrator then the Team Administrator will approve it. You can add and invite team members to join in your team with a legitimate gov.sg email address and assign role to each team member. Team members can be from any organisation. When you select Teams I manage(n) tab, you can view the teams you manage in which you are the Team Administrator. When you select My teams(n) tab, you can view other teams (those teams that you joined and you are not the Team Administrator). Note: You cannot join any other organisation. For example, a GovTech team member cannot join to SLA, or vice versa. The Add button here will add only the members of the same organisation. You can also create or join new team. To create a new team: Step 1: Click Join team. A Create or join a team pop-up windows appears. Step 2: Enter name in Team name and click + Create team. Step 3: Enter description in Team description. Step 4: Click Create. The newly created team is subjected for approval and will appear under Teams I manage(n) tab."
+}
+,{
+"title": "Teams I manage",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html#teams-i-manage",
+"text": "Teams I manage In Teams I manage(n) tab, you can view description about the team and the list of members. You can add new team and add team members. Also, you can edit team’s name, description, change and assign roles to each team members. To view about this team: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team under Teams I manage(n) tab. Step 3: Select About tab. The team’s description is displayed and the person who created the team. To edit team’s name and description: Note: Only the Team Administrator can edit the team’s name and description. Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to edit description under Teams I manage(n) tab. Step 3: Select About tab. Step 4: Select and select Edit team. A pop-up windows appears to edit team’s name and description. Step 5: Click Save. In Members(n) tab, you can view the list of the team members and edit assigned roles. To view the list of team members: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to view list of team members under Teams I manage(n) tab. Step 3: Select Members(n) tab. The list of team members is displayed. Name Email Role Status - such as Active, Pending, Rejected Action You can also add team member’s under each team subject for approval from the Team Administrator. To add team members: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to add members under Teams I manage(n) tab. Step 3: Click Add member. A pop-up window appears and enter the following: Email Role Step 4: Click Done. You can also edit team member’s role if you are the Team Administrator of that team. To edit role: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to edit role. Step 3: Click Edit Role. A pop-up window appears and select role. Step 4: Click Done. You can approve or reject member who request to join under your team. To approve team member: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to approve the request. Step 3: Click and select Approve. Once approved, the status became active. To reject member: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to reject the request. Step 3: Click and select Reject. Once rejected, the status became rejected. Leaving the team also means deleting the team if you are the only person who left in the team. Once you leave the team, all the topics related to the team will also be deleted. To leave team: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to leave team under Teams I manage(n) tab. Step 3: Select and select Leave team. A pop-up windows appears to confirm that you want to leave the team you selected. Step 4: Click Leave team."
+}
+,{
+"title": "My teams",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html#my-teams",
+"text": "My teams In My teams(n) tab, you can only view the description about the team and the list of members. To view team’s name and description: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team under My teams(n) tab. Step 3: Select About tab. The team’s description and the person who created the team is displayed. In Members(n) tab, you can view the list of the team members. To view the list of team members: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team under My teams(n) tab. Step 3: Select Members(n) tab. The list of team members displayed. Name Email Role Status Action To leave team members: Step 1: Go to Dashboard &gt; Teams. Step 2: Select a team to leave team you selected under My teams(n) tab. Step 3: Select Members(n) tab. The list of team members is displayed. Step 4: Select and select Leave team. A pop-up windows appears to confirm that you want to leave the team you selected. Step 5: Click Leave team. Note: You cannot leave the team, if you are the last member on the team."
+}
+,{
+"title": "My requests",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html#my-requests",
+"text": "My requests Once you join in a team, you can see the request under My requests(n) tab. The Team Administrator can see the status of the request as pending request under Teams I manage(n) tab and My teams(n) tab."
+}
+,{
+"title": "Getting Started",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Getting%20Started.html",
+"text": "Getting Started ADEX is a browser-based application that enables data sharing of real-time information using a self-service portal that will run from Government Commercial Cloud (GCC) on both internet and intranet. In ADEX, a government agency can act as a publisher to publish real-time data. For example, the National Environment Agency (NEA) may publish and share health-related information about Covid-19 cases, see use cases scenario as an example. To get started in using the application: Step 1: Click this link and sign up using a valid agency email address (e.g. @tech.gov.sg). Step 2: System will send an email notification to your email inbox. Click the link to verify and proceed to sign up. For more related information about sign up, see Sign Up. Click link on how to get started. Step 3: Upon successful sign up and log in, you can now create a team and invite team members to explore ADEX portal together with your agency members. For more related information about create or join team, see Team. Step 4: Add a project to start publishing and subscribing, and create a new topic to share your data. Note: You can refer to an example use case scenario. You can view latest and available topics displayed in cards containing the topic related information in Browse Topics page. You can send an email request to sense@tech.gov.sg for approval to access fully the Administrator features. For more related information about how to manage project and topics, see Projects. Here is an example use case scenario: Where: Agency A - For example, National Environment Agency (NEA) Agency B - For example, Government Technology Agency (GovTech) Scenario: Agency A will publish and share health-related information about “Covid-19”. In ADEX portal, Agency A will create a Project named “Covid-19” and create a topic and publish it. A subscription approval is needed for another agency (Agency B) to subscribes to this topic. How to create a project: How to publish created topic: Agency B creates a project and will subscribes to Agency A topics. How to create a project to subscribe to a topic How to subcribes to a topic Before Agency B can subscribes to Agency A topics, Agency B needs to request for topic subscription approval. Agency A will approve the subscription request. How to approve subscription request to a topic"
+}
+,{
+"title": "Glossary",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Glossary.html",
+"text": "Glossary Term Description AMQP Refers to Advanced Message Queueing Protocol. It is a standardised framing and transfer protocol for asynchronously, securely, and reliably transferring messages between two parties. GovTech Government Technology Agency of Singapore MFA Multifactor Authentication MQTT Refers to Message Queuing Telemetry Transport. It is a lightweight publish and subscribe system where you can publish and receive messages as a client, often called a “broker”. A client may be either a publisher of information or a subscriber. Each client can connect to a broker. Payload The content of the MQTT message. Publisher A person who wishes to publish a new topic using real-time sensor data using a self-service portal both on-premise and in the commercial cloud. Also known as sender of messages. ADEX Asynchronous Data Exchange (ADEX) is a centralised data exchange platform for the whole-of-government (WOG). Subscriber A person who wishes to subscribe to a topic (that does not belong to his agency nor has it not been placed on his favourite list) and wishes to browse through new as well as trending topics. TOTP Time-based One Time Password WOG Whole-of-Government"
+}
+,{
+"title": "Home Page",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html",
+"text": "Home Page This area is the main page or the Home page."
+}
+,{
+"title": "Sign Up",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#sign-up",
+"text": "Sign Up For first time users, you must register to get started to use the system. To sign up: Step 1: Navigate to Home page and click Sign up. Fill in the following information. Name Organisation Email address – Must be a valid gov.sg email id Mobile number – Must be 8-digit in number Password – For the password strength, these are the criteria to fulfill: At least 12 characters long Uppercase and one lowercase letters At least 1 number At least 1 special character Confirm Password Show Password - Click to show password Step 2: Verify your email address. Step 3: From the verification email, click the verify email address link and will redirect you to Home Page screen. Step 4: Enter the access code provided and click Submit. Step 5: Once the account is successfully verified, log in using your username and password. Step 6: Follow the steps as displayed on the screen. You must first set up your multi-factor authentication (MFA) to be able to login. The MFA allows you to have additional layer of security when logging in. Scan the QR code with a TOTP-generating app like Google Authenticator or Authy. Enter the TOTP received from the TOTP-generating app with 6-digit code to link the app. Click Done. Step 7: Once the account is successfully setup, log in again. Step 8: After you log in, enter the authentication 6-digit-code from your Authenticator App. Click Done. Upon successful log in, the Browse Topics page displays. For more related information about browse topics, see Browse Topics."
+}
+,{
+"title": "Log in",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#log-in",
+"text": "Log in To log in: Step 1: Navigate to Home page and click Login. Step 2: Enter your registered email address and password. Step 3: Click Login. Step 4: After you log in, enter the authentication 6-digit-code from your Authenticator App. Click Done. You can reset MFA by clicking Click here. You will receive an email with link to reset your new MFA."
+}
+,{
+"title": "Team",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#team",
+"text": "Team Upon successful login, a pop-up message appears allowing you to join in a team or create your own team. Being in a team allows you to use all features available in ADEX which was assigned to your user account. Join a Team To join a team: Step 1: Select a team and list of team displayed from the dropdown list. Step 2: Click Join. You may skip to join in a team by clicking Skip for now. A confirmation message is displayed that your request to join a team has been sent for approval. The Team Administrator will receive an email notification to approve and reject the member’s request. Go to Dashboard to view teams that you joined, teams under your administration, and team members. Create a Team Creating a new team allows you to manage a team by adding members and assigning role to each member. Go to Dashboard to view and manage teams. To create a team: Step 1: In Create or join a team pop-up window, click + Create team to create new team. Step 2: In Team Description text box, type in description. Step 3: Click Create. A confirmation message is displayed that your request to create a team has been sent for approval. Note: While waiting for your request approval, you can still explore the portal as a Subscriber."
+}
+,{
+"title": "Forgot Password",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#forgot-password",
+"text": "Forgot Password To reset password: Step 1: Click Forgot Password and enter your registered email address. Step 2: Click Send recovery link. You will receive an email to the registered email address with the password reset link. Click the reset password link. Step 3: Enter the following information: Confirmation Code Password Confirm Password Step 4: Click Reset Password. Once reset password is successful, you will now be able to login to your account with your new password."
+}
+,{
+"title": "Profile",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#profile",
+"text": "Profile Navigate to Profile to perform the following: Account settings – Click to update user information Feedback – Click to provide feedback such as future enhancements and improvements Report vulnerability – Click to report vulnerability using this link User guide - Click to view user guide Logout – Click to log out to the application Account settings You can update information in the Account settings. To update account: Navigate to Profile Icon and click Account settings. Note: You can update name, mobile number, and password. Validation includes: Mobile number must be 8-digit number. Password must meet the following requirements: At least 12 characters long Uppercase and lowercase letters At least 1 number At least 1 special character To change password: Step 1: Navigate to Password and click Change. Step 2: Enter the following information to change password: Current password New password Confirm new password Step 3: Click Change password. Once change password is successful, you will be asked to logged out and log in again with your new password. Feedback To provide feedback: Step 1: Navigate to Profile icon and click Feedback. Step 2: Write feedback in the input box and select the type of feedback. Bugs Suggestion Request Others Step 3: Click Send Feedback. Report vulnerability To report vulnerability: Navigate to Profile and click Report vulnerability. You will be redirected to a new link portal. User guide To view user guide: Navigate to Profile and click User guide. You will be redirected to a new link portal. Logout To log out: Navigate to Profile and click Logout."
+}
+,{
+"title": "Introduction",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Introduction.html",
+"text": "Introduction Asynchronous Data Exchange (ADEX) platform is the solution to unlock the universe of whole-of-government (WOG) real-time data, asynchronous fire-and-forget data transfer. With ADEX’s data marketplace, agencies can browse all datasets across the whole-of-government for sharing. ADEX enables government agencies to publish and subscribe to real-time data using a self-service portal that will run in Government Commercial Cloud (GCC) both internet and intranet."
+}
+,{
+"title": "Roles and Responsibilities",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Introduction.html#roles-and-responsibilities",
+"text": "Roles and Responsibilities There are several roles within the ADEX application. Administrator Browse topics and verify all topics published by publisher based on the visibility as “All Government agency” and “Only to my agency” within the same organisation Publish and subscribe to topics Manage teams such as create, add or remove team members, assign or change roles Publisher Browse topics and verify topic details Create projects and topics Publish and subscribe to topics Subscriber Browse topics Create projects Subscribe to topics"
+}
+,{
+"title": "My Subscribers",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/My%20Subscribers.html",
+"text": "My Subscribers This area allows you to view all subscribers who subscribed successfully to all the topics within the projects. This page is available only for Publisher and displays the following information: Date Project Name Topic subscribed Status Action The following status includes: Respond to Request – The status where the publisher respond to subscribers request for access to the private topics. The publisher can “Approve” to allow subscription or “Reject” to deny the subscription. Subscribed – The status where the publisher approved the subscriber requests. Rejected – The status where the publisher rejected the subscriber requests. To respond to subscriber request: Step 1: Navigate to My Subscribers page on the left side navigation bar and select the project with Respond to Request status. Step 2: Click … icon under the Action column. Step 3: Click Respond to Request. A new window appears showing the details of the project. Step 4: Click Approve and the status changed to Subscribed. Step 5: Otherwise, click Reject. A new window appears showing the reason to subscribers for rejecting the subscription request. Step 6: Click Confirm and the status changed to Rejected."
+}
+,{
+"title": "My Subscriptions",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/My%20Subscriptions.html",
+"text": "My Subscriptions This area allows you to see the list of all subscribed topics including the status of each subscription. This page is available for Publisher and Subscriber. It displays the following information: Date Topic Subscribed Published by Status Action The following status includes: Subscribed – The status of the topic that is being subscribed. Rejected – The status of the topic that is being rejected. Pending – The status of the topic that is pending. The Team Administrator will receive an email notification to approve and reject the member’s request to subscribe to a topic. Once you click the Reject and Approve button, it will redirect you to My Subscriptions page. To unsubscribe to the topic: Step 1: Navigate to My Subscriptions page and select subscribed topic with Subscribed status. Step 2: Click … icon under the Action column. Step 3: Click Subscribed. A pop-up window appears to unsubscribe to the subscribed topic. Step 4: Click Unsubscribe. Once unsubscribed, the topic will be removed from My Subscriptions page. To View Reason of the Rejected Topic Step 1: Navigate to My Subscriptions page and select subscribed topic with Rejected status. Step 2: Click … icon under the Action column. Step 3: Click Reason. A pop-up window appears showing the reason of the topic rejection. Step 4: Click Ok. To Withdraw Pending Topic Subscription Step 1: Navigate to My Subscriptions page and select subscribed topic with Pending status. Step 2: Click … icon under the Action column. Step 3: Click Withdraw. A pop-up window appears to withdraw the request for the topic subscription. Once withdrawn, the topic is removed from My Subscriptions page."
+}
+,{
+"title": "Projects",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Projects.html",
+"text": "Projects A project is a piece of planned work or activity where you can organise and arrange topics that you intend to publish and wish to subscribe to. It contains connection strings and SSL certifications to set up a connection to MQTT. ADEX uses MQTT (Message Queuing Telemetry Transport) a messaging protocol to connect to the portal. In MQTT, a publisher publishes messages on a topic and a subscriber subscribes to that topic to view the message.  MQTT connection is required to publish and subscribe topics on ADEX.  To publish your relevant information, you must first create your own project to create a topic and subscribe to your own topic. A topic cannot be duplicated and cannot published and subscribed to the same project again. Both publisher and subscriber can create a project. Both publisher and subscriber need to have a project before both can publish or subscribe to any topic. Only the publisher can create a topic. You can create new project by clicking Create button on the top right of the Browse Topics page and select New Project. Or, click Projects from the left side navigation bar. In Project page, you can see list of all pub/sub projects containing number of topics being grouped together. Select a project to see project details, connection status, published/subscribed topics, and activities. Create New Project To create new project: Step 1: Click Create Project. The Projects page is displayed. Note: For your first project, you will see this page as shown below. Step 2: Enter the following information. Project Name Team - Once you select a team, you can choose the type of project Type of project (For example: Publish, Subscribe) Project Duration Description Click Create. The newly created project appears in the list of project in the Project page. You can aslo delete project by clicking Delete. You will receive a notification email when your project expires. You must extend the project period before it get suspended. To extend the project period: Step 1: Go to Project and search for project to update the project duration. Step 2: Select project to view the project details. Step 3: Under Project duration, extend the project period. Step 4: Click Save to save the project details successfully. In the Projects page, displays the project name, date created, number of publication and subscription. It also includes the following tabs: Overview – Displays the details of the project. Connections – Displays the details to set up and connect to MQTT Client. My topics – Displays the topic that you have published to this project and the total number of topics published by this project. Note: This tab is only available for a Publisher only. Subscribed topics – Displays the topic that you have subscribed by this project and the total number of topics subscribed by this project. Activities - Displays the list of all user activities in the portal. Set up MQTT Connections After creating a new project, go to Connections tab. This tab shows the connection strings and SSL certificates to setup connections to MQTT. Unique MQTT URL Unique MQTT Client ID Client key Client secret SSL Certificate chain SSL Client certificate SSL Private key Private key password Note: The Private key only appears once. You must copy and save the certificates in a text editor file. Alternatively, click Generate certificate button to generate new certificate. As a Publisher you will receive a Private key password through email and use that password in the Client key passphrase field. To set up MQTT Client connection: Step 1: Copy the certificates in a Text Editor and save each file separately. Step 2: Now, open MQTT Client. Step 3: Click Create MQTT Client. Step 4: Set up MQTT connections with the following: MQTT Client Name – Name is not specific and can give random name Protocol - Select protocol. For example, mqtt/tls Host - Enter host name. For example, sdx.sensors.gov.sg Upload each file you copied in a Text Editor in the following fields: CA file Client certificate file Client key file Enter the password received from the email inbox in the Client key passphrase field Click Save and connected successfully. As a Publisher you are now ready to publish a topic. A Subscriber needs to subscribe to this topic from the portal. Step 5: Enter the topic path and fill into the Topic to subscribe field. For example: govtech-ndmrcHUWg/Topic-temperature Click the Subscribe button to receive subscription to this topic. Here is an example of MQTT code samples. Download the files and use for reference. Click to download java.zip. Click to download node.zip. Click to download python.zip. Click to download golang.zip. For more related information about MQTT, refer to this link. Set up MQTT Topic Name and Payload Format Ideally, it is important to design a topic naming and structure within the payload. In this section, provides a guideline on how to construct the topic name and payload content for MQTT networks. Topic Format It is best to have a consistent approach in naming the topics for ease of integration to 3rd party application. The proposed approach is to construct the topic name based on the following information: {agency}-{client_id}/{message type}/{reading type}/{deviceId} {agency}-{client_id}/{category}/{sub-category}/{deviceId} Here is a list of examples: nea-ab1c23/environment/psi/device001 nea-ab1c23/environment/temperature/device001 nea-ab1c23/environment/humidity/device001 nea-ab1c23/env/device001 Payload Format The payload content should be as minimal as possible and can be grouped together when they make sense. This is to ensure that clients do not incur data charges when not needed. SensorML Format [ {“n”:”urn:dev:ow:10e2073a01080063”, “v”:23.1} ] [ {“bn”:”gateway”, “n”:”temp”, “u”:”Cel”, “v”:23.1}, {“bn”:”dev1”, “bv”:200, “n”:”distance”, “u”:”m”, “v”:1} ] For more related information about SensorML format, refer to the following link: IETF RFC-8428 SenML Dictionary Examples Alternatively: nea-ab1c23/environment/humidity/device001 { “id”: “device001”, “loc”: { “lat”: 13.361389, “lon”: 38.115556 }, “humidity”: { “v”: 67.00, “uom”: “%” } } nea-ab1c23/environment/psi/device001 { “id”: “device001”, “loc”: { “lat”: 13.361389, “lon”: 38.115556 }, “psi”: { “v”: 24 } } nea-ab1c23/traffic/radar/device001 { “id”: “device001”, “loc”: { “lat”: 13.361389, “lon”: 38.115556 }, “radar”: { “angle”: { “v”: 22, “uom”: “degree” }, “speed”: { “v”: 32.6, “uom”: “m/s” }, “direction”: “into compound” } } nea-ab1c23/environment/rain/device001 { “id”: “device001”, “loc”: { “lat”: 13.361389, “lon”: 38.115556 }, “rain”: { “s”: “off” } } nea-ab1c23/environment/temperature/device001 { “id”: “device001”, “loc”: { “lat”: 13.361389, “lon”: 38.115556 }, “temperature”: { “v”: 24.0, “uom”: “C” } } For the environment topic, it can contain multiple measurements like humidity, psi, rain, and temperature grouped together. nea-ab1c23/environment/sensors/device001 { “id”: “device001”, “loc”: { “lat”: 13.361389, “lon”: 38.115556 }, “humidity”: { “v”: 67.00, “uom”: “%” }, “psi”: { “v”: 24 }, “rain”: { “s”: “off” }, “temperature”: { “v”: 24.0, “uom”: “C” } } Common Payload Snippets Time Time is denoted by the Unix epoch timestamp in seconds. Use milliseconds if readings are expected to be very frequent. SenML { “t”:1.577836800e+09 } t: timestamp - double (seconds) Traditional { “ts”: 1577836800000 } ts: timestamp - double (milliseconds) Alternative: “timestamp”: 1577836800 (seconds) Status/State SenML { “u”:”/”, “v”:1 } u: unit - string v: value - double Traditional { “s”: “on” } s: state - string Alternative: “v”: 1 “state”: “on” Measurement SenML { “u”:”m”, “v”:80 } u: unit - string v: value - double v: numeric values vb: boolean values vd: binary data vs: strings Traditional { “measure”: { “v”: 80.0, “uom”: “%” } } { “measure”: 80.0 } measure: measure name - block v: value - double uom: unit of measure - string Location GPS location includes lat, lon, alt, and a timestamp for a moving sensor. Ground sensors may not have altitude reading. Location for immobile sensor helps to enable visualisation on a map. Timestamp is Epoch time in milliseconds. SenML {“u”:”lat”,”v”:13.361389,”t”:1.577836800e+09}, {“u”:”lon”,”v”:38.115556,”t”:1.577836800e+09}, {“u”:”alt”,”v”:20.112233,”t”:1.577836800e+09} [ {“bn”:”urn:dev:ow:10e2073a01080063”,”bt”:1.577836800e+09}, {“u”:”lat”,”v”:13.361389}, {“u”:”lon”,”v”:38.115556}, {“u”:”alt”,”v”:20.112233} ] lat: latitude - float lon: longitude - float alt: altitude - float t: timestamp - double (milliseconds) bt: base timestamp - double (milliseconds) bn: base name (base name of the device) Traditional { “loc”: { “lat”: 13.361389, “lon”: 38.115556, “alt”: 38.115556, “ts”: 1577836800000 } } loc: location - block lat: latitude - float lon: longitude - float alt: altitude - float ts: timestamp - double (milliseconds) Recommended MQTT Topic Path Pattern Hierarchy Here is a recommended MQTT topic path pattern hierarchy for easy categorisation and browsing. MQTT topic path pattern should follow a recommended hierarchy. This is recommended but not enforced. Using a hierarchy, allows easier subscribing of all children topics under a category. Topic Path: {agency}-{client_id}/{category}/{sub-category}/{deviceId} Example: nea-ab1c23/environment/temperature/device001 Categorising MQTT topics for browsing (with synonyms): Topic Synonyms environment (climate, weather) forecast   humidity   noise   rainfall   temperature   wind   tide emergency alerts   cardiac   drowning   accidents   pullcords   fires security cctv   cameras   incidents community alerts   events utility electricity   water traffic cameras   incidents   roadworks   roadblocks devices status analytics reports system metrics Set up AMQP Connections For 2-way SSL connection, use the same PEM files as MQTTS: ca.pem, client.pem, private.key, clientid and clientkey are required. Exchange: amq.topic Routing key for publish: Full topic pattern with dot (. ) instead of slash (/ ) Publish: channel.Publish( “amq.topic”, // exchange $topic, // routing key false, // mandatory false, // immediate amqp.Publishing{ DeliveryMode: amqp.Transient, ContentType: “application/json”, Body: $payload, Timestamp: time.Now(), }) Binding key for subscribe: Full topic pattern with dot (. ) instead of slash (/ ) Subscribe: q, err := channel.QueueDeclare( “”, // name, leave empty to generate a unique name false, // durable true, // delete when unused false, // exclusive false, // noWait nil, // arguments ) err := channel.QueueBind( q.Name, // name of the queue (generated from above step) $topic, // bindingKey, topic pattern with . seperator “amq.topic”, // sourceExchange, must use “amq.topic” for MQTT topics false, // noWait nil, // arguments ) replies &lt;-chan amqp.Delivery replies, err := channel.Consume( q.Name, // name of the queue (generated from above step) $consumerTag, // consumer tag (consumer “id”, eg. mqtt_clientid) true, // auto-ack false, // exclusive false, // no-local false, // no-wait nil, // args ) For more related information about AMQP, refer to this link."
+}
+,{
+"title": "My Topics",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Projects.html#my-topics",
+"text": "My Topics After creating a project, create your first topic. The My Topics tab is only available for a Publisher. This tab shows the topic that have been published on this project. To create a topic: Step 1: Navigate to Projects page &gt; My topics tab. Click Create topic. Step 2: Select a type of topic if you want to create a new one or add to an existing topic. Click Next. Step 3: Select from the option who can see the topic. Click Next. All government agencies Only my agency Step 4: Select data classification. Click Next. Step 5: Select the project and enter topic name. Click Next. Step 6: Fill in the following details of the topic. Description – Enter description to the topic Tags – Add tags to the topic maximum of 5 tags Is approval needed for subscription requests? Yes – Approval is needed from publisher before you subscribe No – Allows free access to the topic and no approval needed from the publisher Step 7: Click Create. The new topic is created successfully. You can see the newly created topic being added in Projects page &gt; My topics tab. You can add more topics within the topic on your own project by selecting from topic folder or subfolder and clicking the icon. Add Topic within a Topic To add topic within a topic: Step 1: Navigate to Projects &gt; My topics tab. Step 2: Select a topic and click icon. Step 3: Click New Topic. A new window appears to create new topic. Step 3: Enter topic name and click Create. The newly created topic is added successfully in the Topic Details page. Edit Topic To edit topic: Step 1: Navigate Projects &gt; My topics tab. Step 2: Select a topic to edit and the Topic Details page displayed. Step 3: Click Edit. A new window appears to edit the details of the topic. Step 4: Click Update. Suspend Topic Suspending the topic allows to disconnect the topic so you will not receive anything from this topic. When a topic has been suspended, you can still edit and Subscribers can still subscribe to this topic. To suspend topic: Step 1: Navigate to Projects &gt; My topics tab. Step 2: Select a topic and click Click and click icon. Step 3: Click Suspend and the status becomes Suspended. Note: Suspended topic cannot be published You can unsuspend the topic by clicking Unsuspend and the status becomes Active again. If there is multiple topics within the topic selected, you can suspend multiple topics. In the Browse Topic page, you can see the topic has been suspended by the greyed out font and icon. Pending Topic Pending topic is when the Publisher published the topic through MQTT without being first created from the portal. The Publisher allows to verify if the topic is a valid topic. To view pending topic: Step 1: Navigate to Projects and click My topics tab. A topic with status Pending is displayed. You can edit the details of this topic and update. Also, it allows you to publish the topic and the status changed to Active."
+}
+,{
+"title": "Delete Topic",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Projects.html#delete-topic",
+"text": "Delete Topic You can delete existing topic in two ways: Step 1: Navigate to Browse topics. Step 2: Select a topic that you want to delete and the Topic Details page displayed. Step 3: Click icon and select Delete. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. Step 4: Tick icon and click Delete. Once the topic is deleted, it will not appear in the Browse topic page. Or, Step 1: Navigate to Projects. Step 2: Click My topics tab and the Topic Details page displayed. Step 3: Select a topic that you want delete. Step 4: Click icon and select Delete. A confirmation window appears to confirm if you are sure that you want to delete the topic and all its subtopics under this topic will be deleted. Subscriptions from this topic will also be deleted. Step 5: Tick icon and click Delete. Deleting a topic from within the topic or its children will also be deleted. When topic is deleted, its associated topic or subtopic is also deleted. You can also delete topic that are pending and suspended."
+}
+,{
+"title": "Subscribed Topics",
+"documentTitle": "User Guide",
+"url": "/opendoc-sensor-data-exchange/User%20Guide/Projects.html#subscribed-topics",
+"text": "Subscribed Topics Both publisher and subscriber can subscribe to a topic. Both publisher and subscriber can view the Subscribed topics tab. To subscribe to a topic: Step 1: Navigate to Projects page &gt; Subscribed topics tab. Click Browse Topics. Step 2: Select the topic card that you want to subscribe. Step 3: Once the topic card is selected, the Topic Details page is displayed. Click Subscribe. Step 4: Select a project to subscribe to the topic. Click Subscribe. Step 5: Go back to Projects and click Subscribed topics tab. The new subscription is added to the subscribed topics."
+}
+]
