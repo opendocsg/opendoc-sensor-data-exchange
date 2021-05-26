@@ -3,10 +3,9 @@
 
 This area allows you to see the list of all subscribed topics including the status of each subscription. This page is available for Publisher and Subscriber. It displays the following information:
 
+- Date
 - Topic Subscribed
 - Published by
-- Topic description
-- Project name
 - Status
 - Action
 
@@ -18,7 +17,7 @@ The following status includes:
 
 ![Image not Available](/assets/Fig63.png)
 
-The Team Administrator will receive an email notification to approve and reject the member's request to subscribe to a topic. 
+The Team Administrator will receive an email notification to approve and reject the member's request to subscribe to a topic. Once you click the **Reject** and **Approve** button, it will redirect you to My Subscriptions page.
 
 To unsubscribe to the topic:
 
