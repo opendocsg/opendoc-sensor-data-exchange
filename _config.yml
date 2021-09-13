@@ -26,8 +26,8 @@ hide_toolbar:
   github: true
 
 folders:
-  - name: 'User Guide'
-    title: 'User Guide'
+  - name: 'User guide'
+    title: 'User guide'
     subtitle: ''
     order:
       - Getting Started.md
@@ -51,8 +51,8 @@ folders:
       - Topic.md
       - Messaging.md
       - Portal.md
-  - name: 'Terms of Use'
-    title: 'Terms of Use'
-  - name: 'Privacy Statement'
-    title: 'Privacy Statement'
+  - name: 'Terms of use'
+    title: 'Terms of use'
+  - name: 'Privacy statement'
+    title: 'Privacy statement'
 
