@@ -1,4 +1,4 @@
-*  User Guide
+*  User guide
   * [Getting started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
   * [Home page](User%20Guide/Home%20Page)
