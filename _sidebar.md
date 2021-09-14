@@ -1,7 +1,7 @@
 *  User Guide
   * [Getting started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
-  * [Home page](User%20Guide/Home Page)
+  * [Home page](User%20Guide/Home%20Page)
   * [Dashboard](User%20Guide/Dashboard)
   * [Browse topics](User%20Guide/Browse%20Topic)
   * [Projects](User%20Guide/Projects)
