@@ -48,9 +48,9 @@ Click <img src="/assets/icon8.png" width="100" height="35" /> to filter the foll
 
 In the **Browse topics**, you can start to create your own topic and project by clicking **Create** button. 
 
-- For related information about how to **Create topic**, see **[My topics](/User%20Guide/Projects.html#my-topics)**
+- For related information about how to **Create topic**, see **[My topics](/User%20Guide/Projects.md#my-topics)**
 
-- For related information about how to **Create project**, see **[Projects](/User%20Guide/Projects.html)**
+- For related information about how to **Create project**, see **[Projects](/User%20Guide/Projects.md)**
 
 
 ## Topic details
