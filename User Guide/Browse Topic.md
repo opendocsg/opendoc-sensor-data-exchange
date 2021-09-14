@@ -19,7 +19,7 @@ Mouse hover over icons and a tooltip appears for each topic in the card:
 - ![Image not Available](/assets/icon4.png) icon – This icon displays “Approval is needed from publisher before you subscribe” 
 
 - Visibility icon – Displays who can view the topic: 
-  - ![Image not Available](/assets/icon13.png)- This icon displays "Anyone can view this topic"
+  - ![Image not Available](/assets/icon13.png =100x20)- This icon displays "Anyone can view this topic"
   - ![Image not Available](/assets/icon5.png) – This icon displays "All government agencies can view topic"
   - ![Image not Available](/assets/icon6.png) – This icon displays "Only members of my agency can view topic" 
   - ![Image not Available](/assets/icon12.png)- This icon displays "Only members of the team can view this topic"
