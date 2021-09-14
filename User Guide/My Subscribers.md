@@ -4,7 +4,7 @@
 This area allows you to view all **subscribers** who subscribed successfully to all topics within your projects. This page displays the following information:
 
 - Date
-- Project Name
+- Project name
 - Agency
 - Topic subscribed
 - Project description
