@@ -1,12 +1,12 @@
 *  User guide
-  * [Getting started](User%20Guide/Getting%20Started)
+  * [Getting started](User%20Guide/Getting Started)
   * [Introduction](User%20Guide/Introduction)
-  * [Home page](User%20Guide/Home%20Page)
+  * [Home page](User%20Guide/Home Page)
   * [Dashboard](User%20Guide/Dashboard)
-  * [Browse topics](User%20Guide/Browse%20Topic)
+  * [Browse topics](User%20Guide/Browse Topic)
   * [Projects](User%20Guide/Projects)
-  * [My subscribers](User%20Guide/My%20Subscribers)
-  * [My subscriptions](User%20Guide/My%20Subscriptions)
+  * [My subscribers](User%20Guide/My Subscribers)
+  * [My subscriptions](User%20Guide/My Subscriptions)
   * [Activities](User%20Guide/Activities)
   * [Glossary](User%20Guide/Glossary)
 * Frequently Asked Questions
