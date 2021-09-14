@@ -1,3 +1,3 @@
 ---
-title: User Guide
+title: User guide
 ---

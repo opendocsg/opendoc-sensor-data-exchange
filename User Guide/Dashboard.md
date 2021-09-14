@@ -3,35 +3,31 @@
 
 The **Dashboard** displays the following: 
 
+- Join team 
 - Overview - TBD
-- Teams
+- Teams 
 - Billing - TBD
 
-In Teams page, you can view and manage team and team members. You can also search for existing teams.
+Under **Teams** tab, you can view your teams and team details or search your teams.
 
-On the left side pane, you can select teams under **Teams I manage(n)** tab and **My teams(n)** tab. Under **My requests(n)** tab, is the team which you sent request using **Join team** button. You can view the team request which was sent to the Team Administrator and its pending for approval. Once your request was approved, you can see under **My teams(n)** tab. *Note: where (n) denotes a number.*
+On the left side pane, you can see the following:
 
-On the right side pane, displays **About** and **Members(n)** tabs. 
+- **Teams I manage**, includes all teams where you are admin
+- **My teams**, includes other teams where you are a member, if you are admin, you are also a member of the team
+- **My requests** tab, includes team request which was sent via **Join team** to the Team admin and its pending for approval. Once your request was approved, you can see under **My teams** tab
 
-When you Create a new team, it is subjected for the Administrator's approval of this team. Once approved, the newly created team will appear under **Teams I manage(n)** tab. The Team Administrator can manage user request by approve or reject actions.
+![Image not Available](/assets/Fig35b.png)
 
-**Note:** *The Team Administrator is the creator of the team. If any member join the team of the Team Administrator then the Team Administrator will approve it.*
-
-You can add and invite team members to join in your team with a legitimate *gov.sg* email address and assign role to each team member. Team members can be from any organisation. 
-
+Under **Teams I manage**, click any team name, at the right side pane, displays **About**, **Members** and **Projects**  
 ![Image not Available](/assets/Fig34a.png)
 
-When you select **Teams I manage(n)** tab, you can view the teams you manage in which you are the Team Administrator. 
+ **Note:** *You can join one or more teams within your organisation. For example, a GovTech member can join to any Govtech team. Use the **Add member** button to add members from other organisations*.
 
-When you select **My teams(n)** tab, you can view other teams (those teams that you joined and you are not the Team Administrator). 
+You can **Create or join a team**:
 
-**Note:** *You cannot join any other organisation. For example, a GovTech team member cannot join to SLA, or vice versa. The **Add** button here will add only the members of the same organisation.*
+To **Create a new team**:  
 
-You can also create or join  new team. 
-
-To create a new team:  
-
-**Step 1:** Click **Join team**. A Create or join a team pop-up windows appears.
+**Step 1:** Click **Join team**. A **Create or join a team** pop-up windows appears.
 
 **Step 2:** Enter name in **Team name** and click **+ Create team**.
 
@@ -39,189 +35,252 @@ To create a new team:
 
 **Step 4:** Click **Create**.
 
-The newly created team is subjected for approval and will appear under **Teams I manage(n)** tab.
-
 ![Image not Available](/assets/Fig35a.png)
+
+The newly created team is subjected to Super admin approval. Once approved, the newly created team will appear under **Teams I manage** tab. Now you are the creator of this team, your role is Team admin. Now as Team Admin you can approve or reject members via **Join team request**.
+
+**Note:** 
+- Once you sent **Create new team** request to Super admin, your team name will be shown under **My requests** tab with **status=Pending**.
+
+![Image not Available](/assets/Fig35c.png)
+
+- When Super admin rejects your **"Create new team"** request, you could view the team **status=Rejected** under **My requests** tab.
+
+![Image not Available](/assets/Fig35d.png)
 
 ## Teams I manage
 
-In **Teams I manage(n)** tab, you can view description about the team and the list  of members. You can add new team and add team members. Also, you can edit team's name, description, change and assign roles to each team members. 
+When you select **Teams I manage** tab, you can view the list of teams you manage in which you are the Team Admin.
 
-To view about this team:
+When you click a team name under **Teams I manage**, you can see Team name, Organisation name, Created by(hover the name you can see the Email ID) and team created date.
+
+and you can click ![Image not Available](/assets/icon9.png) you could see actions:
+
+- **Add member**, can add other organisations members into your team with a legitimate *gov.sg* email address 
+- **Edit team**, can update team name and team description
+- **Leave team**, can delete the team if you are the only team admin
+
+![Image not Available](/assets/Fig34_b.png)
+
+Also you can view the following tabs:
+ - **About** tab, view Team description 
+ - **Members** tab, view member details 
+ - **Projects**, view Projects list
+
+![Image not Available](/assets/Fig72a.png)
+
+To view **About** this team information:
+
+ **Note:** *Only same team members can view the team information.*
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team under **Teams I manage(n)** tab. 
+**Step 2:** Click a team under **Teams I manage** tab.
 
-**Step 3:** Select **About** tab. The team's description is displayed and the person who created the team. 
+**Step 3:** Click **About** tab. The team description is displayed and the person who created the team.
 
 ![Image not Available](/assets/Fig34b.png)
 
-To edit team's name and description:
+To **Edit team** name and description:
 
-**Note:** *Only the Team Administrator can edit the team's name and description.*
+ **Note:** *Only creator of the team as a Team Admin can edit the team name and description.*
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team to edit description under **Teams I manage(n)** tab.
+**Step 2:** Select a team to edit description under **Teams I manage** section.
 
-**Step 3:** Select **About** tab. 
+**Step 3:** Click ![Image not Available](/assets/icon9.png) and select **Edit team**. A pop-up windows appears to edit team name and team description.
 
-**Step 4:** Select ![Image not Available](/assets/icon9.png) and select **Edit team**. A pop-up windows appears to edit team's name and description.
-
-**Step 5:** Click **Save**. 
+**Step 4:** Click **Save**.
 
 ![Image not Available](/assets/Fig37a.png)
 
-In **Members(n)** tab, you can view the list of the team members and edit assigned roles.
+To **Add member** in team:
 
-To view the list of team members:
-
-**Step 1:** Go to **Dashboard** > **Teams**.
-
-**Step 2:** Select a team to view list of team members under **Teams I manage(n)** tab.
-
-**Step 3:** Select **Members(n)** tab. The list of team members is displayed.
-
-- Name
-- Email 
-- Role 
-- Status - such as Active, Pending, Rejected
-- Action
-
-![Image not Available](/assets/Fig38a.png)
-
-You can also add team member's under each team subject for approval from the Team Administrator. 
-
-To add team members:
+ **Note:** *You as team admin, you can add team member under teams and assign any role.*
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team to add members under **Teams I manage(n)** tab.
+**Step 2:** Click a team to add members under **Teams I manage** tab.
 
-**Step 3:** Click **Add member**. A pop-up window appears and enter the following:
+**Step 3:** Click ![Image not Available](/assets/icon9.png) and Click **Add member**, a pop-up windows appears to add team member.
 
-- Email
+**Step 4:** In the **Add user** pop-up window, do the following:
+
+- Enter Email
 - Role
 
 **Step 4:** Click **Done**.
 
 ![Image not Available](/assets/Fig39a.png)
 
-You can also edit team member's role if you are the Team Administrator of that team.
 
-To edit role:
+*In **Members** tab, you can view the list of the team members, search by member details and edit assigned roles*.
+
+To **view the list of team members**:
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team to edit role.
+**Step 2:** Select a team to view list of team members under **Teams I manage** tab.
 
-**Step 3:** Click **Edit Role**. A pop-up window appears and select role.
+**Step 3:** Click **Members** tab. The list of team members is displayed.
+
+- Name
+- Email 
+- Role
+- Status - such as Active, Pending, Rejected
+- Action
+
+
+![Image not Available](/assets/Fig38a.png)
+
+To **Search** for team members:
+
+**Step 1:** Go to **Dashboard** > **Teams**.
+
+**Step 2:** Click a team to view list of team members under **Teams I manage** tab.
+
+**Step 3:** Click **Members** tab. The list of team members is displayed.
+ 
+**Step 4:** Enter team member name in the search field.
+
+**Step 5:** Alternatively you can search team members by Email or by Roles.
+
+
+To **Edit role**:
+
+*You can also edit team member's role if you are the creator of the team and your role is Team Admin of that team*.
+
+![Image not Available](/assets/Fig72.png)
+
+**Step 1:** Go to **Dashboard** > **Teams**.
+
+**Step 2:** Click **Members** tab. The list of team members is displayed.
+
+**Step 3:** Select a team member to edit role, click Action , click ![Image not Available](/assets/icon9.png).
+
+**Step 3:** Click **Edit Role**, a pop-up window appears and select role.
 
 **Step 4:** Click **Done**.
 
-
 ![Image not Available](/assets/Fig39b.png)
 
+You can **Approve** or **Reject** member who request to join under your team
 
-You can approve or reject member who request to join under your team.
+To **Approve** team member **Pending** request:
 
-To approve team member:
+**Step 1:** Go to **Dashboard** > **Teams I manage**.
 
-**Step 1:** Go to **Dashboard** > **Teams**.
+**Step 2:** Click the team name to approve the **Join team** request for team member.
 
-**Step 2:** Select a team to approve the request.
-
-**Step 3:** Click ![Image not Available](/assets/icon9.png) and select **Approve**. Once approved, the status became active.
-
+**Step 3:** You can see team member request status=pending, click ![Image not Available](/assets/icon9.png) and select **Approve**. Once approved, the status became Active.
 
 ![Image not Available](/assets/Fig39c.png)
 
-To reject member:
+To **Reject** team member **Pending** request:
 
-**Step 1:** Go to **Dashboard** > **Teams**.
+**Step 1:** Go to **Dashboard** > **Teams I manage**.
 
-**Step 2:** Select a team to reject the request.
+**Step 2:** Click the team name to reject the **Join team** request for team member.
 
-**Step 3:** Click ![Image not Available](/assets/icon9.png) and select **Reject**. Once rejected, the status became rejected.
-
+**Step 3:** You can see team member request status=pending, click ![Image not Available](/assets/icon9.png) and select **Reject**. Once rejected, the status became Rejected.
 
 ![Image not Available](/assets/Fig39d.png)
 
+Leaving the team also means deleting the team if you are the only person who left in the team. Once you leave the team, all the topics related to the team will also be deleted. 
 
-Leaving the team also means deleting the team if you are the only person who left in the team. Once you  leave the team, all the topics related to the team will also be deleted. 
-
-To leave team:
+To **Leave** team:
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team to leave team under **Teams I manage(n)** tab.
+**Step 2:** Select a team to leave team under **Teams I manage** tab.
 
-**Step 3:** Select ![Image not Available](/assets/icon9.png)  and select **Leave team**. A pop-up windows appears to confirm that you want to leave the team you selected.
+**Step 3:** Click ![Image not Available](/assets/icon9.png)  and click **Leave team** button, a pop-up windows appears to confirm that you want to leave the team you selected.
 
 **Step 4:** Click **Leave team**. 
 
 ![Image not Available](/assets/Fig40a.png)
 
+**Step 5:** Click the checkbox and click **Delete**.
+
+![Image not Available](/assets/Fig74.png)
+
 ## My teams
 
-In **My teams(n)** tab, you can only view the description about the team and the list of members. 
+In **My teams** tab, you can view the Team names, click any team name, at the right side of the pane, you can see Team name, Organisation, Created by and date.
 
-To view team's name and description:
+Also under team name you can view the following:
+
+- Team description
+- Members
+- Projects.
+
+To view **Team description**:
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team under **My teams(n)** tab. 
+**Step 2:** Click a team under **My teams** tab. 
 
-**Step 3:** Select **About** tab. The team's description and the person who created the team is displayed. 
+**Step 3:** Click **About** tab, you can see the team's description.
 
 ![Image not Available](/assets/Fig36a.png)
 
+In **Members** tab, you can view the list of the team members and can do search team member by name or by email or by Roles.
 
-In **Members(n)** tab, you can view the list of the team members.
-
-To view the list of team members:
+To view the **list of team members**:
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team under **My teams(n)** tab. 
+**Step 2:** Click a team under **My teams** tab. 
 
-**Step 3:** Select **Members(n)** tab. The list of team members displayed.
+**Step 3:** Click **Members** tab. The list of team members displayed.
 
 - Name
 - Email 
-- Role 
+- Role
 - Status
-- Action
 
 ![Image not Available](/assets/Fig42a.png)
 
-To leave team members:
+To **Search** for team members:
 
 **Step 1:** Go to **Dashboard** > **Teams**.
 
-**Step 2:** Select a team to leave team you selected under **My teams(n)** tab.
+**Step 2:** Select a team to view list of team members under **My Teams** tab.
 
-**Step 3:** Select **Members(n)** tab. The list of team members is displayed. 
+**Step 3:** Click **Members** tab. The list of team members is displayed.
+ 
+**Step 4:** Enter member name in the search field.
 
-**Step 4:** Select ![Image not Available](/assets/icon9.png) and select **Leave team**. A pop-up windows appears to confirm that you want to leave the team you selected.
+**Step 5:** Alternatively you can search team members by **Email** or by **Roles**.
+
+To **Leave team**:
+
+**Step 1:** Go to **Dashboard** > **Teams**.
+
+**Step 2:** Under **My teams** tab, click ![Image not Available](/assets/icon9.png) and select **Leave team**. A pop-up windows appears to confirm that you want to leave the team you selected.
 
 **Step 5:** Click **Leave team**. 
 
-**Note:** *You cannot leave the team, if you are the last member on the team.*
-
 ![Image not Available](/assets/Fig43a.png)
 
+**Note:** 
+
+  - You cannot leave the team, if you are the only Team admin with other members.
+  - You can leave the team if you are the only member of the team.
+  - You can leave the team when you are one of the team admins.
+
+
+**Step 5:** Click the checkbox and click **Delete**.
+
+![Image not Available](/assets/Fig75.png)
 
 ## My requests
 
-Once you join in a team, you can see the request under **My requests(n)** tab. 
-
+Once you **join a team** you can see the request under **My requests** tab. 
 
 ![Image not Available](/assets/Fig43b.png)
 
-
-The Team Administrator can see the status of the request as pending request under **Teams I manage(n)** tab and **My teams(n)** tab. 
-
+The Team admin can see the status of the request as **Pending** under **Teams I manage** tab.
 
 ![Image not Available](/assets/Fig43c.png)

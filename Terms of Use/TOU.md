@@ -1,4 +1,4 @@
-# Terms of Use
+# Terms of use
 
 
 
@@ -68,6 +68,7 @@
 
 
 ## Indemnity
+
 
 
 
