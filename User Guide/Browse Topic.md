@@ -142,11 +142,17 @@ In this tab you can view the topic subscribed details:
 - To **create new adaptor** you can do the following:
 
 **Step 1:** In Adaptor tab, Click **+Create new adaptor**.
+
 **Step 2:** In **Create adaptor** form , enter **Name**.
+
 **Step 3:** Enter description in **Description** field.
+
 **Step 4:** For **Request** Method **GET**, Enter the **Endpoint** URL.
+
 **Step 5:** Select **Body type** as none.
+
 **Step 6:** Select **Active adaptor** toggle.
+
 **Step 7:** Click **Create**.
 
 After you have created adaptor you could see the following in **Adaptor** tab
