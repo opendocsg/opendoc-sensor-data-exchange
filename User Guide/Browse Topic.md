@@ -22,8 +22,8 @@ Mouse hover over icons and a tooltip appears for each topic in the card:
   - ![Image not Available](/assets/icon13.png)- This icon displays "Anyone can view this topic"
   - ![Image not Available](/assets/icon5.png) – This icon displays "All government agencies can view topic"
   - ![Image not Available](/assets/icon6.png) – This icon displays "Only members of my agency can view topic" 
-  - [Image not Available](/assets/icon12.png)- This icon displays "Only members of the team can view this topic"
-  - [Image not Available](/assets/icon11.png)- This icon displays "Only you can view this topic"
+  - ![Image not Available](/assets/icon12.png)- This icon displays "Only members of the team can view this topic"
+  - ![Image not Available](/assets/icon11.png)- This icon displays "Only you can view this topic"
 
   
  ![Image not Available](/assets/Fig1.png)   
