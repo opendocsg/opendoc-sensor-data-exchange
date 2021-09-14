@@ -21,7 +21,7 @@ Click [link](https://d3uzjhjcl6zsbz.cloudfront.net/how-to-get-started-on-ADEX.mp
 
    You can view latest and available topics displayed in cards containing the topic related information in Browse Topics page.
 
-   ![Image is not available](assets/Fig1.png)
+   ![Image is not available](/assets/Fig1.png)
    ![](assets/Fig1.png)
 
 You can send an email request to <sense@tech.gov.sg> for enquires about ADEX features.
@@ -69,7 +69,7 @@ Agency B, subscribes to topic.
 
 Agency A, as a publisher will be notified by email to approve the subscription request. 
 
-![Image is not available](assets/Fig71.png)
+![Image is not available](/assets/Fig71.png)
 
 Agency A, can click the **ADEX portal** link from the email to login to ADEX portal and can approve the subscriber request for topic "Hospitals".
 
@@ -79,6 +79,6 @@ Agency A, can click the **ADEX portal** link from the email to login to ADEX por
 
 Agency B, will be notified via email for subscription to topic "Hospitals" is approved!
 
-![Image is not available](assets/Fig71a.png)
+![Image is not available](/assets/Fig71a.png)
 
 Agency B, can click the **ADEX portal** link from the email to login to ADEX portal and can see the **subscription approved!** for topic "Hospitals".
