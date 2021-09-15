@@ -772,7 +772,7 @@ Unposted topic is detected by the system. It should be initialised by the **Publ
 
 **Step 2:** Click **My topics** tab, select a topic.
 
-**Step 3:** Click an unposted topic and click [Image not Available](/assets/icon9.png) icon.
+**Step 3:** Click an unposted topic and click ![Image not Available](/assets/icon9.png) icon.
 
 **Step 3:** Click **Initialise topic**.
 
