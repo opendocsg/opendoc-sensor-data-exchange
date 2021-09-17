@@ -50,7 +50,7 @@ The following status includes:
 
 **Unsubscribe**:
 
- **Note:** *Publisher can remove the subscriber the, status of the topic will be change to **Unsubscribed***. 
+ **Note:** *Publisher can remove the subscriber, the status of the topic will be change to **Unsubscribed***. 
 
  **Step 1:** Navigate to **My subscribers page** on the left side navigation bar and select the project with **Subscribed** status.
 
