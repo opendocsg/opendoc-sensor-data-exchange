@@ -14,7 +14,7 @@ On the left side pane, you can see the following:
 
 - **Teams I manage**, includes all teams where you are admin
 - **My teams**, includes other teams where you are a member, if you are admin, you are also a member of the team
-- **My requests** tab, includes team request which was sent via **Join team** to the Team admin and its pending for approval. Once your request was approved, you can see under **My teams** tab
+- **My requests** tab, includes team request which was sent via **Join team** to the Team admin and its pending for approval. Once your request was approved, you can see under **[My teams](/User%20Guide/Dashboard?id=my-teams)** tab
 
 ![Image not Available](/assets/Fig35b.png)
 
@@ -56,7 +56,7 @@ When you click a team name under **Teams I manage**, you can see Team name, Orga
 
 and you can click ![Image not Available](/assets/icon9.png) you could see actions:
 
-- **Add member**, can add other organisations members into your team with a legitimate *gov.sg* email address 
+- **Add member**, can add other organisations members into your team with a legitimate **gov.sg** email address 
 - **Edit team**, can update team name and team description
 - **Leave team**, can delete the team if you are the only team admin
 
