@@ -12,7 +12,7 @@ To **Publish** the information, you must first create your own project to **Crea
 **Subscriber** roles can only create **Subscribe type** project. 
 **Publisher** roles can create both project types.
 
-In **Projects** page, you can see list of all **Publish** and **Subscribe** projects containing number of topics being grouped together. Select a project to see project details, connection status, published or subscribed topics, and it's activity log.
+In **Projects** page, you can see list of all **Publish** and **Subscribe** projects containing number of topics being grouped together. Select a project to see **project details**, **connection status**, **published** or **subscribed topics**, and it's **activity** log.
 
 ![Image not Available](/assets/Fig32b.png)
 
