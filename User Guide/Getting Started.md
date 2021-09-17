@@ -17,7 +17,7 @@ Click [link](https://d3uzjhjcl6zsbz.cloudfront.net/how-to-get-started-on-ADEX.mp
 
 **Step 4:** Add a project to start publishing and subscribing, and create a new topic to share your data.
 
- **Note:** You can refer to an example use case scenario.*
+ **Note:** You can refer to an example use case scenario.
 
    You can view latest and available topics displayed in cards containing the topic related information in Browse Topics page.
 
