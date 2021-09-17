@@ -4,7 +4,7 @@
 This area allows you to see the list of all subscribed topics including the status of each subscription. This page is available for Publisher and Subscriber. It displays the following information:
 
 - Date
-- Topic Subscribed
+- Topic subscribed
 - Published by
 - Topic description
 - Project name

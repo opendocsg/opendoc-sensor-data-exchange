@@ -4,7 +4,7 @@
 This area allows you to view all **subscribers** who subscribed successfully to all topics within your projects. This page displays the following information:
 
 - Date
-- Project Name
+- Project name
 - Agency
 - Topic subscribed
 - Project description
@@ -50,7 +50,7 @@ The following status includes:
 
 **Unsubscribe**:
 
- **Note:** *Publisher can remove the subscriber the, status of the topic will be change to **Unsubscribed***. 
+ **Note:** *Publisher can remove the subscriber, the status of the topic will be change to **Unsubscribed***. 
 
  **Step 1:** Navigate to **My subscribers page** on the left side navigation bar and select the project with **Subscribed** status.
 
