@@ -5,33 +5,34 @@ The **Browse topics** page displays the latest topics and available topics in ca
 
 Each topic in the card is classified as:
 
+  
 
-- <img src="/assets/icon1.png" width="125" height="30" />  - Refers to unclassified information disclosed to the public in the normal course of duty
+- ![Image not Available](/assets/icon1.png) - Refers to unclassified information disclosed to the public in the normal course of duty
 
-- <img src="/assets/icon2.png" width="125" height="30" /> - Refers to unclassified information not disclosed to the public in the normal course of duty
+- ![Image not Available](/assets/icon2.png) - Refers to unclassified information not disclosed to the public in the normal course of duty
 
-- <img src="/assets/icon3.png" width="110" height="30" /> - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
+- ![Image not Available](/assets/icon3.png) - Refers to unauthorised disclosure could cause SOME DAMAGE to an Agency
 
 Published date for each topic in the card is displayed. 
 
 Mouse hover over icons and a tooltip appears for each topic in the card: 
 
-- <img src="/assets/icon4.png" width="20" height="20" /> icon – This icon displays “Approval is needed from publisher before you subscribe” 
+- ![Image not Available](/assets/icon4.png) – This icon displays “Approval is needed from publisher before you subscribe” 
 
 - Visibility icon – Displays who can view the topic: 
 
-  - <img src="/assets/icon13.png" width="34" height="20" /> - This icon displays "Anyone can view this topic"
-  - <img src="/assets/icon5.png" width="34" height="20" /> – This icon displays "All government agencies can view topic"
-  - <img src="/assets/icon6.png" width="25" height="20" /> – This icon displays "Only members of my agency can view topic" 
-  - <img src="/assets/icon12.png" width="34" height="20" />- This icon displays "Only members of the team can view this topic"
-  - <img src="/assets/icon11.png" width="34" height="20" />- This icon displays "Only you can view this topic"
+  - ![Image not Available](/assets/icon13.png) - This icon displays "Anyone can view this topic"
+  - ![Image not Available](/assets/icon5.png) – This icon displays "All government agencies can view topic"
+  - ![Image not Available](/assets/icon6.png) – This icon displays "Only members of my agency can view topic" 
+  - ![Image not Available](/assets/icon12.png)- This icon displays "Only members of the team can view this topic"
+  - ![Image not Available](/assets/icon11.png)- This icon displays "Only you can view this topic"
 
   
  ![Image not Available](/assets/Fig1.png)   
 
-You can search for topic by entering the topic name in the <img src="/assets/icon7.png" width="151" height="35" /> input box. 
+You can search for topic by entering the topic name in the ![Image not Available](/assets/icon7.png) input box. 
 
-Click <img src="/assets/icon8.png" width="100" height="35" /> to filter the following:
+Click ![Image not Available](/assets/icon8.png) to filter the following:
 
 - **Show only my topics** - Filter your own created topics
 - **Classification** – Filter the topic classified as Official-Open, Official-Closed, and Restricted
