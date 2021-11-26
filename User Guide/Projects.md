@@ -620,7 +620,9 @@ replies, err := channel.Consume(
 
 For more related information about AMQP, refer to this [link](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-amqp-protocol-guide).
 
-
+## Set up MQTT connections ##
+## MQTT topic name ##
+## Payload format ##
 
 ## My topics ##
 
