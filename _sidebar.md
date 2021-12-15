@@ -1,3 +1,4 @@
+*  Onboarding guide
 *  User guide
   * [Getting started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
