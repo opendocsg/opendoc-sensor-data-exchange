@@ -30,7 +30,15 @@ folders:
     title: 'Onboarding guide'
     subtitle: ''
     order:
-     - Step 1.md
+      - ADEX Portal.md
+      - Sign up.md
+      - Verify email address.md
+      - MFA.md
+      - Log in.md
+      - Create or join a team.md
+      - Create a project.md
+      - Create a topic.md
+      - Set up MQTT connections.md  
 folders:
   - name: 'User guide'
     title: 'User guide'
@@ -52,6 +60,7 @@ folders:
     order:
       - General.md
       - Account.md
+      - Projects.md
       - Publishing.md
       - Subscription.md
       - Topic.md
