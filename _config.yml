@@ -26,8 +26,8 @@ hide_toolbar:
   github: true
   
 folders:
-  - name: 'On boarding guide'
-    title: 'On boarding guide'
+  - name: 'Onboarding guide'
+    title: 'Onboarding guide'
     subtitle: ''
     order:
      - Step 1.md
