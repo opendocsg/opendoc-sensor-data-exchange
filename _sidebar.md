@@ -1,4 +1,12 @@
 *  Onboarding guide
+  * [Click on ADEX Portal](User%20Guide/Click%20on%20ADEX%20Portal)
+  * [Sign up](User%20Guide/Sign%20up)
+  * [Verify email address](User%20Guide/Verify%20email%20address)
+  * [MFA](User%20Guide/MFA)
+  * [Create new team](User%20Guide/Create%20new%20team)
+  * [Create project](User%20Guide/Create%20project)
+  * [Create topic](User%20Guide/Create%20topic)
+  * [Set up MQTT connection](User%20Guide/Set%20up%20MQTT%20connection)
 *  User guide
   * [Getting started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
@@ -13,6 +21,7 @@
 * Frequently Asked Questions
   * [General](FAQs/General)
   * [Account](FAQs/Account)
+  * [Projects](FAQs/Projects)
   * [Publishing](FAQs/Publishing)
   * [Subscription](FAQs/Subscription)
   * [Topic](FAQs/Topic)
