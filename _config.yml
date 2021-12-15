@@ -24,7 +24,13 @@ hide_toolbar:
   sidebar: false
   pdf: false
   github: true
-
+  
+folders:
+  - name: 'On boarding guide'
+    title: 'On boarding guide'
+    subtitle: ''
+    order:
+     - Step 1.md
 folders:
   - name: 'User guide'
     title: 'User guide'
