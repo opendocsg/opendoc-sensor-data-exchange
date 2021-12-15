@@ -6,7 +6,7 @@
   * [Log in](User%20Guide/Log%20in)
   * [Create or join a team](User%20Guide/Create%20or%20join%20a%20team)
   * [Create a project](User%20Guide/Create%20a%20project)
-  * [Create topic](User%20Guide/Create%20topic)
+  * [Create a topic](User%20Guide/Create%20a%20topic)
   * [Set up MQTT connections](User%20Guide/Set%20up%20MQTT%20connections)
 *  User guide
   * [Getting started](User%20Guide/Getting%20Started)
