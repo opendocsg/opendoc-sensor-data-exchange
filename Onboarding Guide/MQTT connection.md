@@ -30,12 +30,15 @@ User will receive a **Private key password** through email and use that password
 
  User will receive the **Project cert expires soon!** email, 30 days before the 3 certs expires!
  
+![Image not Available](/assets/Fig99k.png)
  
  - After the certs have expired, user will still receive the **project expired!** email for the next 7 days.
  
 ![Image not Available](/assets/Fig99e.png)
 
-From the portal, user can click the **Generate new certificate** button to start using the MQTT client again.
+From the portal, user can see the certs **status=Expired**, user can click the **Generate new certificate** button to start using the MQTT client again.
+
+![Image not Available](/assets/Fig99m.png)
 
 
  
