@@ -90,7 +90,10 @@ Click any project name, displays the **Project name**, **Organisation**, **Creat
 
 **Note**:
   - **Team admin and publisher** can **update** the **publish and susbcribe** projects, **Subscriber** can only **update subscribe** project in same team
-  - User update the project by clicking **Save**, after user have updated the project, projects belongs to team members will receive an email notification.
+
+![Image not Available](/assets/Fig35.png)
+
+  - User can update the project by clicking **Save**, after user have updated the project, projects belongs to team members will receive an email notification.
 
 ![Image not Available](/assets/Fig99g.png)
 
@@ -98,7 +101,7 @@ Click any project name, displays the **Project name**, **Organisation**, **Creat
 
 ![Image not Available](/assets/Fig99h.png)
 
-  - Project belong to team members will receive a notification email when project expired, user may extend the project period before it get suspended.
+  - Project belong to team members will receive a notification email when project expired, user may extend the **project duration** period before it get suspended.
   
 ![Image not Available](/assets/Fig99d.png)
 
