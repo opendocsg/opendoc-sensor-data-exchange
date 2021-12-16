@@ -13,3 +13,9 @@ Use the "Publisher Created by ID" from the **Topic Details** page and email to c
 ## Does ADEX support other data format besides XML? 
 
 Can.
+
+## Each topic that u publish, is there a max length of message? 
+
+About 1 MB can be used, if u have more message, should split into multiple messages.
+
+
