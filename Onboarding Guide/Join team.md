@@ -1,42 +1,102 @@
-On first **Sign up** within organisation, User role is a **Subscriber**. After login to ADEX user can see **Browse topics** page, user can **Create new team.**
+On first **Sign up** within organisation, User role is a **Subscriber**. 
 
-**Browe topics page**
+Upon successful login, user can see **Browe topics page**
 
-<img width="1356" alt="Screenshot 2021-12-15 at 10 03 49 PM" src="https://user-images.githubusercontent.com/83268601/146200660-b8b4f54b-a9c8-46af-8dbd-e12889bf97e9.png">
+![Image is not available](/assets/Fig1.png)
 
 **Create new team**
 
-  - User can create new team using **Join team** button in **Dashboard**
-  - User can search the team name to join
-  - If user cannot find the team, user can **create own team**
-  
+Being in a team allows user to use all features available in **ADEX** which was assigned to user account.
 
-<img width="1376" alt="Screenshot 2021-12-15 at 10 08 00 PM" src="https://user-images.githubusercontent.com/83268601/146201321-b7935e66-d2bc-4486-a532-21fa8aa00060.png">
+Creating a new team allows user to manage a team by **adding members** and **assigning role** to each member. Go to **Dashboard** to view and manage teams.
+
+  - User need to create a team before **creating project**
+  - User can create new team using **Join team** button in **Dashboard**
+  - If user cannot find the team, user can **create own team**
+
+On the left side pane, user can see the following:
+  
+  - **Teams I manage**, includes all teams where user are **admin**
+  - **My teams**, includes other teams where user are a member, if you are admin, you are also a member of the team
+  - **My requests** tab, includes team request which was sent via **Join team** to the Team admin and its pending for approval. Once user request was approved, user can see under **My teams** tab
+
+![Image not Available](/assets/Fig35b.png)
 
 On click the **Join team** button, user will see the pop-up for to **Create or join a team** pop-up to create new team.
 
-<img width="909" alt="Screenshot 2021-12-15 at 10 04 36 PM" src="https://user-images.githubusercontent.com/83268601/146200764-5bb22edb-4291-4a7a-a893-63c440cab567.png">
+![Image is not available](/assets/Fig15a.png)
 
-Newly created team request will be shown as **pending** under **Dashboard > My request** tab for **System admin** approval.
+**Note**:
+  - User can join one or more teams within your organisation. For example, a GovTech member can join to any Govtech team. Use the **Add member** button to add members from other organisations.
+  - User can click ![Image not Available](/assets/icon9.png) you could see following actions:
+  
+    - **Add member**, can add other organisations members into your team with a **legitimate gov.sg** email address, the members account must be created and should be Active in ADEX
+    - **Edit team**, can update team name and team description
+    - **Leave team**, can delete the team if you are the only team admin
+ 
+![Image is not available](/assets/Fig34_b.png)
 
-<img width="1233" alt="Screenshot 2021-12-15 at 10 13 12 PM" src="https://user-images.githubusercontent.com/83268601/146202172-01c41529-60f9-4f6c-b69e-cc9db9a63eb7.png">
+**To create a team**:
+
+**Step 1**: In Create or join a team pop-up window, click **+ Create team** to create new team.
+
+![Image is not available](/assets/Fig18a.png)
+
+**Step 2**: In Team description text box, type in description.
+
+**Step 3**: Click Create.
+
+![Image is not available](/assets/Fig19a.png)
+
+A confirmation message is displayed that your request to create a team has been sent for approval.
+
+![Image is not available](/assets/Fig70a.png)
+
+Once you sent Create new team request to **System admin**, your team name will be shown under **My requests** tab with **status=Pending**.
+
+![Image is not available](/assets/Fig35c.png)
 
 Once **System admin** approved, user role is **Team Admin** in the team and user can see team name under **Teams I manage** and **My teams** tab.
 
-<img width="982" alt="Screenshot 2021-12-15 at 10 17 17 PM" src="https://user-images.githubusercontent.com/83268601/146202849-7614584b-d8ae-41be-9082-d16714595ab9.png">
+![Image is not available](/assets/Fig36a.png)
+
+**To note**:
+  - Under **Teams I manage**, click any team name, at the right side pane, displays **About**, **Members** and **Projects**
+  
+![Image is not available](/assets/Fig34a.png)
+
+  - The newly created team will appear under **Teams I manage** tab. Now user role is **Team admin**, Now as a **Team Admin** user can **approve** or **reject** members via **Join team** request.
+
+ ![Image is not available](/assets/Fig39c.png)
+  
+ Also user can view the following tabs:
+
+  - **About** tab, view Team description
+  ![Image is not available](/assets/Fig34b.png)
+  
+  - **Members** tab, view member details
+  ![Image is not available](/assets/Fig38a.png)
+  
+  **Team admin** can also **edit team member's role** 
+  
+   ![Image is not available](/assets/Fig72.png)
+  
+  - **Projects** tab, view Projects list
+  ![Image is not available](/assets/Fig72a.png)
 
 Alternatively user can **join to another team** within the same org using **Join team** button 
 
-<img width="1244" alt="Screenshot 2021-12-15 at 10 19 08 PM" src="https://user-images.githubusercontent.com/83268601/146203135-d2513dac-71c7-4a27-8beb-765f4bd1f0cf.png">
-
-**To note**:
-  - User can join to other teams within the organisation only
+**Note**: 
+  - User can join one or more teams within your organisation. **For example**, a GovTech member can join to any Govtech team. Use the Add member button to add members from other organisations.
   - First time user role is **Subscriber** in the team
-  - **Team Admin** also can **change** user **role to Publisher** for the same team.
+  - **Team Admin** also can **change** user role to **Publisher** for the same team.
 
-If user role is subscriber or publisher in a team , your team name will be shown under **My teams** tab.
+![Image is not available](/assets/Fig16a.png)
 
-<img width="981" alt="Screenshot 2021-12-15 at 10 21 35 PM" src="https://user-images.githubusercontent.com/83268601/146203545-da415ebd-2080-47e4-8821-caa54a3f4e3f.png">
+A confirmation message is displayed that user request to join a team has been sent for approval. The **Team Admin** will receive the join team request to approve or reject.
+
+![Image is not available](/assets/Fig70a.png)
+
 
 User can start **Create project** with the team name to publish or to subscribe to a topic
 
