@@ -1,4 +1,4 @@
-*  Onboarding guide
+* Onboarding guide
   * [ADEX Portal](User%20Guide/ADEX%20Portal)
   * [Sign up](User%20Guide/Sign%20up)
   * [Verify email](User%20Guide/Verify%20email)
@@ -8,7 +8,7 @@
   * [Create project](User%20Guide/Create%20project)
   * [Create topic](User%20Guide/Create%20topic)
   * [MQTT connection](User%20Guide/MQTT%20connection)
-*  User guide
+* User guide
   * [Getting started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
   * [Home page](User%20Guide/Home%20Page)
