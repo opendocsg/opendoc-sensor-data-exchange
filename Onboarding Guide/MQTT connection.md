@@ -1,6 +1,5 @@
-**Generate Cert**
 
-### Set up MQTT connections ###
+### Generate Cert ###
 
 After creating a new project, go to **Connections** tab. This tab shows the **connection strings** and **SSL certificates** to setup MQTT connection. 
 
@@ -41,5 +40,104 @@ From the portal, user can see the certs **status=Expired**, user can click the *
 ![Image not Available](/assets/Fig99m.png)
 
 
+ To set up **MQTT Client connection**:
+
+**Step 1:**	Copy the certificates in a text Editor and save each as .PEM file separately.
+
+**Step 2:**	Now, open MQTT Client.
+
+![Image not Available](/assets/Fig39.png)
+
+**Step 3:** Click **Create MQTT Client**.
+
+**Step 4:** Set up MQTT connections with the following:
+
+- **MQTT Client Name** – Name is not specific and can give random name
+- **Protocol** - Select protocol. For example, *mqtt/tls*
+- **Host** - Enter **Unique MQTT URL** 
+
+- Upload each file you copied in a text editor in the following fields: 
+
+  - CA file
+  - Client certificate file
+  - Private key file
+
+- Enter the password received from the email inbox in the **Client key passphrase** field
+
+![Image not Available](/assets/Fig40.png)
+
+- Click **Save** and connected successfully.
+
+As a **Publisher** you are now ready to publish a topic.
+
+![Image not Available](/assets/Fig41.png)
+
+ **Note** *Topic path should be copied from topic details page.*
  
+ ![Image not Available](/assets/Fig69.png)
+
+**Important**: A **Subscriber** must subscribe to the topic from the portal first.
+
+**Step 5:** Enter the topic path and fill into the **Topic to subscribe** field. Click the **Subscribe** button to receive data for this topic.
+
+![Image not Available](/assets/Fig42.png)
+
+**Recommended MQTT topic path pattern hierarchy**
+
+It is best to have a consistent approach in naming the topics for ease of integration to 3rd party application.
+
+The proposed approach is to construct the topic name based on the following information:
+
+{agency}-{client_id}/{message type}/{reading type}/{deviceId}
+{agency}-{client_id}/{category}/{sub-category}/{deviceId}
+
+**Here is a list of examples:**
+
+nea-ab1c23/environment/psi/device001
+nea-ab1c23/environment/temperature/device001
+nea-ab1c23/environment/humidity/device001
+nea-ab1c23/env/device001
+
+#### Payload format ####
+
+ - Maximum payload size is 1MB.
+ - The payload content should be as minimal as possible and can be grouped together when they make sense. 
+ - This is to ensure that clients do not incur data charges when not needed.
+
+***SensorML Format***
+
+```javascript
+[
+    {"n":"urn:dev:ow:10e2073a01080063", "v":23.1}
+]
+```
+
+```javascript
+[
+    {"bn":"gateway", "n":"temp", "u":"Cel", "v":23.1},
+    {"bn":"dev1", "bv":200, "n":"distance", "u":"m", "v":1}
+]
+```
+
+***Alternatively:***
+
+**nea-ab1c23/environment/humidity/device001**
+
+```javascript
+{
+    "id": "device001",
+    "loc": {
+        "lat": 13.361389,
+        "lon": 38.115556
+    },
+    "humidity": {
+        "v": 67.00,
+        "uom": "%"
+    }
+}
+```
+
+
+
+
 
