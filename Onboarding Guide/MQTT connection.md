@@ -26,7 +26,7 @@ User will receive a **Private key password** through email and use that password
 
 ![Image not Available](/assets/Fig38.png)
 
- User can receive the email for **project cert expires soon**!
+ User will receive the email for **project cert expires soon**!
 
  User will receive the **Project cert expires soon!** email, 30 days before the 3 certs expires!
  
