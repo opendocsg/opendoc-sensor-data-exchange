@@ -90,22 +90,11 @@ Click any project name, displays the **Project name**, **Organisation**, **Creat
 
 **Note**:
   - **Team admin and publisher** can **update** the **publish and susbcribe** projects, **Subscriber** can only **update subscribe** project in same team
-
-![Image not Available](/assets/Fig35.png)
-
-  - User can update the project by clicking **Save**, after user have updated the project, projects belongs to team members will receive an email notification.
-
-![Image not Available](/assets/Fig99g.png)
-
-  - User can delete the project by clicking Delete, after user have deleted the project, the topics attached to the project will be deleted and team members will receive email notification.
-
+  -  Project belong to team members will **receive a notification email** when project expired, user may extend the **project duration** period before it get suspended.
+  
 ![Image not Available](/assets/Fig99h.png)
 
-  - Project belong to team members will receive a notification email when project expired, user may extend the **project duration** period before it get suspended.
-  
-![Image not Available](/assets/Fig99d.png)
-
-To extend the **Project duration:**
+To **extend** the **Project duration:**
 
 **Step 1**: Go to Project and search for project to update the project duration.
 
@@ -115,7 +104,20 @@ To extend the **Project duration:**
 
 ![Image not Available](/assets/Fig36d.png)
 
-**Step 4**: Click **Save** to save the project details successfully.
+**Step 4**: Click **Save** to update and save the project details successfully.
+
+  - After **Step 4**, projects belongs to team members will receive an email notification for project updated!
+
+![Image not Available](/assets/Fig99g.png)
+
+  - User can delete the project by clicking Delete, after user have deleted the project, the topics attached to the project will be deleted and team members will receive email notification.
+
+![Image not Available](/assets/Fig99d.png)
+
+ 
+  
+
+
 
 
 
