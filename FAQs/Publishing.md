@@ -9,3 +9,7 @@ Go to **Browse topics** page and click the topic that you need to find out who t
 ## How can I contact the publisher of the topic? 
 
 Use the "Publisher Created by ID" from the **Topic Details** page and email to contact Publisher about this topic.
+
+## Does ADEX support other data format besides XML? 
+
+Can.
