@@ -31,3 +31,11 @@ Check your SSL certificates are in valid format. Refer to [this page](https://ww
 For example, check the private key file is ok using this command:
 
 openssl rsa –noout –modulus –in <file>.key | openssl md5
+
+## Any authentication needed for MQTT connection?
+  
+Valid SSL certs generated from ADEX portal is required to connect.
+  
+  
+  
+ 
