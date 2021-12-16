@@ -1,3 +1,7 @@
+How to get started with ADEX can be found, click 
+
 Click on ADEX portal link https://sdx.sensors.gov.sg/sdx/home
 
 <img width="1418" alt="Screenshot 2021-12-15 at 9 06 32 PM" src="https://user-images.githubusercontent.com/83268601/146191829-4842099f-ff50-4517-b4ab-c9819b2675bc.png">
+
+
