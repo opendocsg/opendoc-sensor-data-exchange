@@ -1,8 +1,3 @@
-On first **Sign up** within organisation, User role is a **Subscriber**. 
-
-Upon successful login, user can see **Browe topics page**
-
-![Image is not available](/assets/Fig1.png)
 
 **Create new team**
 
@@ -16,9 +11,9 @@ Creating a new team allows user to manage a team by **adding members** and **ass
 
 On the left side pane, user can see the following:
   
-  - **Teams I manage**, includes all teams where user are **admin**
-  - **My teams**, includes other teams where user are a member, if you are admin, you are also a member of the team
-  - **My requests** tab, includes team request which was sent via **Join team** to the Team admin and its pending for approval. Once user request was approved, user can see under **My teams** tab
+  - **Teams I manage**, includes all teams where user is an **admin**
+  - **My teams**, includes all teams where user is a member
+  - **My requests** tab, includes team request which was sent via **Join team** to the Team admin and its pending for approval. Once user request is approved, user can see under **My teams** tab
 
 ![Image not Available](/assets/Fig35b.png)
 
@@ -30,9 +25,9 @@ On click the **Join team** button, user will see the pop-up for to **Create or j
   - User can join one or more teams within your organisation. For example, a GovTech member can join to any Govtech team. Use the **Add member** button to add members from other organisations.
   - User can click ![Image not Available](/assets/icon9.png) you could see following actions:
   
-    - **Add member**, can add other organisations members into your team with a **legitimate gov.sg** email address, the members account must be created and should be Active in ADEX
+    - **Add member**, can add other organisations members into your team with a **legitimate gov.sg** email address, the members account must be registered and Active in ADEX
     - **Edit team**, can update team name and team description
-    - **Leave team**, can delete the team if you are the only team admin
+    - **Leave team**, can delete the team if user is the only team admin left
  
 ![Image is not available](/assets/Fig34_b.png)
 
@@ -52,7 +47,7 @@ A confirmation message is displayed that your request to create a team has been 
 
 ![Image is not available](/assets/Fig70a.png)
 
-Once you sent Create new team request to **System admin**, your team name will be shown under **My requests** tab with **status=Pending**.
+Once user sent **Create new team request** to **System admin**, the team name will be shown under **My requests** tab with **status=Pending**.
 
 ![Image is not available](/assets/Fig35c.png)
 
@@ -87,8 +82,7 @@ Once **System admin** approved, user role is **Team Admin** in the team and user
 Alternatively user can **join to another team** within the same org using **Join team** button 
 
 **Note**: 
-  - User can join one or more teams within your organisation. **For example**, a GovTech member can join to any Govtech team. Use the Add member button to add members from other organisations.
-  - First time user role is **Subscriber** in the team
+  - After user joined to the team, first time user role is **Subscriber** in the team
   - **Team Admin** also can **change** user role to **Publisher** for the same team.
 
 ![Image is not available](/assets/Fig16a.png)
