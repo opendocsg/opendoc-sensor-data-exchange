@@ -17,7 +17,7 @@ After creating a new project, go to **Connections** tab. This tab shows the **co
 
 **Note**: User need to copy and save all the 3 SSL certs as .pem file using a text editor.
 
-If user didn't save the certs file for the first time, user can regenerate the certs by clicking "Generate new certificate" button.
+If user didn't save the certs file for the first time, user can regenerate the certs by clicking **Generate new certificate** button.
 
 ![Image not Available](/assets/Fig99f.png)
 
@@ -89,14 +89,14 @@ It is best to have a consistent approach in naming the topics for ease of integr
 The proposed approach is to construct the topic name based on the following information:
 
 {agency}-{client_id}/{message type}/{reading type}/{deviceId}
+
 {agency}-{client_id}/{category}/{sub-category}/{deviceId}
 
 **Here is a list of examples:**
 
 nea-ab1c23/environment/psi/device001
+
 nea-ab1c23/environment/temperature/device001
-nea-ab1c23/environment/humidity/device001
-nea-ab1c23/env/device001
 
 #### Payload format ####
 
@@ -104,22 +104,7 @@ nea-ab1c23/env/device001
  - The payload content should be as minimal as possible and can be grouped together when they make sense. 
  - This is to ensure that clients do not incur data charges when not needed.
 
-***SensorML Format***
-
-```javascript
-[
-    {"n":"urn:dev:ow:10e2073a01080063", "v":23.1}
-]
-```
-
-```javascript
-[
-    {"bn":"gateway", "n":"temp", "u":"Cel", "v":23.1},
-    {"bn":"dev1", "bv":200, "n":"distance", "u":"m", "v":1}
-]
-```
-
-***Alternatively:***
+**Example payload format**
 
 **nea-ab1c23/environment/humidity/device001**
 
