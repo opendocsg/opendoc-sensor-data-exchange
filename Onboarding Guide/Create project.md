@@ -1,4 +1,4 @@
-As a Team Publisher to publish relevant information, user must first **Create your Project** with team name to create a topic.
+As a Team Publisher to publish relevant information, user must first **Create a Project** with team name to create a topic.
 
 A project is a collections of **published** or **subscribed** topics 
 
@@ -55,15 +55,15 @@ Click any project name, displays the **Project name**, **Organisation**, **Creat
 
 ![Image not Available](/assets/Fig35.png)
 
-  - **Connections** – Displays the details to set up and **connect** to **MQTT Client**. **Note**: This tab is available for **Team admin** and **Publisher **
+  - **Connections** – Displays the details to set up and **connect** to **MQTT Client**. **Note**: This tab is available for **Team admin** and **Publisher**
 
 ![Image not Available](/assets/Fig36.png)
 
-  - **My topics** – Shows the **published** topics under the project and the total count. Note: This tab is only available for a Publisher only.
+  - **My topics** – Shows the **published** topics under the project and the total count.
   
 ![Image not Available](/assets/Fig49.png)
 
-  - **Subscribed topics** – Shows the subscribed topics by the project and the total count. **Note**: This tab is available for Publisher and Subscriber.
+  - **Subscribed topics** – Shows the subscribed topics by the project and the total count.
 
 ![Image not Available](/assets/Fig59.png)
 
@@ -92,7 +92,7 @@ Click any project name, displays the **Project name**, **Organisation**, **Creat
   - **Team admin and publisher** can **update** the **publish and susbcribe** projects, **Subscriber** can only **update subscribe** project in same team
   -  Project belong to team members will **receive a notification email** when project expired, user may extend the **project duration** period before it get suspended.
   
-![Image not Available](/assets/Fig99h.png)
+![Image not Available](/assets/Fig99d.png)
 
 To **extend** the **Project duration:**
 
@@ -112,7 +112,7 @@ To **extend** the **Project duration:**
 
   - User can delete the project by clicking Delete, after user have deleted the project, the topics attached to the project will be deleted and team members will receive email notification.
 
-![Image not Available](/assets/Fig99d.png)
+![Image not Available](/assets/Fig99h.png)
 
  
   
