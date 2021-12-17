@@ -32,7 +32,7 @@ Click **Create account** button
 
 ![Image not Available](/assets/Fig4.png)
 
-**Note:** *User account is successfully created in ADEX, user will receive a **verify email address** link in your email inbox*.
+**Note:** *User account is successfully created in ADEX, user will receive a **verify email address** link in user email inbox*.
 
 ![Image not Available](/assets/Fig5.png)
 
