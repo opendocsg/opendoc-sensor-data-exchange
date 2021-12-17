@@ -29,3 +29,34 @@
   - User can also **subscribe** to own/other topic.
 
 User can also **Create a topic** and **Subscribe to topic** using **Projects** page. Refer to user guide for further details.
+
+
+## Topic details
+
+User can view each topic details in the card to know the details and what the topic is all about.
+
+As a **Publisher** you can view 3 tabs as follows:
+
+- Overview
+- Subscribers 
+- Adaptor
+
+**Overview** 
+
+In this tab you can **view the topic details** and can do the following: 
+
+- See the topic overview
+- See folders and its subfolders within the topic
+- Edit folders and its subfolders within the topic
+- Subscribe to the topic
+- See the status of the topic
+- Edit own topic only
+- See subscribers to the topic
+
+![Image not Available](/assets/Fig30.png)
+
+- Create **new child topics** from the folder
+- **Suspend** topic
+- **Delete** own topic only
+
+![Image not Available](/assets/Fig93.png)
