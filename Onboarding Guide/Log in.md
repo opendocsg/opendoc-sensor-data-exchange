@@ -64,49 +64,4 @@ Click ![Image not Available](/assets/icon8.png) to filter the following:
 ![Image not Available](/assets/Fig29a.png)
 
 
-## Topic details
-
-User can view each topic in the card to know the details and what the topic is all about.
-
-As a **Publisher** you can view 3 tabs as follows:
-
-- Overview
-- Subscribers 
-- Adaptor
-
-**Overview** 
-
-In this tab you can **view the topic details** and can do the following: 
-
-- See the topic overview
-- See folders and its subfolders within the topic
-- Edit folders and its subfolders within the topic
-- Subscribe to the topic
-- See the status of the topic
-- Edit own topic only
-- See subscribers to the topic
-
-![Image not Available](/assets/Fig30.png)
-
-- Create new child topics from the folder
-- **Suspend** topic
-- **Delete** own topic only
-
-![Image not Available](/assets/Fig93.png)
-
-
-**To note**: 
-
-User can **reset MFA** by clicking **Click here**. 
-
-![Image not Available](/assets/Fig15x.png)
- 
-User will receive an email with link to **reset your new MFA**. 
-
-![Image not Available](/assets/Fig15y.png)
-
-User can click the link in the email, user could see your old MFA is disabled and can start login with your Email address and password to set up new MFA.
-
-![Image not Available](/assets/Fig73.png)
-
 
