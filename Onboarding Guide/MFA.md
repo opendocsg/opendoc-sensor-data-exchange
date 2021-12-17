@@ -13,7 +13,8 @@ After user completed email address verification, user can see the login page.
 
 ![Image is not available](/assets/Fig91.png)
 
-**Step 3** Scan the QR code with a TOTP-generating app like Google Authenticator or Authy.
+**Step 3** Scan the QR code with a TOTP-generating app like <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_SG">Google Authenticator</a> or <a href="https://authy.com/download">Authy</a>.
+
 
 ![Image is not available](/assets/Fig10.png)
 
