@@ -8,7 +8,7 @@
 
 ![Image not Available](/assets/Fig2.png)
 
-Fill in the following information:
+**Step 2**: Fill in the following information:
 
 - Name
 - Organisation
@@ -24,9 +24,11 @@ Fill in the following information:
 - Confirm password
 - Show password - Click to show password
 
+Click **Create account** button
+
 ![Image not Available](/assets/Fig3.png)
 
-**Step 2:** Verify your email address.
+**Step 3:** Verify your email address.
 
 ![Image not Available](/assets/Fig4.png)
 
