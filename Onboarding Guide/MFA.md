@@ -26,4 +26,24 @@ After user completed email address verification, user can see the login page.
 
 ![Image is not available](/assets/Fig12.png)
 
+**Note**:To **Reset MFA**
 
+Enter your registered **Email address** and **Password**.
+
+Click **Log in**.
+
+![Image not Available](/assets/Fig14.png)
+
+User can **Reset MFA** by clicking **Click here**.
+
+![Image not Available](/assets/Fig15.png)
+
+User will receive an email with link to **reset your new MFA**.
+
+![Image not Available](/assets/Fig15x.png)
+
+![Image not Available](/assets/Fig15y.png)
+
+User can click the link in the email, user could see your old MFA is disabled and can start login with your Email address and password to set up new MFA.
+
+![Image not Available](/assets/Fig73.png)
