@@ -1,4 +1,4 @@
-## Log in 
+
 
 To log in:
 
@@ -62,12 +62,6 @@ Click ![Image not Available](/assets/icon8.png) to filter the following:
 - Alternatively, user can click **Clear all filters** to reset the filters
 
 ![Image not Available](/assets/Fig29a.png)
-
-In the **Browse topics**, user can start to create own topic and project by clicking **Create** button. 
-
-- For related information about how to **Create topic**, see **[My topics](/User%20Guide/Projects?id=my-topics)**
-
-- For related information about how to **Create project**, see **[Projects](/User%20Guide/Projects)**
 
 
 ## Topic details
