@@ -1,6 +1,6 @@
 
 
-To log in:
+To **log in**:
 
 **Step 1:**	Navigate to **Home page** and click **Log in**.
 
