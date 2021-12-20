@@ -6,10 +6,10 @@ FAQs for projects includes questions about project information.
 
 1 year
 
-## Who can regen the certs? 
+## Who can regenerate the certs? 
 
-Team admin or Publisher can do regen cert for Publishing projects.
-Team admin/Publisher/Subscriber can do regen for subscribing projects.
+Team admin or Publisher can regenerate cert for Publishing projects.
+Team admin/Publisher/Subscriber can regenerate cert for Subscribing projects.
 
 
 
