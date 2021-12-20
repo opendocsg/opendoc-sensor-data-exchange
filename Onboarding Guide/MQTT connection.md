@@ -72,7 +72,7 @@ As a **Publisher** you are now ready to publish a topic.
 
 ![Image not Available](/assets/Fig41.png)
 
- **Note** *Topic path should be copied from topic details page.*
+ **Note**: *Topic path should be copied from topic details page.*
  
  ![Image not Available](/assets/Fig69.png)
 
