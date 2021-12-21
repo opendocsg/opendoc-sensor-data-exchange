@@ -30,7 +30,7 @@ Or, click **Projects** from the left side navigation bar.
 
 **Note**: To create project, you will see this page as shown below.
 
-![Fig33](https://user-images.githubusercontent.com/83268601/146299396-9e5cb636-5696-4119-b50b-fa3660712d47.png)
+![Image not Available](/assets/Fig33.png)
 
 **Step 2**: Enter the following information:
 
