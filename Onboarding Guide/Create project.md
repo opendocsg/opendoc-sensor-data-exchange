@@ -1,6 +1,6 @@
 As a Team Publisher to publish relevant information, user must first **Create a Project** with team name to create a topic.
 
-A project is a collections of **published** or **subscribed** topics 
+A project is a collections of **published** or **subscribed** topic. 
 
 A topic **cannot** be duplicated and **cannot** published and subscribed by the **same** project.
 
@@ -55,7 +55,7 @@ Click any project name, displays the **Project name**, **Organisation**, **Creat
 
 ![Image not Available](/assets/Fig35.png)
 
-  - **Connections** – Displays the details to set up and **connect** to **MQTT Client**. **Note**: This tab is available for **Team admin** and **Publisher**
+  - **Connections** – Displays the details to set up and **connect** to **MQTT Client**. **Note**: This tab is available for **Team admin** and **Publisher**.
 
 ![Image not Available](/assets/Fig36.png)
 
