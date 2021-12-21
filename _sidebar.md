@@ -19,7 +19,7 @@
   * [My subscriptions](User%20Guide/My%20Subscriptions)
   * [Activities](User%20Guide/Activities)
   * [Glossary](User%20Guide/Glossary)
-* Frequently Asked Questions
+* Frequently asked questions
   * [General](FAQs/General)
   * [Account](FAQs/Account)
   * [Projects](FAQs/Projects)
