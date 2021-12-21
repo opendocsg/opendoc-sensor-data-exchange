@@ -25,7 +25,7 @@
   * [Projects](FAQs/Projects)
   * [Publishing](FAQs/Publishing)
   * [Subscription](FAQs/Subscription)
-  * [Topic](FAQs/Topics)
+  * [Topics](FAQs/Topic)
   * [Messaging](FAQs/Messaging)
   * [Portal](FAQs/Portal)
 * [Terms of use](Terms%20of%20Use/TOU)
