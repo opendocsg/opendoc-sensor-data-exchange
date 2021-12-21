@@ -3,7 +3,7 @@
 
 ![Image is not available](/assets/vid2publishtopic.gif)
 
-*How to **subscribe** to a topic*
+*How to **subscribe** to a topic:*
 
 ![Image is not available](/assets/vid4subscribetotopic.gif)
 
@@ -13,7 +13,7 @@
 
 **Publisher** can click the **ADEX portal** link from the email to login to **ADEX portal** and can approve the subscriber request. 
 
-*How to **approve subscription request** to a topic*
+*How to **approve subscription request** to a topic:*
 
 ![Image is not available](/assets/vid5approvedsubscribetopic.gif)
 
