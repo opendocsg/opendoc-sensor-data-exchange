@@ -620,8 +620,6 @@ replies, err := channel.Consume(
 
 For more related information about AMQP, refer to this [link](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-amqp-protocol-guide).
 
-
-
 ## My topics ##
 
 After creating a project, create your first topic. The **My topics** tab is only available for **Publisher**. This tab shows the topic that you have published for this project.

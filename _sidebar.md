@@ -1,4 +1,14 @@
-*  User guide
+* Onboarding guide
+  * [ADEX Portal](User%20Guide/ADEX%20Portal)
+  * [Sign up](User%20Guide/Sign%20up)
+  * [Verify email](User%20Guide/Verify%20email)
+  * [MFA](User%20Guide/MFA)
+  * [Log in](User%20Guide/Log%20in)
+  * [Join team](User%20Guide/Join%20team)
+  * [Create project](User%20Guide/Create%20project)
+  * [Create topic](User%20Guide/Create%20topic)
+  * [MQTT connection](User%20Guide/MQTT%20connection)
+* User guide
   * [Getting started](User%20Guide/Getting%20Started)
   * [Introduction](User%20Guide/Introduction)
   * [Home page](User%20Guide/Home%20Page)
@@ -9,12 +19,13 @@
   * [My subscriptions](User%20Guide/My%20Subscriptions)
   * [Activities](User%20Guide/Activities)
   * [Glossary](User%20Guide/Glossary)
-* Frequently Asked Questions
+* Frequently asked questions
   * [General](FAQs/General)
   * [Account](FAQs/Account)
+  * [Projects](FAQs/Projects)
   * [Publishing](FAQs/Publishing)
   * [Subscription](FAQs/Subscription)
-  * [Topic](FAQs/Topic)
+  * [Topics](FAQs/Topic)
   * [Messaging](FAQs/Messaging)
   * [Portal](FAQs/Portal)
 * [Terms of use](Terms%20of%20Use/TOU)

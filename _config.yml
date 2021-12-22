@@ -24,7 +24,21 @@ hide_toolbar:
   sidebar: false
   pdf: false
   github: true
-
+  
+folders:
+  - name: 'Onboarding guide'
+    title: 'Onboarding guide'
+    subtitle: ''
+    order:
+      - ADEX Portal.md
+      - Sign up.md
+      - Verify email.md
+      - MFA.md
+      - Log in.md
+      - Join team.md
+      - Create project.md
+      - Create topic.md
+      - MQTT connection.md  
 folders:
   - name: 'User guide'
     title: 'User guide'
@@ -46,6 +60,7 @@ folders:
     order:
       - General.md
       - Account.md
+      - Projects.md
       - Publishing.md
       - Subscription.md
       - Topic.md

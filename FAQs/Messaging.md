@@ -20,7 +20,7 @@ Inputs required to connect to ADEX broker:
 
 All required and obtainable from the ADEX Portal.
 
-## Why my MQTT client cannot connect to ADEX?
+## Why is my MQTT client not able to connect to ADEX?
 
 Make sure you have provided your IP address for the support team to open the firewall.
 
@@ -31,3 +31,11 @@ Check your SSL certificates are in valid format. Refer to [this page](https://ww
 For example, check the private key file is ok using this command:
 
 openssl rsa –noout –modulus –in <file>.key | openssl md5
+
+## Any authentication needed for MQTT connection?
+  
+Valid SSL certs generated from ADEX portal is required to connect.
+  
+  
+  
+ 
