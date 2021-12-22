@@ -14,7 +14,7 @@ Use the "Publisher Created by ID" from the **Topic Details** page and email to c
 
 Yes. JSON, CSV and other text format are allowed.
 
-## Each topic that you publish, is there a max length of the message? 
+## For each topic that you publish, is there a max length of the message? 
 
 Max length is 1MB per message. If your message is longer than 1MB, you should split into multiple messages.
 
