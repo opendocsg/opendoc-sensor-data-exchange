@@ -20,7 +20,7 @@ Inputs required to connect to ADEX broker:
 
 All required and obtainable from the ADEX Portal.
 
-## Why my MQTT client cannot connect to ADEX?
+## Why is my MQTT client not able to connect to ADEX?
 
 Make sure you have provided your IP address for the support team to open the firewall.
 
