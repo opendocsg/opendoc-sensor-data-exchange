@@ -42,7 +42,9 @@ From the portal, user can see the certs **status=Expired**, user can click the *
 
  To set up **MQTT Client connection**:
  
- ![Image not Available](/assets/vidsetupmqttconnection.gif)
+ How to **set up MQTT connection**:
+ 
+ ![Image not Available](/assets/vidsetupmqttcon.gif)
 
 **Step 1:**	Copy the certificates in a text Editor and save each as .PEM file separately.
 
