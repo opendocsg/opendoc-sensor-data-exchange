@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Subscribers #</title>
+  <meta name="description" content="
+My Subscribers
+
+This area allows you to view all subscribers who subscribed successfully to all the">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="/opendoc-sensor-data-exchange/site.styling_options.logo_path">
+
+  <link rel="icon" href="/opendoc-sensor-data-exchange/assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/opendoc-sensor-data-exchange/assets/styles/normalize.css">
+  <link rel="stylesheet" href="/opendoc-sensor-data-exchange/assets/styles/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Asynchronous Data Exchange"
+    href="/opendoc-sensor-data-exchange/feed.xml">
+  <!-- Polyfill for corejs functions, promises, array.includes, array.from, etc. -->
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/babel-polyfill.min.js"></script>
+  <!-- Polyfill for dom functions -->
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/dom4.js" charset="utf-8"></script>
+  <!-- Polyfill for fetch API -->
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/fetch.umd.js"></script>
+  <!-- Priority Queue library for promises -->
+  <script src="/opendoc-sensor-data-exchange/assets/js/pqueue.js"></script>
+  <!-- Helper functions that should be preloaded go here -->
+  <script src="/opendoc-sensor-data-exchange/assets/js/helpers.js"></script></head>
+
+<body>
+  <div class="site-header no-print">
+    <div class="site-header-left">
+      <a href="/opendoc-sensor-data-exchange/">
+        <h1 class="site-header-text">
+          Asynchronous Data Exchange
+        </h1>
+      </a>
+      <span class="site-last-updated">
+        LAST UPDATED: 23 MAY 2022
+      <span>
+    </div>
+    <div class="site-header-right"><a id="contact-us" href="https://form.gov.sg/5e4e552386290e0013ae5685" target="_blank">
+        <span>Contact Us</span>
+      </a>
+      <a href="https://sdx.sensors.gov.sg/sdx/home" class="desktop">
+        <img class="agency-logo" src="/opendoc-sensor-data-exchange/assets/adex-logo.png">
+      </a>
+      <a href="/opendoc-sensor-data-exchange/" class="mobile">
+        <img class="agency-logo" src="/opendoc-sensor-data-exchange/assets/adex-logo.png">
+      </a>
+      <a class="search-btn top-mobile-btn">
+        <img src="/opendoc-sensor-data-exchange/assets/images/search-icon-dark.svg">
+      </a>
+    </div>
+  </div>
+
+  <nav class="site-nav no-print">
+    <div class="nav-header no-print">
+      <div class="search-box">
+        <div class="search-icon-container search-btn">
+          <img class="search-icon mobile" src="/opendoc-sensor-data-exchange/assets/images/search-icon-dark.svg"/>
+          <img class="search-icon" src="/opendoc-sensor-data-exchange/assets/images/search-icon-white.svg"/>
+          <img class="close-icon" src="/opendoc-sensor-data-exchange/assets/images/close.svg"/>
+        </div>
+        <span class="search-filter hidden">User Guide</span>
+        <div class="search-input-container">
+          <p class="search-header">search entire site</p>
+          <input id="search-box" placeholder="Search titles or keywords" type="text" />
+        </div>
+        <label class="clear-button">
+          <svg class="clear-icon" viewBox="0 0 18 18" width="18" height="18">
+            <path d="M2.42755 1L17.0331 15.60554l-1.41423 1.4142L1 2.38402"></path>
+            <path d="M1 15.51932L15.51933 1l1.4142 1.4142L2.2978 17.0331"></path>
+          </svg>
+        </label>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+    <div class="nav-main no-print">
+
+    
+
+
+<section class="navigation">
+
+<ul class="table-of-directories hidden">
+                    <li>    <a href="/opendoc-sensor-data-exchange/User%20Guide" id="dir_user%20guide" class="tod-container">        <div class="directory-item">User Guide</div>    </a>    </li>                    <li>    <a href="/opendoc-sensor-data-exchange/FAQs" id="dir_faqs" class="tod-container">        <div class="directory-item">FAQs</div>    </a>    </li>                    <li>    <a href="/opendoc-sensor-data-exchange/Terms%20of%20Use" id="dir_terms%20of%20use" class="tod-container">        <div class="directory-item">Terms of Use</div>    </a>    </li>                    <li>    <a href="/opendoc-sensor-data-exchange/Privacy%20Statement" id="dir_privacy%20statement" class="tod-container">        <div class="directory-item">Privacy Statement</div>    </a>    </li>
+</ul>
+<div class="back-to-documents">
+    <p>Back to Documents <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/chevron-up.svg"></p>
+</div>
+
+
+
+
+    
+    
+    <section id="toc_user%20guide" class="contents">
+    
+    
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Getting%20Started.html" class="nav-link"><span class="directory-item"> Getting Started </span></a></li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Introduction.html" class="nav-link"><span class="directory-item"> Introduction </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Introduction.html#roles-and-responsibilities" class="nav-link"><span class="directory-item"> Roles and Responsibilities </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html" class="nav-link"><span class="directory-item"> Home Page </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#sign-up" class="nav-link"><span class="directory-item"> Sign Up </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#log-in" class="nav-link"><span class="directory-item"> Log in </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#team" class="nav-link"><span class="directory-item"> Team </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#forgot-password" class="nav-link"><span class="directory-item"> Forgot Password </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Home%20Page.html#profile" class="nav-link"><span class="directory-item"> Profile </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html" class="nav-link"><span class="directory-item"> Dashboard </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html#teams-i-manage" class="nav-link"><span class="directory-item"> Teams I manage </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html#my-teams" class="nav-link"><span class="directory-item"> My teams </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Dashboard.html#my-requests" class="nav-link"><span class="directory-item"> My requests </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Browse%20Topic.html" class="nav-link"><span class="directory-item"> Browse Topics </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Browse%20Topic.html#topic-details" class="nav-link"><span class="directory-item"> Topic Details </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Projects.html" class="nav-link"><span class="directory-item"> Projects </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Projects.html#my-topics" class="nav-link"><span class="directory-item"> My Topics </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Projects.html#delete-topic" class="nav-link"><span class="directory-item"> Delete Topic </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Projects.html#subscribed-topics" class="nav-link"><span class="directory-item"> Subscribed Topics </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/My%20Subscribers.html" class="nav-link"><span class="directory-item"> My Subscribers </span></a></li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/My%20Subscriptions.html" class="nav-link"><span class="directory-item"> My Subscriptions </span></a></li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Activities.html" class="nav-link"><span class="directory-item"> Activities </span></a></li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/User%20Guide/Glossary.html" class="nav-link"><span class="directory-item"> Glossary </span></a></li></ul>
+    </section>
+
+    
+    
+    <section id="toc_faqs" class="contents" hidden>
+    
+    
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+        
+            
+                
+                
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/General.html" class="nav-link"><span class="directory-item"> FAQs about General </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/General.html#what-is-adex" class="nav-link"><span class="directory-item"> What is ADEX? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/General.html#what-is-mqtt" class="nav-link"><span class="directory-item"> What is MQTT? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/General.html#what-is-the-difference-between-adex-and-apex" class="nav-link"><span class="directory-item"> What is the difference between ADEX and APEX? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Account.html" class="nav-link"><span class="directory-item"> FAQs about Account </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Account.html#how-do-i-create-an-account" class="nav-link"><span class="directory-item"> How do I create an account? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Account.html#how-do-i-reset-my-password" class="nav-link"><span class="directory-item"> How do I reset my password? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Account.html#what-happens-if-my-account-is-locked" class="nav-link"><span class="directory-item"> What happens if my account is locked? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Account.html#how-can-i-log-in-if-my-account-is-disabled" class="nav-link"><span class="directory-item"> How can I log in if my account is disabled? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Account.html#what-happens-if-my-password-expires" class="nav-link"><span class="directory-item"> What happens if my password expires? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Publishing.html" class="nav-link"><span class="directory-item"> FAQs about Publishing </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Publishing.html#how-can-i-find-out-who-is-the-publisher-of-the-topic" class="nav-link"><span class="directory-item"> How can I find out who is the publisher of the topic? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Publishing.html#how-can-i-contact-the-publisher-of-the-topic" class="nav-link"><span class="directory-item"> How can I contact the publisher of the topic? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Subscription.html" class="nav-link"><span class="directory-item"> FAQs about Subscription </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Subscription.html#can-i-subscribe-to-my-own-topics" class="nav-link"><span class="directory-item"> Can I subscribe to my own topics? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Topic.html" class="nav-link"><span class="directory-item"> FAQs about Topic </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Topic.html#why-i-cannot-see-a-topic-in-the-browse-topics-page" class="nav-link"><span class="directory-item"> Why I cannot see a topic in the Browse topics page? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Topic.html#does-the-topic-pattern-has-a-maximum-length" class="nav-link"><span class="directory-item"> Does the topic pattern has a maximum length? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Topic.html#what-are-the-character-restrictions-on-the-topic-pattern" class="nav-link"><span class="directory-item"> What are the character restrictions on the topic pattern? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Messaging.html" class="nav-link"><span class="directory-item"> FAQs about Messaging </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Messaging.html#why-is-my-mqtt-connection-disconnecting" class="nav-link"><span class="directory-item"> Why is my MQTT connection disconnecting? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Messaging.html#what-are-the-inputs-required-to-connect-to-adex-broker" class="nav-link"><span class="directory-item"> What are the inputs required to connect to ADEX broker? </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Messaging.html#why-my-mqtt-client-cannot-connect-to-adex" class="nav-link"><span class="directory-item"> Why my MQTT client cannot connect to ADEX? </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Portal.html" class="nav-link"><span class="directory-item"> FAQs about Portal </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/FAQs/Portal.html#i-get-an-ssl-error-when-browsing-to-the-portal" class="nav-link"><span class="directory-item"> I get an SSL error when browsing to the portal. </span></a></li>    </ul>  </li></ul>
+    </section>
+
+    
+    
+    <section id="toc_terms%20of%20use" class="contents" hidden>
+    
+    
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html" class="nav-link"><span class="directory-item"> Terms of Use </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#general" class="nav-link"><span class="directory-item"> General </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#proprietary-rights" class="nav-link"><span class="directory-item"> Proprietary Rights </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#restrictions-on-use-of-contents" class="nav-link"><span class="directory-item"> Restrictions on use of Contents </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#disclaimers-against-warranties-representations-and-liability" class="nav-link"><span class="directory-item"> Disclaimers against Warranties, Representations and Liability </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#indemnity" class="nav-link"><span class="directory-item"> Indemnity </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#availability-right-of-access-changes-to-website-and-contents" class="nav-link"><span class="directory-item"> Availability, Right of Access, Changes to Website and Contents </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#hyperlinks-from-this-website-to-other-websites" class="nav-link"><span class="directory-item"> Hyperlinks from this Website to other websites </span></a></li>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Terms%20of%20Use/TOU.html#governing-law" class="nav-link"><span class="directory-item"> Governing Law </span></a></li>    </ul>  </li></ul>
+    </section>
+
+    
+    
+    <section id="toc_privacy%20statement" class="contents" hidden>
+    
+    
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Privacy%20Statement/Privacy.html" class="nav-link"><span class="directory-item"> Privacy </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-sensor-data-exchange/Privacy%20Statement/Privacy.html#government-agency-privacy-statement" class="nav-link"><span class="directory-item"> Government Agency Privacy Statement </span></a></li>    </ul>  </li></ul>
+    </section>
+
+</section></div>
+  </nav><div id="index-div">
+  <header class="doc-header no-print">
+    <div class=description-container>
+      <h2 id="document-title">
+        User Guide
+      </h2>
+      <div>
+        <div id="document-subtitle">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-container no-print">
+    <label for="menu-toggle" class="toolbar-button" id="menu-toggle-btn">
+            <input type="checkbox" id="menu-toggle" hidden>
+            <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/sidebar.svg">
+            <img class="btn-icon hover" src="/opendoc-sensor-data-exchange/assets/images/sidebar-hover.svg">
+            <img class="mobile-btn-icon " src="/opendoc-sensor-data-exchange/assets/images/menu.svg">
+            <img class="mobile-btn-icon close" src="/opendoc-sensor-data-exchange/assets/images/x-mobile.svg">
+            <div class="tooltip">Toggle Sidebar</div>
+        </label><div class="toolbar-button print-btn">
+            <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/pdf.svg">
+            <img class="btn-icon hover" src="/opendoc-sensor-data-exchange/assets/images/pdf-hover.svg">
+            <div class="tooltip">Save as PDF</div>
+        </div></div>
+
+<div class="fab no-print" id="fab">
+    <div class="overlay" id="fab-overlay"></div>
+    <div class="back-to-top hidden" id="back-to-top" href="#">
+        <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/chevron-up-white.svg">
+    </div>
+    <div class="trigger" id="fab-trigger">
+        <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/vertical-dots.svg">
+        <img class="btn-icon close" src="/opendoc-sensor-data-exchange/assets/images/x-mobile.svg">
+    </div>
+    <div class="actions"><a class="action feedback-btn" href="https://form.gov.sg/5e4e552386290e0013ae5685" target="_blank">
+            <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/feedback.svg">
+            <div class="tooltip">Feedback</div>
+        </a>
+        <div class="action share-btn">
+            <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/share.svg">
+            <div class="tooltip">Share</div>
+        </div>
+        <div class="action print-btn">
+                <img class="btn-icon" src="/opendoc-sensor-data-exchange/assets/images/pdf.svg">
+                <div class="tooltip">Save as PDF</div>
+            </div></div>
+</div>
+  </div>
+
+  <main class="site-main" id="main-content" aria-label="Content">
+<h1 id="my-subscribers">My Subscribers</h1>
+
+<p>This area allows you to view all subscribers who subscribed successfully to all the topics within the projects. This page is available only for Publisher and displays the following information:</p>
+
+<ul>
+  <li>Date</li>
+  <li>Project Name</li>
+  <li>Topic subscribed</li>
+  <li>Status</li>
+  <li>Action</li>
+</ul>
+
+<p>The following status includes:</p>
+
+<ul>
+  <li><strong>Respond to Request</strong> – The status where the publisher respond to subscribers request for access to the private topics. The publisher can “Approve” to allow subscription or “Reject” to deny the subscription.</li>
+  <li><strong>Subscribed</strong> – The status where the publisher approved the subscriber requests.</li>
+  <li><strong>Rejected</strong> – The status where the publisher rejected the subscriber requests.</li>
+</ul>
+
+<p><img src="/assets/Fig60.png" alt="Image not Available" /></p>
+
+<p>To respond to subscriber request:</p>
+
+<p><strong>Step 1:</strong>	Navigate to My Subscribers page on the left side navigation bar and select the project with Respond to Request status.</p>
+
+<p><strong>Step 2:</strong>	Click <strong>…</strong> icon under the <strong>Action</strong> column.</p>
+
+<p><strong>Step 3:</strong>	Click <strong>Respond to Request</strong>. A new window appears showing the details of the project.</p>
+
+<p><img src="/assets/Fig61.png" alt="Image not Available" /></p>
+
+<p><strong>Step 4:</strong>	Click <strong>Approve</strong> and the status changed to Subscribed.</p>
+
+<p><strong>Step 5:</strong>	Otherwise, click <strong>Reject</strong>. A new window appears showing the reason to subscribers for rejecting the subscription request.</p>
+
+<p><img src="/assets/Fig62.png" alt="Image not Available" /></p>
+
+<p><strong>Step 6:</strong>	Click <strong>Confirm</strong> and the status changed to Rejected.</p>
+
+
+  </main>
+  <div class="site-branding no-print">
+    Powered by <a href="https://opendoc.sg"><img src="/opendoc-sensor-data-exchange/assets/images/opendoc-logo-full.svg"></a>
+  </div>
+
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/jump.min.js" charset="utf-8"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/headroom.min.js" charset="utf-8"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/mark.min.js" charset="utf-8"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/vendor/web-share-shim.bundle.min.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/toolbar.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/page-index.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/pre-loader.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/lunr.min.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/search.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/header.js"></script>
+  <script src="/opendoc-sensor-data-exchange/assets/js/navigation.js"></script>
+</body>
+
+</html>
